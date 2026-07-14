@@ -318,6 +318,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**iamzifei/wechat-article-publisher-skill**](https://github.com/iamzifei/wechat-article-publisher-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/iamzifei/wechat-article-publisher-skill) | 一键发布文章到微信公众号的 Claude Skill。 |
 | [**GanymedeNil/poxiaoxing-skills**](https://github.com/GanymedeNil/poxiaoxing-skills) (破晓星) | ![GitHub Repo stars](https://badgen.net/github/stars/GanymedeNil/poxiaoxing-skills) | 知名开发者 [@GanymedeNil](https://github.com/GanymedeNil) 出品的破晓星 Skills 仓库，内含「抖音博主分析」技能：采集博主作品、下载视频、抽取截图，并可选用 DashScope FunASR 转写字幕，输出结构化素材供后续分析。 |
 | [**dososo/blcaptain-ppt-skill**](https://github.com/dososo/blcaptain-ppt-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/dososo/blcaptain-ppt-skill) | AI 原生·单文件 HTML 演示 Skill：7 套锚定公认设计体系的视觉人格，好看（WCAG/间距/32 维审计）与诚实（反伪造）均由机器强制，零依赖。 |
+| [**shuangying0001-beep/canvas-grid-engine**](https://github.com/shuangying0001-beep/canvas-grid-engine) (学习纸网格渲染引擎) | ![GitHub Repo stars](https://badgen.net/github/stars/shuangying0001-beep/canvas-grid-engine) | 面向中文教育场景的 Canvas 学习纸网格 Skill：一键生成 13 种练习纸网格（米字格 / 田字格 / 回宫格 / 四线三格 / 点阵 / 拼音标注等），汉字自动居中与换行、可导出打印；「Canvas 教育工具链」4 件套之一（另含 [SVG 零误差复刻](https://github.com/shuangying0001-beep/svg-to-canvas-replica) / [多页 PDF 导出](https://github.com/shuangying0001-beep/canvas-multipage-pdf) / [小程序 Canvas 视觉验证](https://github.com/shuangying0001-beep/miniprogram-canvas-verify)），各仓库含 `SKILL.md` 与 `llms.txt`。 |
 
 ---
 
