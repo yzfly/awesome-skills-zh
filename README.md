@@ -318,6 +318,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**iamzifei/wechat-article-publisher-skill**](https://github.com/iamzifei/wechat-article-publisher-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/iamzifei/wechat-article-publisher-skill) | 一键发布文章到微信公众号的 Claude Skill。 |
 | [**GanymedeNil/poxiaoxing-skills**](https://github.com/GanymedeNil/poxiaoxing-skills) (破晓星) | ![GitHub Repo stars](https://badgen.net/github/stars/GanymedeNil/poxiaoxing-skills) | 知名开发者 [@GanymedeNil](https://github.com/GanymedeNil) 出品的破晓星 Skills 仓库，内含「抖音博主分析」技能：采集博主作品、下载视频、抽取截图，并可选用 DashScope FunASR 转写字幕，输出结构化素材供后续分析。 |
 | [**dososo/blcaptain-ppt-skill**](https://github.com/dososo/blcaptain-ppt-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/dososo/blcaptain-ppt-skill) | AI 原生·单文件 HTML 演示 Skill：7 套锚定公认设计体系的视觉人格，好看（WCAG/间距/32 维审计）与诚实（反伪造）均由机器强制，零依赖。 |
+| [**HeyClioo/boss-zhipin-jd-scraper**](https://github.com/HeyClioo/boss-zhipin-jd-scraper) | ![GitHub Repo stars](https://badgen.net/github/stars/HeyClioo/boss-zhipin-jd-scraper) | 用真实已登录浏览器抓取 BOSS直聘岗位职责/任职要求全文，绕过反爬验证、去水印、按职位 ID 去重，导出 Markdown（Claude Code / Codex / WorkBuddy 适配）。 |
 
 ---
 
