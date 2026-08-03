@@ -153,6 +153,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**mohitagw15856/pm-claude-skills**](https://github.com/mohitagw15856/pm-claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/mohitagw15856/pm-claude-skills) | 覆盖 17 个职业方向的 **167** 个专业级 Skills，主打产品 / 项目管理与办公效率。 |
 | [**coleam00/second-brain-skills**](https://github.com/coleam00/second-brain-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/coleam00/second-brain-skills) | 将 Claude Code 变成「第二大脑」的合集，主打知识管理与个人信息检索。 |
 | [**jezweb/claude-skills**](https://github.com/jezweb/claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/jezweb/claude-skills) | 面向 Claude Code CLI 的全栈开发 Skills，涵盖 Cloudflare、React、Tailwind v4。 |
+| [**JasonColapietro/suede-creator-skills**](https://github.com/JasonColapietro/suede-creator-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/JasonColapietro/suede-creator-skills) | 面向 Claude Code 与 Codex 的 **67 个 MIT 开源 Skills**，覆盖多智能体编排、Codex 工作节点集群、代码审查与发布门禁、AI 评测、产品、设计和增长工作流。 |
 
 #### 🔬 垂直领域
 | 项目 | ⭐ Stars | 简介 |
