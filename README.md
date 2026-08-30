@@ -142,6 +142,13 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 #### 📚 大型 Skills 合集
 | 项目 | ⭐ Stars | 简介 |
 | :--- | ---: | :--- |
+| [**phuryn/pm-skills**](https://github.com/phuryn/pm-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/phuryn/pm-skills) | 产品经理 Skills 市场：100+ 覆盖从需求发现、战略、执行到发布与增长的 Agent 技能、命令与插件。 |
+| [**KKKKhazix/khazix-skills**](https://github.com/KKKKhazix/khazix-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/KKKKhazix/khazix-skills) | 「数字生命卡兹克」开源的中文 Skills 合集：leader（帮你定义目标）、neat-freak 洁癖、hv-analysis、khazix-writer 等，兼容 Claude Code / Codex。 |
+| [**antfu/skills**](https://github.com/antfu/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/antfu/skills) | Anthony Fu 精选的 Agent Skills 合集，偏前端 / 开源工程实践。 |
+| [**MengTo/Skills**](https://github.com/MengTo/Skills) | ![GitHub Repo stars](https://badgen.net/github/stars/MengTo/Skills) | Design+Code 作者 Meng To 面向设计师与 builder 的 Skills，适配 Codex / Claude / Cursor。 |
+| [**BuilderIO/skills**](https://github.com/BuilderIO/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/BuilderIO/skills) | Builder.io 出品的小而可组合的编码 Agent 技能集，一条命令安装推荐技能。 |
+| [**jakubkrehel/skills**](https://github.com/jakubkrehel/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/jakubkrehel/skills) | 界面设计技能集：UI、排版、色彩、无障碍、布局与产品文案，`better-interface` 一键做整体评审。 |
+| [**larksuite/cli**](https://github.com/larksuite/cli) | ![GitHub Repo stars](https://badgen.net/github/stars/larksuite/cli) | 飞书 / Lark 官方 CLI，为人和 Agent 而建，覆盖文档、多维表格、消息、日历等核心业务对象，可作为 Skill 直接调用。 |
 | [**mattpocock/skills**](https://github.com/mattpocock/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/mattpocock/skills) | TypeScript 知名教育者 Matt Pocock 个人 `.claude` 目录中的工程实战 Skills，小而易改、可组合、与模型无关，覆盖 `/tdd`、`/grill-me`、架构改进、领域建模、调试等软件工程基本功。 |
 | [**addyosmani/agent-skills**](https://github.com/addyosmani/agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/addyosmani/agent-skills) | Addy Osmani 出品的「生产级」工程 Skills 合集，面向 AI 编程智能体，覆盖前端、性能、调试等高质量工程实践。 |
 | [**vercel-labs/agent-skills**](https://github.com/vercel-labs/agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/vercel-labs/agent-skills) | Vercel 官方出品的 Agent Skills 合集，面向 Next.js、Vercel 平台与现代前端工程实践。 |
@@ -158,6 +165,17 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 #### 🔬 垂直领域
 | 项目 | ⭐ Stars | 简介 |
 | :--- | ---: | :--- |
+| [**tt-a1i/archify**](https://github.com/tt-a1i/archify) | ![GitHub Repo stars](https://badgen.net/github/stars/tt-a1i/archify) | 生成可验证的架构图 / 流程图 / 时序图 / 数据流图的 Skill，自包含 HTML 输出。 |
+| [**earthtojake/text-to-cad**](https://github.com/earthtojake/text-to-cad) | ![GitHub Repo stars](https://badgen.net/github/stars/earthtojake/text-to-cad) | CAD / CAE / CAM 领域的 Agent Skills 库。 |
+| [**nicobailon/visual-explainer**](https://github.com/nicobailon/visual-explainer) | ![GitHub Repo stars](https://badgen.net/github/stars/nicobailon/visual-explainer) | 把图表、diff 评审、计划审计、数据表等渲染成精美 HTML 页面或幻灯片的 Skill。 |
+| [**kangarooking/cangjie-skill**](https://github.com/kangarooking/cangjie-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/kangarooking/cangjie-skill) | 「仓颉」：把书、长视频、播客等高价值内容蒸馏成可执行 Agent Skill 的中文项目。 |
+| [**chuspeeism/dashi-ppt-skill**](https://github.com/chuspeeism/dashi-ppt-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/chuspeeism/dashi-ppt-skill) | 多视觉主题的浏览器可编辑演示文稿生成 Skill，可导出 HTML / PDF / PPTX。 |
+| [**isjiamu/gzh-design-skill**](https://github.com/isjiamu/gzh-design-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/isjiamu/gzh-design-skill) | 把 Markdown 一键排成可直接粘进微信公众号编辑器的精致 HTML，6 套主题 + 主题生成器。 |
+| [**Vincentwei1021/video-shotcraft**](https://github.com/Vincentwei1021/video-shotcraft) | ![GitHub Repo stars](https://badgen.net/github/stars/Vincentwei1021/video-shotcraft) | 面向 Claude Code / Codex 的 AI 视频 Skill：用 Remotion 做电影感产品视频，含 152 张分镜配方卡。 |
+| [**petergyang/no-ai-slop**](https://github.com/petergyang/no-ai-slop) | ![GitHub Repo stars](https://badgen.net/github/stars/petergyang/no-ai-slop) | 去除写作中 20+ 种「AI 味」套路而不抹平个人语气。 |
+| [**firecrawl/anydoc**](https://github.com/firecrawl/anydoc) | ![GitHub Repo stars](https://badgen.net/github/stars/firecrawl/anydoc) | Firecrawl 的 Rust 文档转 Markdown 库以 Skill 形式分发，让 Agent 读懂 Word / PPT / Excel / PDF / EPUB。 |
+| [**microsoft/skill-recorder**](https://github.com/microsoft/skill-recorder) | ![GitHub Repo stars](https://badgen.net/github/stars/microsoft/skill-recorder) | 微软开源桌面应用：录一遍屏幕操作，用 Copilot CLI 自动生成可复用的 Skill。 |
+| [**yzfly/awesome-dsh-skills**](https://github.com/yzfly/awesome-dsh-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/awesome-dsh-skills) | DeepSeek Harness（dsh）技能 / 插件中文精选，自动收录并验证。 |
 | [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/K-Dense-AI/scientific-agent-skills) | **125+** 个科学研究类 Skills，专为科研设计，涵盖文献分析、数据处理等领域。 |
 | [**calesthio/OpenMontage**](https://github.com/calesthio/OpenMontage) | ![GitHub Repo stars](https://badgen.net/github/stars/calesthio/OpenMontage) | 开源的 agentic 视频生产系统，内置 **500+** Agent Skills，覆盖剪辑、转场、字幕、调色等全流程视频创作。 |
 | [**nowork-studio/NotFair**](https://github.com/nowork-studio/NotFair) | ![GitHub Repo stars](https://badgen.net/github/stars/nowork-studio/NotFair) | 开源营销增长 Skills，覆盖 SEO、GEO、Google Ads、Meta Ads 等投放场景。 |
