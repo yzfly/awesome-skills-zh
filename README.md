@@ -341,6 +341,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**GanymedeNil/poxiaoxing-skills**](https://github.com/GanymedeNil/poxiaoxing-skills) (破晓星) | ![GitHub Repo stars](https://badgen.net/github/stars/GanymedeNil/poxiaoxing-skills) | 知名开发者 [@GanymedeNil](https://github.com/GanymedeNil) 出品的破晓星 Skills 仓库，内含「抖音博主分析」技能：采集博主作品、下载视频、抽取截图，并可选用 DashScope FunASR 转写字幕，输出结构化素材供后续分析。 |
 | [**dososo/blcaptain-ppt-skill**](https://github.com/dososo/blcaptain-ppt-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/dososo/blcaptain-ppt-skill) | AI 原生·单文件 HTML 演示 Skill：7 套锚定公认设计体系的视觉人格，好看（WCAG/间距/32 维审计）与诚实（反伪造）均由机器强制，零依赖。 |
 | [**nathanskill/niubiskill**](https://github.com/nathanskill/niubiskill) | ![GitHub Repo stars](https://badgen.net/github/stars/nathanskill/niubiskill) | 商业化决策 Skill：打断无收入验证的瞎忙——找到离真实收钱最近的一步，二选一（引流 / 成交），停掉一件分散精力的事，并给出 7 天证据测试。 |
+| [**Hahaknight/digital-employee-pack**](https://github.com/Hahaknight/digital-employee-pack) (数字员工配置包) | ![GitHub Repo stars](https://badgen.net/github/stars/Hahaknight/digital-employee-pack) | 面向非程序员的中文办公提效技能包：周报 / 会议纪要 / 表格清洗 + 防误删 Hooks + 全中文 SOP，附真实输出示例，一条命令安装。 |
 
 ---
 
