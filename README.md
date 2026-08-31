@@ -211,6 +211,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**expo/skills**](https://github.com/expo/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/expo/skills) | Expo 官方 Skills 合集，面向 Expo / React Native 项目与 Expo Application Services 开发。 |
 | [**cloudflare/skills**](https://github.com/cloudflare/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/cloudflare/skills) | Cloudflare 官方出品，教智能体在 Cloudflare 平台（Workers/KV/R2/D1 等）上构建应用的 Skills。 |
 | [**getsentry/skills**](https://github.com/getsentry/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/getsentry/skills) | Sentry 团队日常开发所用的官方 Agent Skills 合集。 |
+| [**Hahaknight/claude-skills-pro**](https://github.com/Hahaknight/claude-skills-pro) | ![GitHub Repo stars](https://badgen.net/github/stars/Hahaknight/claude-skills-pro) | 15 个资深工程师工作流 skills（代码审查/根因调试/测试锻造/零停机迁移/AI 代码审查），7 个免费 MIT；开放 SKILL.md 格式，一条命令装入 Claude Code/Codex/Gemini CLI 等 75+ agent，附中文实战手册与双语 README。 |
 | [**google-labs-code/stitch-skills**](https://github.com/google-labs-code/stitch-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/google-labs-code/stitch-skills) | Google Labs 官方出品，配合 Stitch MCP server 使用的 Agent Skills 库，遵循 Agent Skills 开放标准，兼容 Antigravity / Gemini CLI / Claude Code / Cursor 等编码智能体。 |
 
 ---
