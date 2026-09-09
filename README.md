@@ -367,7 +367,9 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**moatazhamada/ai-omni-skills**](https://github.com/moatazhamada/ai-omni-skills) | 跨工具同步 | ![GitHub Repo stars](https://badgen.net/github/stars/moatazhamada/ai-omni-skills) | 以单一 `SKILL.md` 为事实源 + 跨工具同步工具包（MCP server、共享指令、一键打通 Claude Code/Codex/Gemini/Kimi/Cursor/Kilocode/OpenCode），解决在多工具间技能碎片化的问题。 |
 | [**GBSOSS/mcp-to-skill-converter**](https://github.com/GBSOSS/-mcp-to-skill-converter) | MCP 转换 | ![GitHub Repo stars](https://badgen.net/github/stars/GBSOSS/-mcp-to-skill-converter) | 把任意 MCP server 转换成 Claude Skill，节省约 90% 上下文。 |
 | [**huifer/skill-security-scan**](https://github.com/huifer/skill-security-scan) | 安全扫描 | ![GitHub Repo stars](https://badgen.net/github/stars/huifer/skill-security-scan) | 安装第三方 Skill 前先做安全审查的命令行工具，检测窃取数据或破坏系统的恶意代码。 |
-| [**Xquik-dev/x-twitter-scraper**](https://github.com/Xquik-dev/x-twitter-scraper) | 数据抓取 | ![GitHub Repo stars](https://badgen.net/github/stars/Xquik-dev/x-twitter-scraper) | X/Twitter 数据抓取技能，提供 MCP 服务器与 REST API，含 20 个提取工具。 |
+| [**Xquik-dev/x-twitter-s
+| [**wlkerwong-boop/hermes-md-preview**](https://github.com/wlkerwong-boop/hermes-md-preview) | 桌面插件 | ![GitHub Repo stars](https://badgen.net/github/stars/wlkerwong-boop/hermes-md-preview) | Hermes 桌面端 Markdown 预览插件：跨会话扫描 agent 生成过的所有 .md 并在右侧窗格即时渲染，支持收藏与路径补全，中英双语。 |
+craper**](https://github.com/Xquik-dev/x-twitter-scraper) | 数据抓取 | ![GitHub Repo stars](https://badgen.net/github/stars/Xquik-dev/x-twitter-scraper) | X/Twitter 数据抓取技能，提供 MCP 服务器与 REST API，含 20 个提取工具。 |
 
 ---
 
