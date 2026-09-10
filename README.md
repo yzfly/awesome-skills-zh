@@ -58,229 +58,223 @@
 >
 > **通用安装**：`npx skills@latest add <owner>/<repo>`，或直接 `git clone` 到技能目录（Codex：`~/.codex/skills/`，Claude Code：`~/.claude/skills/`），重启 Agent 后上传照片、用 `$skill-name` 调用。
 
-#### 📰 纸刊 · 编辑海报（照片或一句话 → 极简纸感版面）
-
-<p align="center">
-  <img src="docs/images/design/gc-minimal-zine-poster.jpg" width="420" alt="极简 zine 海报 示例">
-</p>
-
-<sub>**01 · 极简 zine 海报**<br>[**LiamGvchi/gc-minimal-zine-poster**](https://github.com/LiamGvchi/gc-minimal-zine-poster) ![GitHub Repo stars](https://badgen.net/github/stars/LiamGvchi/gc-minimal-zine-poster)<br>大留白纸刊，把一句话做成情绪海报。给它任意主题、句子、物件、情绪、文章构想或照片，产出一张安静的竖版 zine 海报：3:5 仿旧纸张画布、70%–90% 留白、一个小型可清楚表现的主体、衬线 / 打字机 / 等宽字体、一处高饱和色彩锚点，加复印、孔版、网点、凸版或扫描纸张的瑕疵质感。刻意避开广告式布局、光亮样机、电影感布光、3D、霓虹与大段整齐文字。自带 prompt-compiler 与 quality-gate 质检流程，支持生成、参考分析、仅出 prompt、照片输入四种模式。<br>**适合**：公众号封面、App 故事头图、读书日记一页、情绪短句与小景。<br>**调用 / 安装**：`$gc-minimal-zine-poster-v0-3`，clone 到 `~/.codex/skills/gc-minimal-zine-poster-v0-3`；国内可用转存镜像 [yub369302-cyber/gc-minimal-zine-poster](https://github.com/yub369302-cyber/gc-minimal-zine-poster)</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-muted-zine-poster.jpg" width="420" alt="低饱和 zine 海报 Muted Zine Poster 示例">
-</p>
-
-<sub>**02 · 低饱和 zine 海报 Muted Zine Poster**<br>[**moonlin1213/muted-zine-poster-v01**](https://github.com/moonlin1213/muted-zine-poster-v01) ![GitHub Repo stars](https://badgen.net/github/stars/moonlin1213/muted-zine-poster-v01)<br>基于 gc-minimal-zine-poster v0.1 的「安静版」二创：去掉高饱和色块要求，只用 muted 灰阶或极淡 wash，增加破碎拼贴变体与档案式微文本。70% 以上留白、近乎单色，画面元素极少、情绪单一但呼吸感更强。<br>**适合**：雨天、旧书、海边、回忆等低饱和情感表达，日记感海报。<br>**调用 / 安装**：`/skill:gc-muted-zine-poster-v0-1`，放到 `~/.agents/skills/` 或 `~/.kimi-code/skills/`</sub>
-
-<p align="center">
-  <img src="docs/images/design/joy-calm-woodcut-zine.jpg" width="420" alt="沉静木刻纸刊 Calm Woodcut Zine 示例">
-</p>
-
-<sub>**03 · 沉静木刻纸刊 Calm Woodcut Zine**<br>[**joygoogl000-spec/joy-calm-woodcut-zine**](https://github.com/joygoogl000-spec/joy-calm-woodcut-zine) ![GitHub Repo stars](https://badgen.net/github/stars/joygoogl000-spec/joy-calm-woodcut-zine)<br>把照片、主题、语句、物件、情绪或内容简报，转化为一张沉静的日韩独立杂志木刻线条海报：主体以一幅浑然一体的木刻场景呈现于微光纸面，辅以结构刻线、应景着色、局部形态抽象与微型字体排版。<br>**适合**：想要版画质感而非手绘或抽象色块的纸刊封面。<br>**调用 / 安装**：clone 到 Codex skills 目录后按名称调用</sub>
-
-<p align="center">
-  <img src="docs/images/design/photo-revival.jpg" width="420" alt="废片焕新 Photo Revival 示例">
-</p>
-
-<sub>**04 · 废片焕新 Photo Revival**<br>[**dacnay816y62-hub/photo-revival**](https://github.com/dacnay816y62-hub/photo-revival) ![GitHub Repo stars](https://badgen.net/github/stars/dacnay816y62-hub/photo-revival)<br>普通照片重画成白纸上的手绘诗：3:4 竖构图、80%–88% 留白，主体插画只占整页 10%–16%，铅笔线稿、水彩晕染、干刷边缘、轻微印刷颗粒加一句很小的中文批注。先识别照片里 1–3 个记忆点再重绘，不是滤镜。「把照片重新画成一页诗，而不是把照片修成插画。」<br>**适合**：日常碎片 → 温柔小画，猫 / 食物 / 旧店随手拍都能用，建议 3:4 或 3:5 竖图。<br>**调用 / 安装**：`$photo-revival`</sub>
-
-<p align="center">
-  <img src="docs/images/design/gathered-scenes-zine.jpg" width="420" alt="拾景纸刊 Gathered Scenes Zine 示例">
-</p>
-
-<sub>**05 · 拾景纸刊 Gathered Scenes Zine**<br>[**Zeejay0/gathered-scenes-zine-skill**](https://github.com/Zeejay0/gathered-scenes-zine-skill) ![GitHub Repo stars](https://badgen.net/github/stars/Zeejay0/gathered-scenes-zine-skill)<br>一个仓库两个子 Skill：**01 实景拼贴** `$scenes-gathered-zine-v1-3` 保留照片中不可替代的现场关系，以真实摄影为锚点，让源自原图的抽象形状、单一高纯度色彩与手撕纤维纸边向纸面延伸（「保留人物与海岸线的关系，文字用中文」）；**02 影像蒸馏** `$scene-distillation-zine-v1-3` 不在成品中保留原照片，从中提取语义核心、情绪张力和视觉隐喻，用纸张、插画、色彩与自由文字重做一件新作品（「不要保留照片本身，让作品表达 XX 主题」）。同仓库还藏着第三个 Skill **莫兰迪电影海报** `$morandi-cinematic-poster-zeejay`：完全保留原照片，靠电影标题排版、五级字号层级、低饱和莫兰迪色调与文字对人物的 1–3 处有意遮挡，把普通照片变成电影海报，最适合人像与旅行照。能把复杂细节压缩成几块大形状，案例按「原始照片 → 观察记录 → 最终作品」归档。实景拼贴进阶玩法见下方选型指南。<br>**适合**：旅行照 → 品牌纸刊、用户投稿再创作；主体关系越清楚效果越好，建议竖图。<br>**调用 / 安装**：三个调用名见上；clone 到 `~/.codex/skills/`<br>**注意**：非商用许可。</sub>
-
-<p align="center">
-  <img src="docs/images/design/photo-relic-editorial.jpg" width="420" alt="纸上留影 Photo Relic Editorial 示例">
-</p>
-
-<sub>**06 · 纸上留影 Photo Relic Editorial**<br>[**wnby/photo-relic-editorial**](https://github.com/wnby/photo-relic-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/wnby/photo-relic-editorial)<br>竖版编辑图：上半保留真实照片，下半生成克制、可识别、带纸张质感的版画「记忆标本」，从原图提取结构、光线、颜色与重心，几笔淡墨勾出形状，底部一小行配文。自带「纸上北京」系列（天坛、鸟巢、角楼、中国尊……）与四字中文标题范式。可控性高，基本指哪打哪。<br>**适合**：城市地标 / 旅行建筑摄影的编辑化包装，建筑、天际线、水面、道路。<br>**调用 / 安装**：`$photo-relic-editorial`</sub>
-
-<p align="center">
-  <img src="docs/images/design/photo-abstract-editorial.jpg" width="420" alt="摄影抽象编辑 Photo Abstract Editorial 示例">
-</p>
-
-<sub>**07 · 摄影抽象编辑 Photo Abstract Editorial**<br>[**ZzzLc0405/photo-abstract-editorial**](https://github.com/ZzzLc0405/photo-abstract-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/ZzzLc0405/photo-abstract-editorial)<br>「原始摄影区域 + 抽象记忆面板 + 诗意英文标题」的竖向编辑杂志风，高级感拉满。原图保留在成品上方或主要区域，下方是由原图空间关系、构图节奏和色彩关系推导出的象牙白极简抽象面板（无纸纹、颗粒或渐变），每个色块、弧线、短条都能追溯到照片本身；成品只保留一个原创英文标题（可选副标题）。8 月初开源几天冲到数千 star。附中英双语完整 prompt，可脱离 Skill 直接当提示词用。<br>**适合**：小红书高级感封面、日常随手拍 → 艺术海报；建筑、风景、人群、旅行照。<br>**调用 / 安装**：复制 `photo-abstract-editorial` 到 `~/.codex/skills/`<br>**注意**：CC BY-NC-SA 4.0，非商用。</sub>
-
-<p align="center">
-  <img src="docs/images/design/xxd-panel-070.jpg" width="420" alt="厚涂治愈岛 XXD Panel 070 示例">
-</p>
-
-<sub>**08 · 厚涂治愈岛 XXD Panel 070**<br>[**nevertoday/xxd-panel-070**](https://github.com/nevertoday/xxd-panel-070) ![GitHub Repo stars](https://badgen.net/github/stars/nevertoday/xxd-panel-070)<br>「小东 × 手绘 × 厚涂」：每张照片单独输出一张 3:4 高级设计海报，上下两区严格 1:1。上半保留原照片（身份、结构、姿态、真实质感、原有色彩氛围，只做轻微高级调色，可自然扩展环境但不拉伸主体）；下半提取最具识别性的主体、轮廓、姿态与叙事关系，用手绘描边 + 明亮厚涂 / 半透明色块（水粉、水彩、粉彩、少量油画笔触）重构成微缩主体 + 大面积暖白留白 + 打字机式小字的出版感画面。支持上下 / 左右 / 纯设计 / 多比例 / 四端壁纸与批量目录处理，五语原始提示词。同作者 **XXD Panel 系列** 40+ 个编号 Skill，各有一种风格：[100 民艺叙事插画](https://github.com/nevertoday/xxd-panel-100)、[028 等距纸雕微缩](https://github.com/nevertoday/xxd-panel-028)、[060 禅意黑形留白](https://github.com/nevertoday/xxd-panel-060)、[061 剪纸水粉蜡笔](https://github.com/nevertoday/xxd-panel-061)、[092 钢笔排线](https://github.com/nevertoday/xxd-panel-092)、[073 剖面等距建筑](https://github.com/nevertoday/xxd-panel-073)……见 [作者主页](https://github.com/nevertoday?tab=repositories&q=xxd-panel)。<br>**适合**：人像、建筑、动物、植物、器物照片做成明亮治愈的封面 / 海报 / 壁纸。<br>**调用 / 安装**：「用 XXD Panel 070 帮我处理这张图，先推荐最合适的构图和尺寸」<br>**注意**：非标准许可，见仓库 LICENSE。</sub>
-
-<p align="center">
-  <img src="docs/images/design/photo-window-poster.jpg" width="420" alt="几何情绪窗口海报 Photo Window Poster 示例">
-</p>
-
-<sub>**09 · 几何情绪窗口海报 Photo Window Poster**<br>[**yzfly/skills · photo-window-poster**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者把小小东（XXD）的另一段爆款提示词封装成 Skill：3:4 竖版、上下严格 1:1。上半原图只做轻微高级调色；下半提取主体、轮廓、姿态与叙事关系，放进一个窄长、低饱和的几何「情绪窗口」——色块方向随主体走势横 / 竖 / 斜，主体局部越界破框，大面积留白，配色从照片提取并柔化为雾蓝、浅青、米白、淡粉、暖灰，再从画面情绪提炼一个简短标题与几行细字。Skill 加了读图 → 定窗口 → 定配色文案 → 生成 → 8 项质检的工序，中英文两版提示词。<br>**适合**：人物、动物、植物、建筑、器物、食物、风景做高端地产 / 奢侈品 / 美学杂志感海报。<br>**调用 / 安装**：`npx skills add yzfly/skills@photo-window-poster -g -y`<br>**注意**：配图为概念示意，非模型实际输出。</sub>
-
-<p align="center">
-  <img src="docs/images/design/travel-photo-abstraction.jpg" width="420" alt="旅行照片抽象 Travel Photo Abstraction 示例">
-</p>
-
-<sub>**10 · 旅行照片抽象 Travel Photo Abstraction**<br>[**Evianis/travel-photo-abstraction**](https://github.com/Evianis/travel-photo-abstraction) ![GitHub Repo stars](https://badgen.net/github/stars/Evianis/travel-photo-abstraction)<br>把旅行 / 日常照片当作一个视觉系统来分析：先盘点可观察的视觉证据（形状、数量、位置、比例、色彩、方向、深度、空间节奏），再把每条保留下来的事实映射为一个极简抽象记号，保留不对称、遮挡、数量组与负空间。生成干净抽象面板后，用 fail-closed 的合成器把未经改动的原照片像素级校验拼回成品。内置 19 张结构参考，按题材自动挑 2–4 张。<br>**适合**：元素丰富、关系清楚的城市、街道、风景照；做一套风格统一的旅拍手账作品集。<br>**调用 / 安装**：clone 后复制 `travel-photo-abstraction` 到 Codex skills 目录，需 Pillow<br>**注意**：Source-available 许可：仅允许原样使用。</sub>
-
-<p align="center">
-  <img src="docs/images/design/image-words.jpg" width="420" alt="一图三海报 Image-Words 示例">
-</p>
-
-<sub>**11 · 一图三海报 Image-Words**<br>[**fry-haha/image-words**](https://github.com/fry-haha/image-words) ![GitHub Repo stars](https://badgen.net/github/stars/fry-haha/image-words)<br>先理解一张照片的主体、情绪、运动方向、可消失区域和可生长边界，再生成三张不同方向的 3:4 编辑艺术海报，构成一个「海报家族」：第一眼仍能认出原照片，主变换从原图生长出来，每个辅助元素都要有存在理由。附可选的 GPT Image API 工作流。<br>**适合**：一张照片想要多种方向备选、做系列稿。<br>**调用 / 安装**：Codex Skill，需照片输入<br>**注意**：非商用许可。</sub>
-
-<p align="center">
-  <img src="docs/images/design/threefold-memory.jpg" width="420" alt="旅行记忆三联画 Threefold Memory 示例">
-</p>
-
-<sub>**12 · 旅行记忆三联画 Threefold Memory**<br>[**Starryear/Starryear-Threefold-Memory**](https://github.com/Starryear/Starryear-Threefold-Memory) ![GitHub Repo stars](https://badgen.net/github/stars/Starryear/Starryear-Threefold-Memory)<br>一张照片，三种记忆状态：上面是 AI 对画面色彩、形状和光线的抽象重构（What I saw），中间保留原始照片（What happened），下面把路线、方向和情绪变成一张「记忆地图」（What stayed）。v2 提供 Skill + Master prompt，v1 作为归档保留。<br>**适合**：旅行照做成有叙事结构的收藏页。<br>**调用 / 安装**：下载 v2.2.1 ZIP 或 clone，根目录 `SKILL.md` 指向最新版</sub>
-
-<p align="center">
-  <img src="docs/images/design/photo-to-zine-postcard.jpg" width="420" alt="照片变 Zine 明信片 Photo to Zine Postcard 示例">
-</p>
-
-<sub>**13 · 照片变 Zine 明信片 Photo to Zine Postcard**<br>[**Whiplashzeb/photo-to-zine-postcard**](https://github.com/Whiplashzeb/photo-to-zine-postcard) ![GitHub Repo stars](https://badgen.net/github/stars/Whiplashzeb/photo-to-zine-postcard)<br>把照片转换成一套极简、留白充足、带手绘二创元素的 zine 风明信片。**正面**：上方完整嵌入原图并保持比例，下方大量留白 + 一个来源明确的手绘主元素（水彩 / 水粉 / 墨线 / 拼贴）+ 极简元数据 + 3 个取自原图的色块；**背面**：统一可书写的明信片布局，含邮票区、分割线、地址线和留言区。默认竖版 2:3、100×150 mm、暖白纸底，9 个官方案例。为 Fork 二创而设计，附定制文档。<br>**适合**：个人摄影作品做成可打印的明信片系统、旅行照回礼。<br>**调用 / 安装**：把 `SKILL.md` 和照片一起交给 ChatGPT / Codex</sub>
-
-<p align="center">
-  <img src="docs/images/design/handdrawn-photo-poster.jpg" width="420" alt="书页邮票海报 Handdrawn Photo Poster 示例">
-</p>
-
-<sub>**14 · 书页邮票海报 Handdrawn Photo Poster**<br>[**luji12/handdrawn-photo-poster**](https://github.com/luji12/handdrawn-photo-poster) ![GitHub Repo stars](https://badgen.net/github/stars/luji12/handdrawn-photo-poster)<br>把日常照片改造成带有轻微书本载体、居中手绘邮票和克制 ZINE 文案的 3:4 编辑海报：默认「打开的书跨页」，左页保留原照片，右页暖象牙白纸上居中一枚邮票——从照片中提取 3–5 个可辨认的小物件，用统一的高饱和、硬边、角切二维绘画重新组织，标题在上、微文在下。<br>**适合**：想保留照片真实感、又要一点手作物件趣味的日常记录。<br>**调用 / 安装**：`$handdrawn-photo-poster`</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-sticker-card.jpg" width="420" alt="旅行手帐贴纸卡 Travel Memory Sticker Card 示例">
-</p>
-
-<sub>**15 · 旅行手帐贴纸卡 Travel Memory Sticker Card**<br>[**carolinaaafy/travel-memory-sticker-card**](https://github.com/carolinaaafy/travel-memory-sticker-card) ![GitHub Repo stars](https://badgen.net/github/stars/carolinaaafy/travel-memory-sticker-card)<br>把照片转换为一张旅行手帐收藏记忆卡：大幅沉静编辑风插画占据主体，六枚手账贴纸式图案元素自然融入画面，左下角三个关键词。姊妹版 [**travel-memory-card-duo**](https://github.com/carolinaaafy/travel-memory-card-duo) 一次输出两张匹配的图：3:2 横版完整记忆卡 + 只含同六枚贴纸、带真实 Alpha 通道的独立透明 PNG，可直接二次排版或打印贴纸。<br>**适合**：旅行照 → 数字手账（配合 GoodNotes）、贴纸打印。<br>**调用 / 安装**：对任意 Agent（WorkBuddy、飞书豆包、Codex、DeepSeek Harness）说「旅行贴纸：<仓库地址> 安装这个 Skill，然后我会发给你图让你生图」<br>**注意**：仅限个人非商用，禁止再分发。</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-pantone.jpg" width="420" alt="潘通相框海报 Pantone Photo Posters 示例">
-</p>
-
-<sub>**16 · 潘通相框海报 Pantone Photo Posters**<br>[**laurent-7bk/Aigc-Skills**](https://github.com/laurent-7bk/Aigc-Skills) ![GitHub Repo stars](https://badgen.net/github/stars/laurent-7bk/Aigc-Skills)<br>`create-pantone-photo-posters`：把照片做成高级潘通风格相框摄影海报——白色相框、克制的主体自然穿出框外、低饱和背景，从照片提取主色并标注潘通近似色号标签，支持对同一系列海报继续修改。<br>**适合**：产品图、人像、静物做成色卡感封面。<br>**调用 / 安装**：复制 `create-pantone-photo-posters` 目录到 skills 目录</sub>
-
-
-#### 🖨️ 风格转译（照片 → 插画 / 印刷 / 复古媒介 / 动画）
-
-<p align="center">
-  <img src="docs/images/design/pixel-style-poster.jpg" width="420" alt="点阵印刷海报 示例">
-</p>
-
-<sub>**17 · 点阵印刷海报**<br>[**v92388375-gif/pixel-style-poster-skill**](https://github.com/v92388375-gif/pixel-style-poster-skill) ![GitHub Repo stars](https://badgen.net/github/stars/v92388375-gif/pixel-style-poster-skill)<br>精细点阵 bitmap 印刷风，**不是复古游戏像素**：用细密的小点表现明暗，像老式激光打印机把图像印在带纤维纹理的米白纸上，加轻微扫描线、油墨渗透、套色偏移和纸张颗粒；主体贴字排版、周围小注释、克制配色系统。默认 3:4 竖版。很挑原图，高饱和、复杂纹理、人脸细节处理都好。<br>**适合**：植物 / 花卉 / 动物 / 近景人脸特写，小众审美产品图；建议 3:4 近景。<br>**调用 / 安装**：`$pixel-style-poster-skill`</sub>
-
-<p align="center">
-  <img src="docs/images/design/deconstructed-duotone-poster.jpg" width="420" alt="解构双色海报 Deconstructed Duotone Poster 示例">
-</p>
-
-<sub>**18 · 解构双色海报 Deconstructed Duotone Poster**<br>[**Lixorn/deconstructed-duotone-poster**](https://github.com/Lixorn/deconstructed-duotone-poster) ![GitHub Repo stars](https://badgen.net/github/stars/Lixorn/deconstructed-duotone-poster)<br>先识别照片主体，再把主体拆成一组平面图形，做成双色、柔光、纸纹和胶片颗粒感的编辑海报。四种版式：3:4 竖版九宫格、3:4 竖向四联画、4:3 横版六宫格、4:3 横向四联画；每个格子不重复画同一张照片，而是挑轮廓、动作、材质和局部特征分别表达。米白纸底固定，另一种主题色由你指定，底部两行小字 + 主体图标。无照片时也可按文字主题生成。<br>**适合**：灵感素材、量产艺术海报；提前裁成 3:4 或 4:3。<br>**调用 / 安装**：clone 完整文件夹到 `~/.codex/skills/`（版式参考图必须一起保留）</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-bauhaus.jpg" width="420" alt="包豪斯抽象构成 Bauhaus Abstract Composer 示例">
-</p>
-
-<sub>**19 · 包豪斯抽象构成 Bauhaus Abstract Composer**<br>[**zhangshuaige12138-create/bauhaus-abstract-composer**](https://github.com/zhangshuaige12138-create/bauhaus-abstract-composer) ![GitHub Repo stars](https://badgen.net/github/stars/zhangshuaige12138-create/bauhaus-abstract-composer)<br>设计师的「焚决」：把建筑、街道、山川、人物全部拆成最基础的点、线、面。保留原本的构图、大轮廓关系、空间层次与明暗节奏，去掉纹理和细节，只用红、黄、蓝、黑、白（少量米白 / 浅灰辅助）重新组织画面，大面积留白，做成一张现代主义展览海报。点有五级尺寸规则，不允许写实与装饰堆砌。照片不一定只能记录现实，也可以成为设计本身。<br>**适合**：建筑、城市、风景、人物剪影做现代主义海报。<br>**调用 / 安装**：复制到 Codex skills 目录后按 `bauhaus-abstract-composer` 调用</sub>
-
-<p align="center">
-  <img src="docs/images/design/dnr-flat-pic.jpg" width="420" alt="扁平矢量插画 DnR FlatPic 示例">
-</p>
-
-<sub>**20 · 扁平矢量插画 DnR FlatPic**<br>[**CreateLafont/dnr-flat-pic**](https://github.com/CreateLafont/dnr-flat-pic) ![GitHub Repo stars](https://badgen.net/github/stars/CreateLafont/dnr-flat-pic)<br>把照片转换成无渐变、稀疏、高辨识度、高饱和的扁平矢量风插画：语义压缩而非描摹，一个主语义系统 + 受控的辅助层级，固定 HSB 色板按角色赋色而非匹配原图色相，纯色填充、硬边离散明暗。专门处理比例变更、修订、原图清理与重试控制。<br>**适合**：照片 → 图标化 / 扁平插画，适合做 App 配图、封面。<br>**调用 / 安装**：`npx skills add CreateLafont/dnr-flat-pic`，调用 `$dnr-flat-pic`</sub>
-
-<p align="center">
-  <img src="docs/images/design/arch-kele-structure-photo.jpg" width="420" alt="建筑解构水彩 Arch Kele Structure Photo 示例">
-</p>
-
-<sub>**21 · 建筑解构水彩 Arch Kele Structure Photo**<br>[**Architect-kele/arch-kele-structure-photo**](https://github.com/Architect-kele/arch-kele-structure-photo) ![GitHub Repo stars](https://badgen.net/github/stars/Architect-kele/arch-kele-structure-photo)<br>把照片转换成克制、清晰的水彩分层结构研究图：建筑、物件拆成真实可重组的结构层级（爆炸结构 + 分析线稿 + 水彩质感），室内 / 街景转成前中后景深度层，人物动植物只做整体轮廓不做解剖式拆分。一次交付两张：纯净版，以及右上角嵌入未重绘原照片的原图版（由前者确定性合成）。默认 3:4。<br>**适合**：建筑摄影、地标、产品结构讲解图。<br>**调用 / 安装**：clone 到 `~/.codex/skills/arch-kele-structure-photo/`</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-ink-wash.jpg" width="420" alt="写意水墨 Ink Wash Photo 示例">
-</p>
-
-<sub>**22 · 写意水墨 Ink Wash Photo**<br>[**BigFish-zZz/bigfish-ink-wash-photo**](https://github.com/BigFish-zZz/bigfish-ink-wash-photo) ![GitHub Repo stars](https://badgen.net/github/stars/BigFish-zZz/bigfish-ink-wash-photo)<br>把照片重构为当代中国写意水墨：寥寥数笔、大面积留白，只保留关键识别锚点。强制毛笔在生宣上的中锋、侧锋、飞白、破墨、积墨等真实笔法，色彩只作为墨中淡彩，明确排斥西式水彩和透明叠色滤镜；横图锁 16:9、竖图锁 9:16，人物的身份与姿态几何严格保留。<br>**适合**：山水、水面、船、古建、人物剪影；东方意境封面。<br>**调用 / 安装**：`$bigfish-ink-wash-photo`，图生图模式必须附原照片</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-travel-sketch.jpg" width="420" alt="旅行速写 Photo to Travel Sketch 示例">
-</p>
-
-<sub>**23 · 旅行速写 Photo to Travel Sketch**<br>[**liigoQi/photo-to-travel-sketch**](https://github.com/liigoQi/photo-to-travel-sketch) ![GitHub Repo stars](https://badgen.net/github/stars/liigoQi/photo-to-travel-sketch)<br>把照片转化为一张 10–15 分钟观察式旅行速写：暖米白纸大量留白、游走的炭笔勾线（不是建筑制图）、可见的干头马克笔笔触、从原图提取的灰调压缩色板；靠剪影、视角、前后遮挡与至多五处关键细节保留辨识度。<br>**适合**：街景、建筑、风景、旅行记忆的速写本风格。<br>**调用 / 安装**：`$photo-to-travel-sketch`</sub>
-
-<p align="center">
-  <img src="docs/images/design/crystalize.jpg" width="420" alt="水晶插画 Crystalize 示例">
-</p>
-
-<sub>**24 · 水晶插画 Crystalize**<br>[**NalaZhang27/crystalize-skill**](https://github.com/NalaZhang27/crystalize-skill) ![GitHub Repo stars](https://badgen.net/github/stars/NalaZhang27/crystalize-skill)<br>把照片重构为极简水晶插画：从照片中提取关键元素，用通透晶面、清晰的不规则切边、留白纸张与简短题名重新绘制画面。<br>**适合**：建筑、湖景、静物等有清楚体块的照片。<br>**调用 / 安装**：`$crystalize Transform this photograph.`</sub>
-
-<p align="center">
-  <img src="docs/images/design/photo-to-organic-knit.jpg" width="420" alt="毛线针织海报 Photo to Organic Knit 示例">
-</p>
-
-<sub>**25 · 毛线针织海报 Photo to Organic Knit**<br>[**NalaZhang27/photo-to-organic-knit**](https://github.com/NalaZhang27/photo-to-organic-knit) ![GitHub Repo stars](https://badgen.net/github/stars/NalaZhang27/photo-to-organic-knit)<br>把照片重新创作为具有概念设计感和手工质感的毛线针织艺术海报：不是叠织物滤镜，而是先把元素分成保留 / 转换 / 舍弃三组，再重新设计构图。画面融合钩针、针织、圈圈纱、毛毡、松散纤维、不规则织物边缘、编辑式留白，以及单根毛线组成的标题；保持原图画幅方向。<br>**适合**：森林、火车、自然题材做温暖触感的海报。<br>**调用 / 安装**：复制 `photo-to-organic-knit` 到 Codex skills 目录</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-outsider-art.jpg" width="420" alt="局外人艺术海报 Outsider Art 示例">
-</p>
-
-<sub>**26 · 局外人艺术海报 Outsider Art**<br>[**fihaaade/skills**](https://github.com/fihaaade/skills) ![GitHub Repo stars](https://badgen.net/github/stars/fihaaade/skills)<br>`outsider-art`：把照片（仅作语义参考）或文字主题转换成密集、平摊、天真的 Outsider Art 海报——世界是平摊的（混合投影，地面像地图、物体正立），密纹成静（大块平面色区各带一种统一手作纹理），色窄成静（纸白 + 暖墨黑 + 2–4 个低饱和色），一枚亮色，人是刻度（微小无脸人物）。同仓库还有 `phosphor-relay-style`（拍屏幕不拍现场的荧光转播质感）与 `starlit-relic`。<br>**适合**：城镇、市集、球场等有活动的场景做成民艺印刷海报。<br>**调用 / 安装**：复制 `outsider-art` 目录到 skills 目录，调用 `$outsider-art-v1`</sub>
-
-<p align="center">
-  <img src="docs/images/design/tait-crt-interface.jpg" width="420" alt="CRT 复古界面 TaiT CRT Interface 示例">
-</p>
-
-<sub>**27 · CRT 复古界面 TaiT CRT Interface**<br>[**TaiT-tt/tait-crt-interface-skill**](https://github.com/TaiT-tt/tait-crt-interface-skill) ![GitHub Repo stars](https://badgen.net/github/stars/TaiT-tt/tait-crt-interface-skill)<br>把人像、照片或文字描述设计成一张带早期 CRT 计算机界面质感的复古像素风插画：一个占主要面积的像素风主体作为系统壁纸，3–6 个悬浮视窗 + 1–3 个五官 / 饰品局部提取视窗，早期 Macintosh / Minitel / 8-bit 界面语言，棋盘格灰度、硬边锯齿、扫描线、辉光、噪点与固定的 CRT 桶形畸变。内置三种风格模板：街头怪诞、巨像符号、冷面几何，多套预设色卡或按上传图自动配 2–5 色。<br>**适合**：人像头像、乐队 / 活动海报、赛博怀旧封面。<br>**调用 / 安装**：`tait-crt-interface-skill`，可让 Codex 直接从 GitHub 链接安装</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-dreamy-motion.jpg" width="420" alt="梦幻动态编辑 Dreamy Motion Editorial 示例">
-</p>
-
-<sub>**28 · 梦幻动态编辑 Dreamy Motion Editorial**<br>[**lzs0594/dreamy-motion-editorial**](https://github.com/lzs0594/dreamy-motion-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/lzs0594/dreamy-motion-editorial)<br>把普通随手拍变成高级、朦胧、梦幻、带动态模糊氛围的视觉图像。不是加雾加光晕：先提取语义核心（脸、手势、物件、剪影或关系），决定 Keep / Fade / Remove，再用真实的慢门拖影、风动、光影流动、玻璃反射、蒸汽、飞鸟或交通掠影构建「动态留白」，三层景深、主体清晰环境溶解。输出中英图生图提示词、负面词、保真约束与参数建议。<br>**适合**：人物街拍 → 艺术写真、城市老街 → 电影感海报、情侣 / 宠物照。<br>**调用 / 安装**：clone 到 skills 目录后调用</sub>
-
-<p align="center">
-  <img src="docs/images/design/vintage-travel-ticket.jpg" width="420" alt="老式记忆门票 Vintage Travel Ticket 示例">
-</p>
-
-<sub>**29 · 老式记忆门票 Vintage Travel Ticket**<br>[**hongfamonvAI/vintage-travel-ticket**](https://github.com/hongfamonvAI/vintage-travel-ticket) ![GitHub Repo stars](https://badgen.net/github/stars/hongfamonvAI/vintage-travel-ticket)<br>把旅行、城市街巷、风景、个人记忆或美食照片，重绘成一张 20 世纪中后期气质的中文老式门票。不是旧纸滤镜：每次先从 16 类结构原型抽取完整票券 DNA，再联动比例、版式、纸张（18 套配色）、套色、插画语言（14 种）、字体角色（16 套）与印刷做旧；首次只问地点 / 景区 / 美食名称，可带姓名与纪念日期，每次只交付一张独立门票。<br>**适合**：旅行纪念、城市地标、美食打卡做成可收藏的票根。<br>**调用 / 安装**：clone 到 `~/.codex/skills/vintage-travel-ticket`，上传照片说「做成老式门票」</sub>
-
-<p align="center">
-  <img src="docs/images/design/concept-vinyl.jpg" width="420" alt="虚构黑胶发行 Vinyl Image Generator 示例">
-</p>
-
-<sub>**30 · 虚构黑胶发行 Vinyl Image Generator**<br>[**liigoQi/vinyl-image-generator**](https://github.com/liigoQi/vinyl-image-generator) ![GitHub Repo stars](https://badgen.net/github/stars/liigoQi/vinyl-image-generator)<br>将一句话、一段记忆、一种情绪、一则故事、一件物品、一处地点或一张源图像，转化为一套浑然天成的虚构黑胶唱片发行实物：一张 4:3 产品摄影，包含同一虚构唱片的四件关联实物——正面封套、A 面唱片、B 面唱片、背面封套。会虚构艺术家、厂牌、目录号、发行史与曲目，并在可联网时核对艺人名不与真实乐队撞名。<br>**适合**：情绪 / 故事的实物化表达、音乐类内容封面。<br>**调用 / 安装**：Codex Skill，按名称调用</sub>
-
-<p align="center">
-  <img src="docs/images/design/story-to-handdrawn-video.jpg" width="420" alt="故事 → 手绘日记漫画视频 Story to Handdrawn Video 示例">
-</p>
-
-<sub>**31 · 故事 → 手绘日记漫画视频 Story to Handdrawn Video**<br>[**gnipbao/story-to-handdrawn-video**](https://github.com/gnipbao/story-to-handdrawn-video) ![GitHub Repo stars](https://badgen.net/github/stars/gnipbao/story-to-handdrawn-video)<br>开源渲染器（Remotion）+ Agent Skill：输入中文故事文案（Agent 负责分句、分镜、素材生成）或一组已画好的图片（按顺序保留），输出一支 3:4 竖屏手绘故事动画。每个分镜按 layer 配置揭示：文字先擦显，随后黑白画稿、局部细节、彩色插画从左到右分段出现。默认彩铅日记漫画，内置 20 种手绘风格家族；正式渲染 1080×1440，预览 720×960，输出 H.264 静音画面轨，配音与 BGM 自己后期。依赖 Node.js 20+、Python 3.10+、FFmpeg、Chrome。<br>**适合**：中文叙事短视频的「画面底片生产线」，日记漫画、绘本讲解。<br>**调用 / 安装**：clone 仓库跑起渲染器，再把 `skill-package/` 装进 Codex / Claude Code</sub>
-
-
-#### 🧩 品牌 · 图标 · 网页
-
-<p align="center">
-  <img src="docs/images/design/ip-as-logo.jpg" width="420" alt="IP as Logo 极简圆润 IP 形象生成器 示例">
-</p>
-
-<sub>**32 · IP as Logo 极简圆润 IP 形象生成器**<br>[**s1dashu/ip-as-logo-skill**](https://github.com/s1dashu/ip-as-logo-skill) ![GitHub Repo stars](https://badgen.net/github/stars/s1dashu/ip-as-logo-skill)<br>装进 Agent 的品牌形象设计技能。一句「给我的产品设计一个简单的鬼魂 IP 角色，深海军蓝实色背景」丢给 Codex / 豆包 / WorkBuddy，它先给出三个设计方向，确认后一次产出六个独立候选（三个左下、三个右下出场），每个都是 4–7 个基础形状拼成的圆润轮廓、三色（两色 IP + 一色实底）、可直接商用的方形成品。配套免费素材站 [ipaslogo.com](https://ipaslogo.com)。<br>**适合**：产品 / App / 公众号吉祥物、品牌 IP 起稿。<br>**调用 / 安装**：`npx skills@latest add s1dashu/ip-as-logo-skill`</sub>
-
-<p align="center">
-  <img src="docs/images/design/ip-illustration-for-yourself.jpg" width="420" alt="萌粒风个人 IP 全套 IP Illustration for Yourself 示例">
-</p>
-
-<sub>**33 · 萌粒风个人 IP 全套 IP Illustration for Yourself**<br>[**EverettFish/ip_illustration_for_yourself**](https://github.com/EverettFish/ip_illustration_for_yourself) ![GitHub Repo stars](https://badgen.net/github/stars/EverettFish/ip_illustration_for_yourself)<br>从一张照片 / 宠物 / 原创角色出发，先确认一个稳定的「萌粒风」角色锚点（稚拙抖动的钢笔线、Q 版豆子比例、干净色块、正常饱和），再从同一锚点生成一整套身份稳定的个人 IP 资产：角色三视图、5 张文章配图小插画、3:4 信息图、与探店 / 旅行实拍融合的成品、Life / Work / Media 三张异形贴纸页、4 个透明文件夹图标、5 张节令信纸、4 张拍立得边框、4 个场景头像、表情包与「表情包夺舍」。同一个发型、同一张脸，在不同用途里仍然是「你」。<br>**适合**：个人品牌 / 公众号作者 / 独立开发者做一套长期复用的 IP 视觉。<br>**调用 / 安装**：clone 到 skills 目录后上传参考图，先确认锚点再批量生成</sub>
-
-<p align="center">
-  <img src="docs/images/design/pixel-sprite.jpg" width="420" alt="像素精灵 Pixel Sprite 示例">
-</p>
-
-<sub>**34 · 像素精灵 Pixel Sprite**<br>[**yzfly/skills · pixel-sprite**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者出品。把参考图里的主体**一比一**转成 32×32 复古游戏像素图标：先写「主体特征卡」锁住造型、比例、姿态、配色与识别元素，再套上严格 1 像素网格、硬边、6–8 色有限色板、纯白背景的完整约束，生成后按 8 项清单质检。中英双语 prompt 模板可直接复用。<br>**适合**：App 图标 / favicon、品牌吉祥物、商品小图、社群头像、游戏素材。<br>**调用 / 安装**：`npx skills add yzfly/skills@pixel-sprite -g -y`</sub>
+> **排序**：按 GitHub Star 从高到低（2026-09-10 抓取）。每条标题后标注所属类别：📰 纸刊·编辑海报（照片或一句话 → 极简纸感版面）/ 🖨️ 风格转译（照片 → 插画 / 印刷 / 复古媒介 / 动画）/ 🧩 品牌·图标·网页。
 
 <p align="center">
   <img src="docs/images/design/hallmark.jpg" width="420" alt="Hallmark 拒绝 AI 味的网页设计 示例">
 </p>
 
-<sub>**35 · Hallmark 拒绝 AI 味的网页设计**<br>[**Nutlope/hallmark**](https://github.com/Nutlope/hallmark) ![GitHub Repo stars](https://badgen.net/github/stars/Nutlope/hallmark)<br>Together AI 出品，面向 Claude Code / Cursor / Codex 的「反 AI Slop」设计 Skill。AI 生成的网页太雷同——千篇一律的配色、套路化的排版；Hallmark 先分析简报类型与品牌调性，为它挑一种宏观结构，再从 21 套主题中选最匹配的一套（无匹配时切到 Custom 从零设计），然后跑 57 项反套路检查 + 出稿前自我批评，从色彩搭配、字体层次、留白节奏到微交互逐一把关。四个动词：默认生成、`audit` 给现有页面打分、`redesign` 保留文案与 IA 重做、`study` 从截图 / URL 提取设计 DNA。<br>**适合**：落地页、产品站、作品集等任何不想一眼被认出「AI 做的」的页面。<br>**调用 / 安装**：`npx skills add nutlope/hallmark`</sub>
+<sub>**01 · Hallmark 拒绝 AI 味的网页设计** · 🧩 品牌·图标·网页<br>[**Nutlope/hallmark**](https://github.com/Nutlope/hallmark) ![GitHub Repo stars](https://badgen.net/github/stars/Nutlope/hallmark)<br>Together AI 出品，面向 Claude Code / Cursor / Codex 的「反 AI Slop」设计 Skill。AI 生成的网页太雷同——千篇一律的配色、套路化的排版；Hallmark 先分析简报类型与品牌调性，为它挑一种宏观结构，再从 21 套主题中选最匹配的一套（无匹配时切到 Custom 从零设计），然后跑 57 项反套路检查 + 出稿前自我批评，从色彩搭配、字体层次、留白节奏到微交互逐一把关。四个动词：默认生成、`audit` 给现有页面打分、`redesign` 保留文案与 IA 重做、`study` 从截图 / URL 提取设计 DNA。<br>**适合**：落地页、产品站、作品集等任何不想一眼被认出「AI 做的」的页面。<br>**调用 / 安装**：`npx skills add nutlope/hallmark`</sub>
+
+<p align="center">
+  <img src="docs/images/design/gc-minimal-zine-poster.jpg" width="420" alt="极简 zine 海报 示例">
+</p>
+
+<sub>**02 · 极简 zine 海报** · 📰 纸刊·编辑海报<br>[**LiamGvchi/gc-minimal-zine-poster**](https://github.com/LiamGvchi/gc-minimal-zine-poster) ![GitHub Repo stars](https://badgen.net/github/stars/LiamGvchi/gc-minimal-zine-poster)<br>大留白纸刊，把一句话做成情绪海报。给它任意主题、句子、物件、情绪、文章构想或照片，产出一张安静的竖版 zine 海报：3:5 仿旧纸张画布、70%–90% 留白、一个小型可清楚表现的主体、衬线 / 打字机 / 等宽字体、一处高饱和色彩锚点，加复印、孔版、网点、凸版或扫描纸张的瑕疵质感。刻意避开广告式布局、光亮样机、电影感布光、3D、霓虹与大段整齐文字。自带 prompt-compiler 与 quality-gate 质检流程，支持生成、参考分析、仅出 prompt、照片输入四种模式。<br>**适合**：公众号封面、App 故事头图、读书日记一页、情绪短句与小景。<br>**调用 / 安装**：`$gc-minimal-zine-poster-v0-3`，clone 到 `~/.codex/skills/gc-minimal-zine-poster-v0-3`；国内可用转存镜像 [yub369302-cyber/gc-minimal-zine-poster](https://github.com/yub369302-cyber/gc-minimal-zine-poster)</sub>
+
+<p align="center">
+  <img src="docs/images/design/photo-abstract-editorial.jpg" width="420" alt="摄影抽象编辑 Photo Abstract Editorial 示例">
+</p>
+
+<sub>**03 · 摄影抽象编辑 Photo Abstract Editorial** · 📰 纸刊·编辑海报<br>[**ZzzLc0405/photo-abstract-editorial**](https://github.com/ZzzLc0405/photo-abstract-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/ZzzLc0405/photo-abstract-editorial)<br>「原始摄影区域 + 抽象记忆面板 + 诗意英文标题」的竖向编辑杂志风，高级感拉满。原图保留在成品上方或主要区域，下方是由原图空间关系、构图节奏和色彩关系推导出的象牙白极简抽象面板（无纸纹、颗粒或渐变），每个色块、弧线、短条都能追溯到照片本身；成品只保留一个原创英文标题（可选副标题）。8 月初开源几天冲到数千 star。附中英双语完整 prompt，可脱离 Skill 直接当提示词用。<br>**适合**：小红书高级感封面、日常随手拍 → 艺术海报；建筑、风景、人群、旅行照。<br>**调用 / 安装**：复制 `photo-abstract-editorial` 到 `~/.codex/skills/`<br>**注意**：CC BY-NC-SA 4.0，非商用。</sub>
+
+<p align="center">
+  <img src="docs/images/design/ip-as-logo.jpg" width="420" alt="IP as Logo 极简圆润 IP 形象生成器 示例">
+</p>
+
+<sub>**04 · IP as Logo 极简圆润 IP 形象生成器** · 🧩 品牌·图标·网页<br>[**s1dashu/ip-as-logo-skill**](https://github.com/s1dashu/ip-as-logo-skill) ![GitHub Repo stars](https://badgen.net/github/stars/s1dashu/ip-as-logo-skill)<br>装进 Agent 的品牌形象设计技能。一句「给我的产品设计一个简单的鬼魂 IP 角色，深海军蓝实色背景」丢给 Codex / 豆包 / WorkBuddy，它先给出三个设计方向，确认后一次产出六个独立候选（三个左下、三个右下出场），每个都是 4–7 个基础形状拼成的圆润轮廓、三色（两色 IP + 一色实底）、可直接商用的方形成品。配套免费素材站 [ipaslogo.com](https://ipaslogo.com)。<br>**适合**：产品 / App / 公众号吉祥物、品牌 IP 起稿。<br>**调用 / 安装**：`npx skills@latest add s1dashu/ip-as-logo-skill`</sub>
+
+<p align="center">
+  <img src="docs/images/design/gathered-scenes-zine.jpg" width="420" alt="拾景纸刊 Gathered Scenes Zine 示例">
+</p>
+
+<sub>**05 · 拾景纸刊 Gathered Scenes Zine** · 📰 纸刊·编辑海报<br>[**Zeejay0/gathered-scenes-zine-skill**](https://github.com/Zeejay0/gathered-scenes-zine-skill) ![GitHub Repo stars](https://badgen.net/github/stars/Zeejay0/gathered-scenes-zine-skill)<br>一个仓库两个子 Skill：**01 实景拼贴** `$scenes-gathered-zine-v1-3` 保留照片中不可替代的现场关系，以真实摄影为锚点，让源自原图的抽象形状、单一高纯度色彩与手撕纤维纸边向纸面延伸（「保留人物与海岸线的关系，文字用中文」）；**02 影像蒸馏** `$scene-distillation-zine-v1-3` 不在成品中保留原照片，从中提取语义核心、情绪张力和视觉隐喻，用纸张、插画、色彩与自由文字重做一件新作品（「不要保留照片本身，让作品表达 XX 主题」）。同仓库还藏着第三个 Skill **莫兰迪电影海报** `$morandi-cinematic-poster-zeejay`：完全保留原照片，靠电影标题排版、五级字号层级、低饱和莫兰迪色调与文字对人物的 1–3 处有意遮挡，把普通照片变成电影海报，最适合人像与旅行照。能把复杂细节压缩成几块大形状，案例按「原始照片 → 观察记录 → 最终作品」归档。实景拼贴进阶玩法见下方选型指南。<br>**适合**：旅行照 → 品牌纸刊、用户投稿再创作；主体关系越清楚效果越好，建议竖图。<br>**调用 / 安装**：三个调用名见上；clone 到 `~/.codex/skills/`<br>**注意**：非商用许可。</sub>
+
+<p align="center">
+  <img src="docs/images/design/story-to-handdrawn-video.jpg" width="420" alt="故事 → 手绘日记漫画视频 Story to Handdrawn Video 示例">
+</p>
+
+<sub>**06 · 故事 → 手绘日记漫画视频 Story to Handdrawn Video** · 🖨️ 风格转译<br>[**gnipbao/story-to-handdrawn-video**](https://github.com/gnipbao/story-to-handdrawn-video) ![GitHub Repo stars](https://badgen.net/github/stars/gnipbao/story-to-handdrawn-video)<br>开源渲染器（Remotion）+ Agent Skill：输入中文故事文案（Agent 负责分句、分镜、素材生成）或一组已画好的图片（按顺序保留），输出一支 3:4 竖屏手绘故事动画。每个分镜按 layer 配置揭示：文字先擦显，随后黑白画稿、局部细节、彩色插画从左到右分段出现。默认彩铅日记漫画，内置 20 种手绘风格家族；正式渲染 1080×1440，预览 720×960，输出 H.264 静音画面轨，配音与 BGM 自己后期。依赖 Node.js 20+、Python 3.10+、FFmpeg、Chrome。<br>**适合**：中文叙事短视频的「画面底片生产线」，日记漫画、绘本讲解。<br>**调用 / 安装**：clone 仓库跑起渲染器，再把 `skill-package/` 装进 Codex / Claude Code</sub>
+
+<p align="center">
+  <img src="docs/images/design/travel-photo-abstraction.jpg" width="420" alt="旅行照片抽象 Travel Photo Abstraction 示例">
+</p>
+
+<sub>**07 · 旅行照片抽象 Travel Photo Abstraction** · 📰 纸刊·编辑海报<br>[**Evianis/travel-photo-abstraction**](https://github.com/Evianis/travel-photo-abstraction) ![GitHub Repo stars](https://badgen.net/github/stars/Evianis/travel-photo-abstraction)<br>把旅行 / 日常照片当作一个视觉系统来分析：先盘点可观察的视觉证据（形状、数量、位置、比例、色彩、方向、深度、空间节奏），再把每条保留下来的事实映射为一个极简抽象记号，保留不对称、遮挡、数量组与负空间。生成干净抽象面板后，用 fail-closed 的合成器把未经改动的原照片像素级校验拼回成品。内置 19 张结构参考，按题材自动挑 2–4 张。<br>**适合**：元素丰富、关系清楚的城市、街道、风景照；做一套风格统一的旅拍手账作品集。<br>**调用 / 安装**：clone 后复制 `travel-photo-abstraction` 到 Codex skills 目录，需 Pillow<br>**注意**：Source-available 许可：仅允许原样使用。</sub>
+
+<p align="center">
+  <img src="docs/images/design/photo-revival.jpg" width="420" alt="废片焕新 Photo Revival 示例">
+</p>
+
+<sub>**08 · 废片焕新 Photo Revival** · 📰 纸刊·编辑海报<br>[**dacnay816y62-hub/photo-revival**](https://github.com/dacnay816y62-hub/photo-revival) ![GitHub Repo stars](https://badgen.net/github/stars/dacnay816y62-hub/photo-revival)<br>普通照片重画成白纸上的手绘诗：3:4 竖构图、80%–88% 留白，主体插画只占整页 10%–16%，铅笔线稿、水彩晕染、干刷边缘、轻微印刷颗粒加一句很小的中文批注。先识别照片里 1–3 个记忆点再重绘，不是滤镜。「把照片重新画成一页诗，而不是把照片修成插画。」<br>**适合**：日常碎片 → 温柔小画，猫 / 食物 / 旧店随手拍都能用，建议 3:4 或 3:5 竖图。<br>**调用 / 安装**：`$photo-revival`</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-sticker-card.jpg" width="420" alt="旅行手帐贴纸卡 Travel Memory Sticker Card 示例">
+</p>
+
+<sub>**09 · 旅行手帐贴纸卡 Travel Memory Sticker Card** · 📰 纸刊·编辑海报<br>[**carolinaaafy/travel-memory-sticker-card**](https://github.com/carolinaaafy/travel-memory-sticker-card) ![GitHub Repo stars](https://badgen.net/github/stars/carolinaaafy/travel-memory-sticker-card)<br>把照片转换为一张旅行手帐收藏记忆卡：大幅沉静编辑风插画占据主体，六枚手账贴纸式图案元素自然融入画面，左下角三个关键词。姊妹版 [**travel-memory-card-duo**](https://github.com/carolinaaafy/travel-memory-card-duo) 一次输出两张匹配的图：3:2 横版完整记忆卡 + 只含同六枚贴纸、带真实 Alpha 通道的独立透明 PNG，可直接二次排版或打印贴纸。<br>**适合**：旅行照 → 数字手账（配合 GoodNotes）、贴纸打印。<br>**调用 / 安装**：对任意 Agent（WorkBuddy、飞书豆包、Codex、DeepSeek Harness）说「旅行贴纸：<仓库地址> 安装这个 Skill，然后我会发给你图让你生图」<br>**注意**：仅限个人非商用，禁止再分发。</sub>
+
+<p align="center">
+  <img src="docs/images/design/tait-crt-interface.jpg" width="420" alt="CRT 复古界面 TaiT CRT Interface 示例">
+</p>
+
+<sub>**10 · CRT 复古界面 TaiT CRT Interface** · 🖨️ 风格转译<br>[**TaiT-tt/tait-crt-interface-skill**](https://github.com/TaiT-tt/tait-crt-interface-skill) ![GitHub Repo stars](https://badgen.net/github/stars/TaiT-tt/tait-crt-interface-skill)<br>把人像、照片或文字描述设计成一张带早期 CRT 计算机界面质感的复古像素风插画：一个占主要面积的像素风主体作为系统壁纸，3–6 个悬浮视窗 + 1–3 个五官 / 饰品局部提取视窗，早期 Macintosh / Minitel / 8-bit 界面语言，棋盘格灰度、硬边锯齿、扫描线、辉光、噪点与固定的 CRT 桶形畸变。内置三种风格模板：街头怪诞、巨像符号、冷面几何，多套预设色卡或按上传图自动配 2–5 色。<br>**适合**：人像头像、乐队 / 活动海报、赛博怀旧封面。<br>**调用 / 安装**：`tait-crt-interface-skill`，可让 Codex 直接从 GitHub 链接安装</sub>
+
+<p align="center">
+  <img src="docs/images/design/photo-relic-editorial.jpg" width="420" alt="纸上留影 Photo Relic Editorial 示例">
+</p>
+
+<sub>**11 · 纸上留影 Photo Relic Editorial** · 📰 纸刊·编辑海报<br>[**wnby/photo-relic-editorial**](https://github.com/wnby/photo-relic-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/wnby/photo-relic-editorial)<br>竖版编辑图：上半保留真实照片，下半生成克制、可识别、带纸张质感的版画「记忆标本」，从原图提取结构、光线、颜色与重心，几笔淡墨勾出形状，底部一小行配文。自带「纸上北京」系列（天坛、鸟巢、角楼、中国尊……）与四字中文标题范式。可控性高，基本指哪打哪。<br>**适合**：城市地标 / 旅行建筑摄影的编辑化包装，建筑、天际线、水面、道路。<br>**调用 / 安装**：`$photo-relic-editorial`</sub>
+
+<p align="center">
+  <img src="docs/images/design/ip-illustration-for-yourself.jpg" width="420" alt="萌粒风个人 IP 全套 IP Illustration for Yourself 示例">
+</p>
+
+<sub>**12 · 萌粒风个人 IP 全套 IP Illustration for Yourself** · 🧩 品牌·图标·网页<br>[**EverettFish/ip_illustration_for_yourself**](https://github.com/EverettFish/ip_illustration_for_yourself) ![GitHub Repo stars](https://badgen.net/github/stars/EverettFish/ip_illustration_for_yourself)<br>从一张照片 / 宠物 / 原创角色出发，先确认一个稳定的「萌粒风」角色锚点（稚拙抖动的钢笔线、Q 版豆子比例、干净色块、正常饱和），再从同一锚点生成一整套身份稳定的个人 IP 资产：角色三视图、5 张文章配图小插画、3:4 信息图、与探店 / 旅行实拍融合的成品、Life / Work / Media 三张异形贴纸页、4 个透明文件夹图标、5 张节令信纸、4 张拍立得边框、4 个场景头像、表情包与「表情包夺舍」。同一个发型、同一张脸，在不同用途里仍然是「你」。<br>**适合**：个人品牌 / 公众号作者 / 独立开发者做一套长期复用的 IP 视觉。<br>**调用 / 安装**：clone 到 skills 目录后上传参考图，先确认锚点再批量生成</sub>
+
+<p align="center">
+  <img src="docs/images/design/photo-to-zine-postcard.jpg" width="420" alt="照片变 Zine 明信片 Photo to Zine Postcard 示例">
+</p>
+
+<sub>**13 · 照片变 Zine 明信片 Photo to Zine Postcard** · 📰 纸刊·编辑海报<br>[**Whiplashzeb/photo-to-zine-postcard**](https://github.com/Whiplashzeb/photo-to-zine-postcard) ![GitHub Repo stars](https://badgen.net/github/stars/Whiplashzeb/photo-to-zine-postcard)<br>把照片转换成一套极简、留白充足、带手绘二创元素的 zine 风明信片。**正面**：上方完整嵌入原图并保持比例，下方大量留白 + 一个来源明确的手绘主元素（水彩 / 水粉 / 墨线 / 拼贴）+ 极简元数据 + 3 个取自原图的色块；**背面**：统一可书写的明信片布局，含邮票区、分割线、地址线和留言区。默认竖版 2:3、100×150 mm、暖白纸底，9 个官方案例。为 Fork 二创而设计，附定制文档。<br>**适合**：个人摄影作品做成可打印的明信片系统、旅行照回礼。<br>**调用 / 安装**：把 `SKILL.md` 和照片一起交给 ChatGPT / Codex</sub>
+
+<p align="center">
+  <img src="docs/images/design/pixel-style-poster.jpg" width="420" alt="点阵印刷海报 示例">
+</p>
+
+<sub>**14 · 点阵印刷海报** · 🖨️ 风格转译<br>[**v92388375-gif/pixel-style-poster-skill**](https://github.com/v92388375-gif/pixel-style-poster-skill) ![GitHub Repo stars](https://badgen.net/github/stars/v92388375-gif/pixel-style-poster-skill)<br>精细点阵 bitmap 印刷风，**不是复古游戏像素**：用细密的小点表现明暗，像老式激光打印机把图像印在带纤维纹理的米白纸上，加轻微扫描线、油墨渗透、套色偏移和纸张颗粒；主体贴字排版、周围小注释、克制配色系统。默认 3:4 竖版。很挑原图，高饱和、复杂纹理、人脸细节处理都好。<br>**适合**：植物 / 花卉 / 动物 / 近景人脸特写，小众审美产品图；建议 3:4 近景。<br>**调用 / 安装**：`$pixel-style-poster-skill`</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-muted-zine-poster.jpg" width="420" alt="低饱和 zine 海报 Muted Zine Poster 示例">
+</p>
+
+<sub>**15 · 低饱和 zine 海报 Muted Zine Poster** · 📰 纸刊·编辑海报<br>[**moonlin1213/muted-zine-poster-v01**](https://github.com/moonlin1213/muted-zine-poster-v01) ![GitHub Repo stars](https://badgen.net/github/stars/moonlin1213/muted-zine-poster-v01)<br>基于 gc-minimal-zine-poster v0.1 的「安静版」二创：去掉高饱和色块要求，只用 muted 灰阶或极淡 wash，增加破碎拼贴变体与档案式微文本。70% 以上留白、近乎单色，画面元素极少、情绪单一但呼吸感更强。<br>**适合**：雨天、旧书、海边、回忆等低饱和情感表达，日记感海报。<br>**调用 / 安装**：`/skill:gc-muted-zine-poster-v0-1`，放到 `~/.agents/skills/` 或 `~/.kimi-code/skills/`</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-outsider-art.jpg" width="420" alt="局外人艺术海报 Outsider Art 示例">
+</p>
+
+<sub>**16 · 局外人艺术海报 Outsider Art** · 🖨️ 风格转译<br>[**fihaaade/skills**](https://github.com/fihaaade/skills) ![GitHub Repo stars](https://badgen.net/github/stars/fihaaade/skills)<br>`outsider-art`：把照片（仅作语义参考）或文字主题转换成密集、平摊、天真的 Outsider Art 海报——世界是平摊的（混合投影，地面像地图、物体正立），密纹成静（大块平面色区各带一种统一手作纹理），色窄成静（纸白 + 暖墨黑 + 2–4 个低饱和色），一枚亮色，人是刻度（微小无脸人物）。同仓库还有 `phosphor-relay-style`（拍屏幕不拍现场的荧光转播质感）与 `starlit-relic`。<br>**适合**：城镇、市集、球场等有活动的场景做成民艺印刷海报。<br>**调用 / 安装**：复制 `outsider-art` 目录到 skills 目录，调用 `$outsider-art-v1`</sub>
+
+<p align="center">
+  <img src="docs/images/design/deconstructed-duotone-poster.jpg" width="420" alt="解构双色海报 Deconstructed Duotone Poster 示例">
+</p>
+
+<sub>**17 · 解构双色海报 Deconstructed Duotone Poster** · 🖨️ 风格转译<br>[**Lixorn/deconstructed-duotone-poster**](https://github.com/Lixorn/deconstructed-duotone-poster) ![GitHub Repo stars](https://badgen.net/github/stars/Lixorn/deconstructed-duotone-poster)<br>先识别照片主体，再把主体拆成一组平面图形，做成双色、柔光、纸纹和胶片颗粒感的编辑海报。四种版式：3:4 竖版九宫格、3:4 竖向四联画、4:3 横版六宫格、4:3 横向四联画；每个格子不重复画同一张照片，而是挑轮廓、动作、材质和局部特征分别表达。米白纸底固定，另一种主题色由你指定，底部两行小字 + 主体图标。无照片时也可按文字主题生成。<br>**适合**：灵感素材、量产艺术海报；提前裁成 3:4 或 4:3。<br>**调用 / 安装**：clone 完整文件夹到 `~/.codex/skills/`（版式参考图必须一起保留）</sub>
+
+<p align="center">
+  <img src="docs/images/design/photo-to-organic-knit.jpg" width="420" alt="毛线针织海报 Photo to Organic Knit 示例">
+</p>
+
+<sub>**18 · 毛线针织海报 Photo to Organic Knit** · 🖨️ 风格转译<br>[**NalaZhang27/photo-to-organic-knit**](https://github.com/NalaZhang27/photo-to-organic-knit) ![GitHub Repo stars](https://badgen.net/github/stars/NalaZhang27/photo-to-organic-knit)<br>把照片重新创作为具有概念设计感和手工质感的毛线针织艺术海报：不是叠织物滤镜，而是先把元素分成保留 / 转换 / 舍弃三组，再重新设计构图。画面融合钩针、针织、圈圈纱、毛毡、松散纤维、不规则织物边缘、编辑式留白，以及单根毛线组成的标题；保持原图画幅方向。<br>**适合**：森林、火车、自然题材做温暖触感的海报。<br>**调用 / 安装**：复制 `photo-to-organic-knit` 到 Codex skills 目录</sub>
+
+<p align="center">
+  <img src="docs/images/design/joy-calm-woodcut-zine.jpg" width="420" alt="沉静木刻纸刊 Calm Woodcut Zine 示例">
+</p>
+
+<sub>**19 · 沉静木刻纸刊 Calm Woodcut Zine** · 📰 纸刊·编辑海报<br>[**joygoogl000-spec/joy-calm-woodcut-zine**](https://github.com/joygoogl000-spec/joy-calm-woodcut-zine) ![GitHub Repo stars](https://badgen.net/github/stars/joygoogl000-spec/joy-calm-woodcut-zine)<br>把照片、主题、语句、物件、情绪或内容简报，转化为一张沉静的日韩独立杂志木刻线条海报：主体以一幅浑然一体的木刻场景呈现于微光纸面，辅以结构刻线、应景着色、局部形态抽象与微型字体排版。<br>**适合**：想要版画质感而非手绘或抽象色块的纸刊封面。<br>**调用 / 安装**：clone 到 Codex skills 目录后按名称调用</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-dreamy-motion.jpg" width="420" alt="梦幻动态编辑 Dreamy Motion Editorial 示例">
+</p>
+
+<sub>**20 · 梦幻动态编辑 Dreamy Motion Editorial** · 🖨️ 风格转译<br>[**lzs0594/dreamy-motion-editorial**](https://github.com/lzs0594/dreamy-motion-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/lzs0594/dreamy-motion-editorial)<br>把普通随手拍变成高级、朦胧、梦幻、带动态模糊氛围的视觉图像。不是加雾加光晕：先提取语义核心（脸、手势、物件、剪影或关系），决定 Keep / Fade / Remove，再用真实的慢门拖影、风动、光影流动、玻璃反射、蒸汽、飞鸟或交通掠影构建「动态留白」，三层景深、主体清晰环境溶解。输出中英图生图提示词、负面词、保真约束与参数建议。<br>**适合**：人物街拍 → 艺术写真、城市老街 → 电影感海报、情侣 / 宠物照。<br>**调用 / 安装**：clone 到 skills 目录后调用</sub>
+
+<p align="center">
+  <img src="docs/images/design/threefold-memory.jpg" width="420" alt="旅行记忆三联画 Threefold Memory 示例">
+</p>
+
+<sub>**21 · 旅行记忆三联画 Threefold Memory** · 📰 纸刊·编辑海报<br>[**Starryear/S-002-Starryear-Threefold-Memory**](https://github.com/Starryear/S-002-Starryear-Threefold-Memory) ![GitHub Repo stars](https://badgen.net/github/stars/Starryear/S-002-Starryear-Threefold-Memory)<br>一张照片，三种记忆状态：上面是 AI 对画面色彩、形状和光线的抽象重构（What I saw），中间保留原始照片（What happened），下面把路线、方向和情绪变成一张「记忆地图」（What stayed）。v2 提供 Skill + Master prompt，v1 作为归档保留。<br>**适合**：旅行照做成有叙事结构的收藏页。<br>**调用 / 安装**：下载 v2.2.1 ZIP 或 clone，根目录 `SKILL.md` 指向最新版</sub>
+
+<p align="center">
+  <img src="docs/images/design/image-words.jpg" width="420" alt="一图三海报 Image-Words 示例">
+</p>
+
+<sub>**22 · 一图三海报 Image-Words** · 📰 纸刊·编辑海报<br>[**fry-haha/image-words**](https://github.com/fry-haha/image-words) ![GitHub Repo stars](https://badgen.net/github/stars/fry-haha/image-words)<br>先理解一张照片的主体、情绪、运动方向、可消失区域和可生长边界，再生成三张不同方向的 3:4 编辑艺术海报，构成一个「海报家族」：第一眼仍能认出原照片，主变换从原图生长出来，每个辅助元素都要有存在理由。附可选的 GPT Image API 工作流。<br>**适合**：一张照片想要多种方向备选、做系列稿。<br>**调用 / 安装**：Codex Skill，需照片输入<br>**注意**：非商用许可。</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-vinyl.jpg" width="420" alt="虚构黑胶发行 Vinyl Image Generator 示例">
+</p>
+
+<sub>**23 · 虚构黑胶发行 Vinyl Image Generator** · 🖨️ 风格转译<br>[**liigoQi/vinyl-image-generator**](https://github.com/liigoQi/vinyl-image-generator) ![GitHub Repo stars](https://badgen.net/github/stars/liigoQi/vinyl-image-generator)<br>将一句话、一段记忆、一种情绪、一则故事、一件物品、一处地点或一张源图像，转化为一套浑然天成的虚构黑胶唱片发行实物：一张 4:3 产品摄影，包含同一虚构唱片的四件关联实物——正面封套、A 面唱片、B 面唱片、背面封套。会虚构艺术家、厂牌、目录号、发行史与曲目，并在可联网时核对艺人名不与真实乐队撞名。<br>**适合**：情绪 / 故事的实物化表达、音乐类内容封面。<br>**调用 / 安装**：Codex Skill，按名称调用</sub>
+
+<p align="center">
+  <img src="docs/images/design/crystalize.jpg" width="420" alt="水晶插画 Crystalize 示例">
+</p>
+
+<sub>**24 · 水晶插画 Crystalize** · 🖨️ 风格转译<br>[**NalaZhang27/crystalize-skill**](https://github.com/NalaZhang27/crystalize-skill) ![GitHub Repo stars](https://badgen.net/github/stars/NalaZhang27/crystalize-skill)<br>把照片重构为极简水晶插画：从照片中提取关键元素，用通透晶面、清晰的不规则切边、留白纸张与简短题名重新绘制画面。<br>**适合**：建筑、湖景、静物等有清楚体块的照片。<br>**调用 / 安装**：`$crystalize Transform this photograph.`</sub>
+
+<p align="center">
+  <img src="docs/images/design/dnr-flat-pic.jpg" width="420" alt="扁平矢量插画 DnR FlatPic 示例">
+</p>
+
+<sub>**25 · 扁平矢量插画 DnR FlatPic** · 🖨️ 风格转译<br>[**CreateLafont/dnr-flat-pic**](https://github.com/CreateLafont/dnr-flat-pic) ![GitHub Repo stars](https://badgen.net/github/stars/CreateLafont/dnr-flat-pic)<br>把照片转换成无渐变、稀疏、高辨识度、高饱和的扁平矢量风插画：语义压缩而非描摹，一个主语义系统 + 受控的辅助层级，固定 HSB 色板按角色赋色而非匹配原图色相，纯色填充、硬边离散明暗。专门处理比例变更、修订、原图清理与重试控制。<br>**适合**：照片 → 图标化 / 扁平插画，适合做 App 配图、封面。<br>**调用 / 安装**：`npx skills add CreateLafont/dnr-flat-pic`，调用 `$dnr-flat-pic`</sub>
+
+<p align="center">
+  <img src="docs/images/design/photo-window-poster.jpg" width="420" alt="几何情绪窗口海报 Photo Window Poster 示例">
+</p>
+
+<sub>**26 · 几何情绪窗口海报 Photo Window Poster** · 📰 纸刊·编辑海报<br>[**yzfly/skills · photo-window-poster**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者把小小东（XXD）的另一段爆款提示词封装成 Skill：3:4 竖版、上下严格 1:1。上半原图只做轻微高级调色；下半提取主体、轮廓、姿态与叙事关系，放进一个窄长、低饱和的几何「情绪窗口」——色块方向随主体走势横 / 竖 / 斜，主体局部越界破框，大面积留白，配色从照片提取并柔化为雾蓝、浅青、米白、淡粉、暖灰，再从画面情绪提炼一个简短标题与几行细字。Skill 加了读图 → 定窗口 → 定配色文案 → 生成 → 8 项质检的工序，中英文两版提示词。<br>**适合**：人物、动物、植物、建筑、器物、食物、风景做高端地产 / 奢侈品 / 美学杂志感海报。<br>**调用 / 安装**：`npx skills add yzfly/skills@photo-window-poster -g -y`<br>**注意**：配图为概念示意，非模型实际输出。</sub>
+
+<p align="center">
+  <img src="docs/images/design/pixel-sprite.jpg" width="420" alt="像素精灵 Pixel Sprite 示例">
+</p>
+
+<sub>**27 · 像素精灵 Pixel Sprite** · 🧩 品牌·图标·网页<br>[**yzfly/skills · pixel-sprite**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者出品。把参考图里的主体**一比一**转成 32×32 复古游戏像素图标：先写「主体特征卡」锁住造型、比例、姿态、配色与识别元素，再套上严格 1 像素网格、硬边、6–8 色有限色板、纯白背景的完整约束，生成后按 8 项清单质检。中英双语 prompt 模板可直接复用。<br>**适合**：App 图标 / favicon、品牌吉祥物、商品小图、社群头像、游戏素材。<br>**调用 / 安装**：`npx skills add yzfly/skills@pixel-sprite -g -y`</sub>
 
 <p align="center">
   <img src="docs/images/design/breathing-brand.jpg" width="420" alt="呼吸感品牌全案 Breathing Brand 示例">
 </p>
 
-<sub>**36 · 呼吸感品牌全案 Breathing Brand**<br>[**yzfly/skills · breathing-brand**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者出品。拒绝廉价感：很多品牌出海看起来廉价，是因为视觉太满太乱。这个 Skill 用固定的设计逻辑一场对话产出出海品牌视觉全案——🔵 高纯度色块 + 留白（全案只有三个色，主色块 ≤ 40%、留白 ≥ 45% 写成硬指标）、🔗 线条即链接（一根流动单线作为唯一图形语言）、🙂 线条 Emoji（8 个同线宽表情）、💼 实战落地（独立站首屏、社媒头像封面、名片、帆布袋、PIN、贴纸页六件物料各一段生图提示词），出稿前过 12 项反廉价感审查，并给一份可直接发社媒的全案展示文案。<br>**适合**：出海 / 国际化品牌、社区、独立开发者产品的 VI 起稿与周边。<br>**调用 / 安装**：`npx skills add yzfly/skills@breathing-brand -g -y`<br>**注意**：CC BY-NC 4.0。</sub>
+<sub>**28 · 呼吸感品牌全案 Breathing Brand** · 🧩 品牌·图标·网页<br>[**yzfly/skills · breathing-brand**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者出品。拒绝廉价感：很多品牌出海看起来廉价，是因为视觉太满太乱。这个 Skill 用固定的设计逻辑一场对话产出出海品牌视觉全案——🔵 高纯度色块 + 留白（全案只有三个色，主色块 ≤ 40%、留白 ≥ 45% 写成硬指标）、🔗 线条即链接（一根流动单线作为唯一图形语言）、🙂 线条 Emoji（8 个同线宽表情）、💼 实战落地（独立站首屏、社媒头像封面、名片、帆布袋、PIN、贴纸页六件物料各一段生图提示词），出稿前过 12 项反廉价感审查，并给一份可直接发社媒的全案展示文案。<br>**适合**：出海 / 国际化品牌、社区、独立开发者产品的 VI 起稿与周边。<br>**调用 / 安装**：`npx skills add yzfly/skills@breathing-brand -g -y`<br>**注意**：CC BY-NC 4.0。</sub>
+
+<p align="center">
+  <img src="docs/images/design/arch-kele-structure-photo.jpg" width="420" alt="建筑解构水彩 Arch Kele Structure Photo 示例">
+</p>
+
+<sub>**29 · 建筑解构水彩 Arch Kele Structure Photo** · 🖨️ 风格转译<br>[**Architect-kele/arch-kele-structure-photo**](https://github.com/Architect-kele/arch-kele-structure-photo) ![GitHub Repo stars](https://badgen.net/github/stars/Architect-kele/arch-kele-structure-photo)<br>把照片转换成克制、清晰的水彩分层结构研究图：建筑、物件拆成真实可重组的结构层级（爆炸结构 + 分析线稿 + 水彩质感），室内 / 街景转成前中后景深度层，人物动植物只做整体轮廓不做解剖式拆分。一次交付两张：纯净版，以及右上角嵌入未重绘原照片的原图版（由前者确定性合成）。默认 3:4。<br>**适合**：建筑摄影、地标、产品结构讲解图。<br>**调用 / 安装**：clone 到 `~/.codex/skills/arch-kele-structure-photo/`</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-pantone.jpg" width="420" alt="潘通相框海报 Pantone Photo Posters 示例">
+</p>
+
+<sub>**30 · 潘通相框海报 Pantone Photo Posters** · 📰 纸刊·编辑海报<br>[**laurent-7bk/Aigc-Skills**](https://github.com/laurent-7bk/Aigc-Skills) ![GitHub Repo stars](https://badgen.net/github/stars/laurent-7bk/Aigc-Skills)<br>`create-pantone-photo-posters`：把照片做成高级潘通风格相框摄影海报——白色相框、克制的主体自然穿出框外、低饱和背景，从照片提取主色并标注潘通近似色号标签，支持对同一系列海报继续修改。<br>**适合**：产品图、人像、静物做成色卡感封面。<br>**调用 / 安装**：复制 `create-pantone-photo-posters` 目录到 skills 目录</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-travel-sketch.jpg" width="420" alt="旅行速写 Photo to Travel Sketch 示例">
+</p>
+
+<sub>**31 · 旅行速写 Photo to Travel Sketch** · 🖨️ 风格转译<br>[**liigoQi/photo-to-travel-sketch**](https://github.com/liigoQi/photo-to-travel-sketch) ![GitHub Repo stars](https://badgen.net/github/stars/liigoQi/photo-to-travel-sketch)<br>把照片转化为一张 10–15 分钟观察式旅行速写：暖米白纸大量留白、游走的炭笔勾线（不是建筑制图）、可见的干头马克笔笔触、从原图提取的灰调压缩色板；靠剪影、视角、前后遮挡与至多五处关键细节保留辨识度。<br>**适合**：街景、建筑、风景、旅行记忆的速写本风格。<br>**调用 / 安装**：`$photo-to-travel-sketch`</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-ink-wash.jpg" width="420" alt="写意水墨 Ink Wash Photo 示例">
+</p>
+
+<sub>**32 · 写意水墨 Ink Wash Photo** · 🖨️ 风格转译<br>[**BigFish-zZz/bigfish-ink-wash-photo**](https://github.com/BigFish-zZz/bigfish-ink-wash-photo) ![GitHub Repo stars](https://badgen.net/github/stars/BigFish-zZz/bigfish-ink-wash-photo)<br>把照片重构为当代中国写意水墨：寥寥数笔、大面积留白，只保留关键识别锚点。强制毛笔在生宣上的中锋、侧锋、飞白、破墨、积墨等真实笔法，色彩只作为墨中淡彩，明确排斥西式水彩和透明叠色滤镜；横图锁 16:9、竖图锁 9:16，人物的身份与姿态几何严格保留。<br>**适合**：山水、水面、船、古建、人物剪影；东方意境封面。<br>**调用 / 安装**：`$bigfish-ink-wash-photo`，图生图模式必须附原照片</sub>
+
+<p align="center">
+  <img src="docs/images/design/handdrawn-photo-poster.jpg" width="420" alt="书页邮票海报 Handdrawn Photo Poster 示例">
+</p>
+
+<sub>**33 · 书页邮票海报 Handdrawn Photo Poster** · 📰 纸刊·编辑海报<br>[**luji12/handdrawn-photo-poster**](https://github.com/luji12/handdrawn-photo-poster) ![GitHub Repo stars](https://badgen.net/github/stars/luji12/handdrawn-photo-poster)<br>把日常照片改造成带有轻微书本载体、居中手绘邮票和克制 ZINE 文案的 3:4 编辑海报：默认「打开的书跨页」，左页保留原照片，右页暖象牙白纸上居中一枚邮票——从照片中提取 3–5 个可辨认的小物件，用统一的高饱和、硬边、角切二维绘画重新组织，标题在上、微文在下。<br>**适合**：想保留照片真实感、又要一点手作物件趣味的日常记录。<br>**调用 / 安装**：`$handdrawn-photo-poster`</sub>
+
+<p align="center">
+  <img src="docs/images/design/vintage-travel-ticket.jpg" width="420" alt="老式记忆门票 Vintage Travel Ticket 示例">
+</p>
+
+<sub>**34 · 老式记忆门票 Vintage Travel Ticket** · 🖨️ 风格转译<br>[**hongfamonvAI/vintage-travel-ticket**](https://github.com/hongfamonvAI/vintage-travel-ticket) ![GitHub Repo stars](https://badgen.net/github/stars/hongfamonvAI/vintage-travel-ticket)<br>把旅行、城市街巷、风景、个人记忆或美食照片，重绘成一张 20 世纪中后期气质的中文老式门票。不是旧纸滤镜：每次先从 16 类结构原型抽取完整票券 DNA，再联动比例、版式、纸张（18 套配色）、套色、插画语言（14 种）、字体角色（16 套）与印刷做旧；首次只问地点 / 景区 / 美食名称，可带姓名与纪念日期，每次只交付一张独立门票。<br>**适合**：旅行纪念、城市地标、美食打卡做成可收藏的票根。<br>**调用 / 安装**：clone 到 `~/.codex/skills/vintage-travel-ticket`，上传照片说「做成老式门票」</sub>
+
+<p align="center">
+  <img src="docs/images/design/xxd-panel-070.jpg" width="420" alt="厚涂治愈岛 XXD Panel 070 示例">
+</p>
+
+<sub>**35 · 厚涂治愈岛 XXD Panel 070** · 📰 纸刊·编辑海报<br>[**nevertoday/xxd-panel-070**](https://github.com/nevertoday/xxd-panel-070) ![GitHub Repo stars](https://badgen.net/github/stars/nevertoday/xxd-panel-070)<br>「小东 × 手绘 × 厚涂」：每张照片单独输出一张 3:4 高级设计海报，上下两区严格 1:1。上半保留原照片（身份、结构、姿态、真实质感、原有色彩氛围，只做轻微高级调色，可自然扩展环境但不拉伸主体）；下半提取最具识别性的主体、轮廓、姿态与叙事关系，用手绘描边 + 明亮厚涂 / 半透明色块（水粉、水彩、粉彩、少量油画笔触）重构成微缩主体 + 大面积暖白留白 + 打字机式小字的出版感画面。支持上下 / 左右 / 纯设计 / 多比例 / 四端壁纸与批量目录处理，五语原始提示词。同作者 **XXD Panel 系列** 40+ 个编号 Skill，各有一种风格：[100 民艺叙事插画](https://github.com/nevertoday/xxd-panel-100)、[028 等距纸雕微缩](https://github.com/nevertoday/xxd-panel-028)、[060 禅意黑形留白](https://github.com/nevertoday/xxd-panel-060)、[061 剪纸水粉蜡笔](https://github.com/nevertoday/xxd-panel-061)、[092 钢笔排线](https://github.com/nevertoday/xxd-panel-092)、[073 剖面等距建筑](https://github.com/nevertoday/xxd-panel-073)……见 [作者主页](https://github.com/nevertoday?tab=repositories&q=xxd-panel)。<br>**适合**：人像、建筑、动物、植物、器物照片做成明亮治愈的封面 / 海报 / 壁纸。<br>**调用 / 安装**：「用 XXD Panel 070 帮我处理这张图，先推荐最合适的构图和尺寸」<br>**注意**：非标准许可，见仓库 LICENSE。</sub>
+
+<p align="center">
+  <img src="docs/images/design/concept-bauhaus.jpg" width="420" alt="包豪斯抽象构成 Bauhaus Abstract Composer 示例">
+</p>
+
+<sub>**36 · 包豪斯抽象构成 Bauhaus Abstract Composer** · 🖨️ 风格转译<br>[**zhangshuaige12138-create/bauhaus-abstract-composer**](https://github.com/zhangshuaige12138-create/bauhaus-abstract-composer) ![GitHub Repo stars](https://badgen.net/github/stars/zhangshuaige12138-create/bauhaus-abstract-composer)<br>设计师的「焚决」：把建筑、街道、山川、人物全部拆成最基础的点、线、面。保留原本的构图、大轮廓关系、空间层次与明暗节奏，去掉纹理和细节，只用红、黄、蓝、黑、白（少量米白 / 浅灰辅助）重新组织画面，大面积留白，做成一张现代主义展览海报。点有五级尺寸规则，不允许写实与装饰堆砌。照片不一定只能记录现实，也可以成为设计本身。<br>**适合**：建筑、城市、风景、人物剪影做现代主义海报。<br>**调用 / 安装**：复制到 Codex skills 目录后按 `bauhaus-abstract-composer` 调用</sub>
 
 
 #### 🧭 选型指南：先想清楚要不要原图出现
