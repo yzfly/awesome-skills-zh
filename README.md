@@ -505,6 +505,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**yzfly/awesome-dsh-skills**](https://github.com/yzfly/awesome-dsh-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/awesome-dsh-skills) | DeepSeek Harness（dsh）技能 / 插件中文精选，自动收录并验证。 |
 | [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/K-Dense-AI/scientific-agent-skills) | **125+** 个科学研究类 Skills，专为科研设计，涵盖文献分析、数据处理等领域。 |
 | [**calesthio/OpenMontage**](https://github.com/calesthio/OpenMontage) | ![GitHub Repo stars](https://badgen.net/github/stars/calesthio/OpenMontage) | 开源的 agentic 视频生产系统，内置 **500+** Agent Skills，覆盖剪辑、转场、字幕、调色等全流程视频创作。 |
+| [**Orkas-AI/Orkas-VideoStudio**](https://github.com/Orkas-AI/Orkas-VideoStudio) | ![GitHub Repo stars](https://badgen.net/github/stars/Orkas-AI/Orkas-VideoStudio) | 本地优先的视频制作 Skills 与 CLI/MCP 工具包，支持策划、合成、剪辑、生成、字幕、渲染和质检。 |
 | [**nowork-studio/NotFair**](https://github.com/nowork-studio/NotFair) | ![GitHub Repo stars](https://badgen.net/github/stars/nowork-studio/NotFair) | 开源营销增长 Skills，覆盖 SEO、GEO、Google Ads、Meta Ads 等投放场景。 |
 | [**dominikmartn/nothing-design-skill**](https://github.com/dominikmartn/nothing-design-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/dominikmartn/nothing-design-skill) | 以 Nothing 设计语言（单色、点阵风）生成 UI 的 Skill。 |
 | [**samber/cc-skills-golang**](https://github.com/samber/cc-skills-golang) | ![GitHub Repo stars](https://badgen.net/github/stars/samber/cc-skills-golang) | 一套实际可用的 Golang agentic skills 合集，面向 Go 工程实践。 |
