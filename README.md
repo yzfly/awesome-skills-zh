@@ -11,6 +11,7 @@
 **微信公众号**: 云中江树
 
 <p align="center">
+  <a href="#-设计类-skills-专题-design-skills-showcase">🎨 设计专题</a> •
   <a href="#-背景与核心概念-background--concepts">背景概念</a> •
   <a href="#-agent-skill-开放标准-open-standard">开放标准</a> •
   <a href="#-官方文档-official-documentation">官方文档</a> •
@@ -29,6 +30,7 @@
 
 ## 📖 目录 (Table of Contents)
 
+- [🎨 设计类 Skills 专题 (Design Skills Showcase)](#-设计类-skills-专题-design-skills-showcase) **NEW**
 - [背景与核心概念 (Background & Concepts)](#-背景与核心概念-background--concepts)
   - [什么是 Agent Skills？](#什么是-agent-skills)
   - [核心价值：上下文效率](#核心价值上下文效率-context-efficiency)
@@ -45,6 +47,26 @@
 - [深度文章 (Articles)](#-深度文章-articles)
 - [关于作者 (About)](#-关于作者-about)
 - [Star History](#star-history)
+
+---
+
+## 🎨 设计类 Skills 专题 (Design Skills Showcase)
+
+> **一句话安装，照片变海报。** 这批 Skill 都是「现成的工作流」：从一句话、一张废片到一张可以直接发的纸刊 / 海报 / IP 形象，中间只差一个 Skill。它们遵循 [Agent Skills 开放标准](#agent-skill-开放标准-open-standard)，原生为 Codex 编写，同样可以放进 Claude Code（`~/.claude/skills/`）、Cursor、豆包、WorkBuddy 等支持 Skill 的 Agent；出图质量取决于宿主可用的图像模型（GPT Image 2 / Nano Banana Pro 等）。
+>
+> **通用安装**：`npx skills@latest add <owner>/<repo>`，或直接 `git clone` 到技能目录（Codex：`~/.codex/skills/`，Claude Code：`~/.claude/skills/`），重启 Agent 后用 `$skill-name` 调用。
+
+| 视觉配图 | Skill |
+| :---: | :--- |
+| <img src="docs/images/design/gc-minimal-zine-poster.jpg" width="220" alt="gc-minimal-zine-poster 极简 zine 海报示例"> | **01 · 极简 zine 海报**<br>[**LiamGvchi/gc-minimal-zine-poster**](https://github.com/LiamGvchi/gc-minimal-zine-poster) ![GitHub Repo stars](https://badgen.net/github/stars/LiamGvchi/gc-minimal-zine-poster)<br>大留白纸刊，把一句话做成情绪海报。默认 3:5 旧纸底、70%–90% 留白、一个小主体 + 一处高饱和色块 + 打字机 / 衬线小字，带 risograph、复印机、网点等印刷瑕疵。支持生成、参考分析、仅出 prompt、照片输入四种模式。<br>**适合**：公众号封面、App 故事头图、读书日记一页。<br>**调用**：`$gc-minimal-zine-poster-v0-3`，装到 `~/.codex/skills/gc-minimal-zine-poster-v0-3` |
+| <img src="docs/images/design/photo-revival.jpg" width="220" alt="photo-revival 废片焕新示例"> | **02 · 废片焕新 Photo Revival**<br>[**dacnay816y62-hub/photo-revival**](https://github.com/dacnay816y62-hub/photo-revival) ![GitHub Repo stars](https://badgen.net/github/stars/dacnay816y62-hub/photo-revival)<br>普通照片重画成白纸上的手绘诗：3:4 竖构图、80%–88% 留白，主体插画只占整页 10%–16%，铅笔 / 水彩 / 干刷笔触加一句很小的中文批注。先识别照片里 1–3 个记忆点再重绘，不是滤镜。<br>**适合**：日常碎片 → 温柔小画，猫 / 食物 / 旧店随手拍都能用。<br>**调用**：`$photo-revival` |
+| <img src="docs/images/design/pixel-style-poster.jpg" width="220" alt="pixel-style-poster-skill 点阵印刷海报示例"> | **03 · 点阵印刷海报**<br>[**v92388375-gif/pixel-style-poster-skill**](https://github.com/v92388375-gif/pixel-style-poster-skill) ![GitHub Repo stars](https://badgen.net/github/stars/v92388375-gif/pixel-style-poster-skill)<br>精细点阵 bitmap 印刷风，**不是复古游戏像素**：大面积细网点主体、主体贴字排版、周围小注释、克制的配色系统与低分辨率印刷质感，可选彩色水洗反网点变体。<br>**适合**：植物 / 自然主题配图、小众审美产品图。<br>**调用**：`$pixel-style-poster-skill` |
+| <img src="docs/images/design/gathered-scenes-zine.jpg" width="220" alt="gathered-scenes-zine-skill 影像蒸馏示例"> | **04 · 拾景纸刊 Gathered Scenes Zine**<br>[**Zeejay0/gathered-scenes-zine-skill**](https://github.com/Zeejay0/gathered-scenes-zine-skill) ![GitHub Repo stars](https://badgen.net/github/stars/Zeejay0/gathered-scenes-zine-skill)<br>一个仓库两条路：**实景拼贴**（`$scenes-gathered-zine-v1-3`，真实照片作锚点 + 抽象色块 + 手撕纸边）和**影像蒸馏**（`$scene-distillation-zine-v1-3`，从照片提炼情绪，重做一张不含原照片的独立纸刊）。每个案例按「原始照片 → 观察记录 → 最终作品」归档。<br>**适合**：旅行照 → 品牌纸刊、用户投稿再创作。<br>**注意**：非商用许可。 |
+| <img src="docs/images/design/photo-relic-editorial.jpg" width="220" alt="photo-relic-editorial 纸上留影示例"> | **05 · 纸上留影 Photo Relic Editorial**<br>[**wnby/photo-relic-editorial**](https://github.com/wnby/photo-relic-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/wnby/photo-relic-editorial)<br>竖版编辑图：上半保留真实照片，下半生成克制、可识别、带纸张质感的版画「记忆标本」，从原图提取结构、光线、颜色与重心。自带「纸上北京」系列（天坛、鸟巢、角楼、中国尊……）与四字中文标题范式。<br>**适合**：城市地标 / 旅行建筑摄影的编辑化包装。<br>**调用**：`$photo-relic-editorial` |
+| <img src="docs/images/design/photo-abstract-editorial.jpg" width="220" alt="photo-abstract-editorial 摄影抽象编辑示例"> | **06 · 摄影抽象编辑 Photo Abstract Editorial**<br>[**ZzzLc0405/photo-abstract-editorial**](https://github.com/ZzzLc0405/photo-abstract-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/ZzzLc0405/photo-abstract-editorial)<br>摄影区 + 抽象记忆面板 + 一句诗意英文标题，高级感拉满。照片是唯一内容来源，面板里每个色块、弧线、短条都能追溯到原图中真实的空间与色彩关系。附中英双语完整 prompt，可脱离 Skill 直接当提示词用。<br>**适合**：小红书高级感封面、日常随手拍 → 艺术海报。<br>**注意**：CC BY-NC-SA 4.0，非商用。 |
+| <img src="docs/images/design/ip-as-logo.jpg" width="220" alt="ip-as-logo IP 形象示例墙"> | **07 · IP as Logo 极简圆润 IP 形象生成器**<br>[**s1dashu/ip-as-logo-skill**](https://github.com/s1dashu/ip-as-logo-skill) ![GitHub Repo stars](https://badgen.net/github/stars/s1dashu/ip-as-logo-skill)<br>装进 Agent 的品牌形象设计技能。一句「给我的产品设计一个简单的鬼魂 IP 角色，深海军蓝实色背景」丢给 Codex / 豆包 / WorkBuddy，它先给出三个设计方向，确认后一次产出六个独立候选（三个左下、三个右下出场），每个都是 4–7 个基础形状拼成的圆润轮廓、三色（两色 IP + 一色实底）、可直接商用的方形成品。配套免费素材站 [ipaslogo.com](https://ipaslogo.com)。<br>**适合**：产品 / App / 公众号吉祥物、品牌 IP 起稿。<br>**安装**：`npx skills@latest add s1dashu/ip-as-logo-skill` |
+
+<sub>配图均取自各仓库 README 示例并缩放，版权归原作者所有；如需高清原图与更多案例请进入对应仓库。</sub>
 
 ---
 
