@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="#-设计类-skills-专题-design-skills-showcase">🎨 设计专题</a> •
+  <a href="#-教育与学习-skills-专题-education--learning">🎓 教育专题</a> •
   <a href="#-背景与核心概念-background--concepts">背景概念</a> •
   <a href="#-agent-skill-开放标准-open-standard">开放标准</a> •
   <a href="#-官方文档-official-documentation">官方文档</a> •
@@ -31,6 +32,7 @@
 ## 📖 目录 (Table of Contents)
 
 - [🎨 设计类 Skills 专题 (Design Skills Showcase)](#-设计类-skills-专题-design-skills-showcase) **NEW**
+- [🎓 教育与学习 Skills 专题 (Education & Learning)](#-教育与学习-skills-专题-education--learning) **NEW**
 - [背景与核心概念 (Background & Concepts)](#-背景与核心概念-background--concepts)
   - [什么是 Agent Skills？](#什么是-agent-skills)
   - [核心价值：上下文效率](#核心价值上下文效率-context-efficiency)
@@ -158,6 +160,46 @@
 | [**Koboyo Icons**](https://koboyo.com/icons) | 23 万+ 手绘风 SVG 图标，个人与商用全免费、无需署名、无需注册，`currentColor` 可直接换色。搜索按分组与同义词匹配（搜「oops」出 facepalm、「deploy」出 rocket），风格统一，是给上面这些海报与网页配图标的好来源。官方提供 [MCP 服务](https://koboyo.com/mcp)，创建 key 后编码助手可直接搜图标、在画布上画图与做幻灯片；社区打包版 [zakeri-dev/koboyo-icon](https://github.com/zakeri-dev/koboyo-icon) 是 React / Next 图标包 + 可搜索画廊。许可禁止把图标本身再打包成图标库或竞品分发。 |
 
 <sub>配图均取自各仓库 README 示例并缩放，版权归原作者所有；标注「暂无官方示例图」的仓库未提供效果图，请进入仓库查看 SKILL.md。如需高清原图与更多案例请进入对应仓库。</sub>
+
+---
+
+## 🎓 教育与学习 Skills 专题 (Education & Learning)
+
+> 前几个月大家还在卷怎么让 AI 少说废话、省 token；到了 2026 年 8 月风向变了，开始有人让 AI 反过来教人。skills.sh 榜单上安装量过万的教育类 Skill 两只手数不过来，这里挑最值得装的。**先想清楚要补什么短板，比装完再卸载省心。**
+
+#### 🔥 最火的五个
+
+| 项目 | ⭐ Stars | 简介 |
+| :--- | ---: | :--- |
+| [**mattpocock/skills · teach**](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) | ![GitHub Repo stars](https://badgen.net/github/stars/mattpocock/skills) | 断层第一的 `teach`（skills.sh 安装量 60 万+）。不是问一句答一句：先把当前目录当成「教学工作区」，写下 `MISSION.md` 摸清你为什么学、学到哪，再产出一节节自包含的 HTML 课程（`lessons/`）、参考速查（`reference/`）和学习记录（`learning-records/`）。刻意区分「流畅度」与「长期存储强度」，用检索练习、间隔重复、交错练习设计课程；隔两天再打开，它记得你哪块薄弱，会回头再考一遍。教的是 Git、调试、测试、交付这类实战基本功。安装：`npx skills add mattpocock/skills@teach`。 |
+| [**shareAI-lab/learn-claude-code**](https://github.com/shareAI-lab/learn-claude-code) | ![GitHub Repo stars](https://badgen.net/github/stars/shareAI-lab/learn-claude-code) | 「Bash is all you need」：从 0 到 1 用 Python 写一个 nano 版 Claude Code 式 agent harness。第一节搭最小循环，一路到子 agent、上下文压缩、任务系统，最后做出多 agent + Worktree 隔离。跟着写一遍，你就看懂每天帮你干活的 agent 肚子里怎么转：prompt 怎么拼、上下文怎么管、权限怎么控。中 / 英 / 日三语 README，MIT。 |
+| [**Imbad0202/academic-research-skills**](https://github.com/Imbad0202/academic-research-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/Imbad0202/academic-research-skills) | 写论文一条龙：研究 → 写作 → 审稿 → 修改 → 定稿五步，`/ars-plan` 用苏格拉底式对话帮你搭论文结构。最值钱的是审稿：AI 站到审稿人角度把论文从头批到尾，等于免费预审。明确「AI 是副驾驶不是驾驶员」：不替你写、不帮你藏 AI 痕迹，做的是找文献、核引文（每条引用带定位锚点，可选逐条回源审计）、查数据、查逻辑一致性。`/plugin marketplace add Imbad0202/academic-research-skills` 30 秒装好；Codex 用户看 [academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex)。CC BY-NC 4.0。 |
+| [**GlacierXiaowei/structured-learning-skill**](https://github.com/GlacierXiaowei/structured-learning-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/GlacierXiaowei/structured-learning-skill) | 中文原生的「结构化学习」私教。两个档位：3 步精简模式突击考试，7 步详细模式系统学习；按你的环境自动降级（MCP / 文件 / 纯上下文三档）。面向考试：考点、题型模板、评分标准，学完真出题、判分，记着你上次错在哪，下次先把薄弱处拎出来。`npx skills add glacierxiaowei/structured-learning`，Apache-2.0。 |
+| [**GarethManning/education-agent-skills**](https://github.com/GarethManning/education-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/GarethManning/education-agent-skills) | 老师备课一条龙：165 个有教育学证据支撑的 Skill，覆盖 20 个领域——教学法、学习科学、课程设计、评估与评分标准、差异化教学……前 19 个领域面向教师与课程设计者，第 20 个面向学生（学习时 AI 该如何回应）。一位有 20 年国际学校经验的教育者所写，适配 Claude Code / Codex / Hermes，`claude plugin install <仓库地址>` 即装。CC BY-SA 4.0。 |
+
+#### 📚 更多教育 / 学术 Skills
+
+| 项目 | ⭐ Stars | 简介 |
+| :--- | ---: | :--- |
+| [**anthropics/k12-teacher-skills**](https://github.com/anthropics/k12-teacher-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/anthropics/k12-teacher-skills) | Anthropic 官方与 Learning Commons 共建的 K-12 教师 Skills 及评测框架：标准对齐的教案生成、分层差异化教学、备课搭档、形成性检测（错误选项来自有文献记录的常见误解）。Claude for Teachers 内置，其他环境可作为插件安装。 |
+| [**claesbackman/AI-research-feedback**](https://github.com/claesbackman/AI-research-feedback) | ![GitHub Repo stars](https://badgen.net/github/stars/claesbackman/AI-research-feedback) | 经济学者 Claes Bäckman 的 10 个学术评审 Skill：8 个并行 agent 的完整审稿报告 `/review-paper`、轻量版、机械检查版、论文与代码一致性、预分析计划与基金申请评审、把 LaTeX 论文改写成政策简报、代码变更讲解 + 测验。 |
+| [**zsyggg/paper-craft-skills**](https://github.com/zsyggg/paper-craft-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/zsyggg/paper-craft-skills) | 论文工艺：丢一个 arXiv 链接，产出方法图、可视化幻灯片、深度解读文章甚至论文漫画，零配置一条命令。 |
+| [**zLanqing/codex-claude-academic-skills**](https://github.com/zLanqing/codex-claude-academic-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/zLanqing/codex-claude-academic-skills) | 三个面向科研人员的中文 Skills：论文阅读报告与学术 PPT / Word 生成、论文写作润色、科学计算，覆盖从文献阅读到成稿的研究工作流。 |
+| [**HughYau/AcademicForge**](https://github.com/HughYau/AcademicForge) | ![GitHub Repo stars](https://badgen.net/github/stars/HughYau/AcademicForge) | 一站式学术写作与研究 Skills 平台，点开即用、按需配置。 |
+| [**Candlest/exam-prep-skill**](https://github.com/Candlest/exam-prep-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/Candlest/exam-prep-skill) | 把大学课程材料整理成可复习结构，提取老师口头强调的重点，一题一题过考点。 |
+| [**vishalsachdev/canvas-mcp**](https://github.com/vishalsachdev/canvas-mcp) | ![GitHub Repo stars](https://badgen.net/github/stars/vishalsachdev/canvas-mcp) | Canvas LMS 的 MCP 服务器：80+ 工具与 5 个面向学生和教师的 Agent Skill，适配 Claude、Cursor、Codex 等 40+ Agent。 |
+
+#### 🧭 怎么选
+
+| 你想 | 装这个 |
+| :--- | :--- |
+| 补编程基本功（Git、调试、测试、交付） | `teach` |
+| 看懂 coding agent 的内部原理 | learn-claude-code |
+| 写论文 / 投稿前预审 | academic-research-skills（配合 AI-research-feedback 做审稿） |
+| 学生备考、系统学一门课 | structured-learning-skill、exam-prep-skill |
+| 老师备课、出题、评分标准 | education-agent-skills、k12-teacher-skills |
+
+> AI 没有取代老师，它接走的是出题、改作业、列大纲、写文献综述这些杂活。一个老师省下改作业的时间，就能多陪一个学生聊十分钟。
 
 ---
 
