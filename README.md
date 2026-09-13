@@ -328,6 +328,7 @@
 | 资源 | 说明 |
 | :--- | :--- |
 | [**Koboyo Icons**](https://koboyo.com/icons) | 23 万+ 手绘风 SVG 图标，个人与商用全免费、无需署名、无需注册，`currentColor` 可直接换色。搜索按分组与同义词匹配（搜「oops」出 facepalm、「deploy」出 rocket），风格统一，是给上面这些海报与网页配图标的好来源。官方提供 [MCP 服务](https://koboyo.com/mcp)，创建 key 后编码助手可直接搜图标、在画布上画图与做幻灯片；社区打包版 [zakeri-dev/koboyo-icon](https://github.com/zakeri-dev/koboyo-icon) 是 React / Next 图标包 + 可搜索画廊。许可禁止把图标本身再打包成图标库或竞品分发。 |
+| [mblode/agent-skills](https://github.com/mblode/agent-skills) | Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases. `npx skills add mblode/agent-skills` |
 
 <sub>配图均取自各仓库 README 示例并缩放，版权归原作者所有；标注「风格示意 / STYLE CONCEPT」「概念示意」的图片是本仓库为未提供示例图的 Skill 手绘的风格概念图，不是该 Skill 的实际输出，仅帮助理解风格方向。如需高清原图与更多案例请进入对应仓库。</sub>
 
