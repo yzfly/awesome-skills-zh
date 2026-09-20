@@ -592,6 +592,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**shreyashankar/error-discovery-skill**](https://github.com/shreyashankar/error-discovery-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/shreyashankar/error-discovery-skill) | 面向 AI 智能体的交互式错误分析 Skill：研究 LLM trace 数据集、构建审查 UI、监控标注、归类失败模式并提出新样本。 |
 | [**yzfly/awesome-design-html**](https://github.com/yzfly/awesome-design-html) | ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/awesome-design-html) | **115** 个品牌主题 HTML 设计（93 网页 + 22 iOS，含 20 个中国品牌）打包成的 Claude Code skill，一行安装后直接对话「做一个飞书风的页面」（本仓库维护者 [@yzfly](https://github.com/yzfly) 出品）。 |
 | [**saidsurucu/trdizin-skill**](https://github.com/saidsurucu/trdizin-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/saidsurucu/trdizin-skill) | 检索土耳其学术库 TR Dizin（trdizin.gov.tr）的 Agent Skill：通过开放 JSON API 查论文/期刊/作者/机构，支持高级字段检索、引文与 PDF 转文本，无需浏览器、登录或 API key。 |
+| [**vaibhavarora14/job-application-agent**](https://github.com/vaibhavarora14/job-application-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/vaibhavarora14/job-application-agent) | 隐私优先的求职 Agent Skill：只用可核实的简历事实、本机 OS 密钥环存个人资料、提交前需确认并记台账；兼容 Claude Code / Cursor / Codex / OpenClaw。 |
 
 #### 🛠️ 生态集成
 | 项目 | ⭐ Stars | 简介 |
