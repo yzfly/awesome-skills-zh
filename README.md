@@ -555,6 +555,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**jezweb/claude-skills**](https://github.com/jezweb/claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/jezweb/claude-skills) | 面向 Claude Code CLI 的全栈开发 Skills，涵盖 Cloudflare、React、Tailwind v4。 |
 | [**JasonColapietro/suede-creator-skills**](https://github.com/JasonColapietro/suede-creator-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/JasonColapietro/suede-creator-skills) | 面向 Claude Code 与 Codex 的 **67 个 MIT 开源 Skills**，覆盖多智能体编排、Codex 工作节点集群、代码审查与发布门禁、AI 评测、产品、设计和增长工作流。 |
 | [**tronghieu/agent-skills**](https://github.com/tronghieu/agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/tronghieu/agent-skills) | 面向知识工作（而非编程）的 18 个 MIT 开源 Skills：设计思维、批判性思维、根因分析、市场调研、战略、数据分析、长文档精读、Diataxis 文档与幻灯片，附中文 README。 |
+| [**alapha888/agent-skills-en**](https://github.com/alapha888/agent-skills-en) | ![GitHub Repo stars](https://badgen.net/github/stars/alapha888/agent-skills-en) | 5 个英文效率类 Skills 合集（MIT）：技术文档校对、Git 提交信息生成、会议笔记转纪要、五维代码审查清单、深度研究框架。 |
 
 #### 🔬 垂直领域
 | 项目 | ⭐ Stars | 简介 |
