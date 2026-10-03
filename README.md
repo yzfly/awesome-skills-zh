@@ -769,6 +769,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**huifer/skill-security-scan**](https://github.com/huifer/skill-security-scan) | 安全扫描 | ![GitHub Repo stars](https://badgen.net/github/stars/huifer/skill-security-scan) | 安装第三方 Skill 前先做安全审查的命令行工具，检测窃取数据或破坏系统的恶意代码。 |
 | [**Xquik-dev/x-twitter-scraper**](https://github.com/Xquik-dev/x-twitter-scraper) | 数据抓取 | ![GitHub Repo stars](https://badgen.net/github/stars/Xquik-dev/x-twitter-scraper) | X/Twitter 数据抓取技能，提供 MCP 服务器与 REST API，含 20 个提取工具。 |
 | [**Continuum-AI-Corp/OrcaReplay**](https://github.com/Continuum-AI-Corp/OrcaReplay) | 运行录制回放 | ![GitHub Repo stars](https://badgen.net/github/stars/Continuum-AI-Corp/OrcaReplay) | 把 Skill / coding agent 与模型 provider 之间的真实请求原样录成本地 trace：`orca replay last` 断网重放，稳定复现一次失败的 Skill 调用；`orca compare` 从同一 checkpoint 换模型对照。自带 `orca mcp`（list/show/checkpoints/graph/replay/compare 六个工具）可作为 MCP server 接入，也能直接当 coding-agent skill 用。 |
+| [**lognorm/lognorm-mcp**](https://github.com/lognorm/lognorm-mcp) | SEO/GEO 增长 | ![GitHub Repo stars](https://badgen.net/github/stars/lognorm/lognorm-mcp) | 托管式 MCP 服务（[lognorm.com](https://lognorm.com)），把网站的 SEO/GEO 增长待办（站点审计、修复、内容草稿、AI 可见度追踪）交给 Claude Code、Codex 和 Cursor 处理；OAuth 登录，无需 API Key，免费方案支持 1 个网站。 |
 
 ---
 
