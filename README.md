@@ -531,6 +531,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | :--- | ---: | :--- |
 | [**obra/superpowers**](https://github.com/obra/superpowers) | ![GitHub Repo stars](https://badgen.net/github/stars/obra/superpowers) | 2026 年最具影响力的社区 Skills 框架，已入选官方插件市场，提供一整套可组合的高级 Skill 与工作流。 |
 | [**obra/superpowers-marketplace**](https://github.com/obra/superpowers-marketplace) | ![GitHub Repo stars](https://badgen.net/github/stars/obra/superpowers-marketplace) | Superpowers 配套的 Skills 市场，便于发现、安装与分享社区贡献的 Skills。 |
+| [**ITW-Creative-Works/workkit**](https://github.com/ITW-Creative-Works/workkit) | ![GitHub Repo stars](https://badgen.net/github/stars/ITW-Creative-Works/workkit) | 把 GitHub Issues 变成开发流水线的 Claude Code 插件：每个 issue 按标签经过规格、构建、审查、QA、发布；worker 子代理写代码和测试，verifier 子代理盲审，测试不过不允许提交。含 9 个 `/workkit:*` Skills。 |
 
 #### 📚 大型 Skills 合集
 | 项目 | ⭐ Stars | 简介 |
