@@ -556,6 +556,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**jezweb/claude-skills**](https://github.com/jezweb/claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/jezweb/claude-skills) | 面向 Claude Code CLI 的全栈开发 Skills，涵盖 Cloudflare、React、Tailwind v4。 |
 | [**JasonColapietro/suede-creator-skills**](https://github.com/JasonColapietro/suede-creator-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/JasonColapietro/suede-creator-skills) | 面向 Claude Code 与 Codex 的 **67 个 MIT 开源 Skills**，覆盖多智能体编排、Codex 工作节点集群、代码审查与发布门禁、AI 评测、产品、设计和增长工作流。 |
 | [**tronghieu/agent-skills**](https://github.com/tronghieu/agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/tronghieu/agent-skills) | 面向知识工作（而非编程）的 18 个 MIT 开源 Skills：设计思维、批判性思维、根因分析、市场调研、战略、数据分析、长文档精读、Diataxis 文档与幻灯片，附中文 README。 |
+| [**yylo-dev/yylo-skills**](https://github.com/yylo-dev/yylo-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/yylo-dev/yylo-skills) | YYLO CLI / Ledger / Benchmark 使用的 8 个 MIT 开源 SKILL.md 技能包合集：Kanban 任务管理、任务规划与注册、产物归档、Wiki 知识库、工作流执行、Ralph 循环、项目理解与评测基准运行；一行命令安装（`npx skills add yylo-dev/yylo-skills`），兼容 Claude Code / Codex / Pi。 |
 
 #### 🔬 垂直领域
 | 项目 | ⭐ Stars | 简介 |
