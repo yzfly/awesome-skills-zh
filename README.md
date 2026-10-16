@@ -776,6 +776,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**lognorm/lognorm-mcp**](https://github.com/lognorm/lognorm-mcp) | SEO/GEO 增长 | ![GitHub Repo stars](https://badgen.net/github/stars/lognorm/lognorm-mcp) | 托管式 MCP 服务（[lognorm.com](https://lognorm.com)），把网站的 SEO/GEO 增长待办（站点审计、修复、内容草稿、AI 可见度追踪）交给 Claude Code、Codex 和 Cursor 处理；OAuth 登录，无需 API Key，免费方案支持 1 个网站。 |
 | [**cloudishai/skills**](https://github.com/cloudishai/skills) | 部署托管 | ![GitHub Repo stars](https://badgen.net/github/stars/cloudishai/skills) | Cloudish 部署 Skill：把 Dockerfile、源码目录或容器镜像交给 Cloudish 在服务端构建（无需本地 Docker），运行为常驻容器并返回上线网址；支持持久化存储卷与加密密钥，Agent 可免注册自行创建 API 密钥，消费不超过预付额度。附 Claude Code 插件清单。 |
 | [**Kruhlikau/subagent-tuner**](https://github.com/Kruhlikau/subagent-tuner) | 子智能体调度 | ![GitHub Repo stars](https://badgen.net/github/stars/Kruhlikau/subagent-tuner) | Claude Code 的 mod：为每个子智能体选择模型和推理强度，可在启动前询问、按任务类型推荐，或用保存的默认值覆盖智能体自己指定的模型；`claude -p` 与 SDK 运行不受影响。 |
+| [**Aident-AI/aident-skill**](https://github.com/Aident-AI/aident-skill) | 工具接入 | ![GitHub Repo stars](https://badgen.net/github/stars/Aident-AI/aident-skill) | Aident Loadout 的官方 Agent Skill（MIT，托管服务见 [aident.ai](https://aident.ai)）：让 Claude Code、Codex 等智能体在运行时发现并调用 Gmail、Slack、Linear、Notion 等工作应用与平台工具；已连接账号由 Aident Vault 托管，执行前做成本/风险预检，每次调用留有审计记录；提供 400+ Skills，也可通过远程 MCP（`https://loadout.aident.ai/mcp`）接入。对智能体说 `Follow https://aident.ai/SETUP.md` 即可安装；托管服务闭源，按量付费。 |
 
 ---
 
