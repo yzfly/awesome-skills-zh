@@ -612,6 +612,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**getsentry/skills**](https://github.com/getsentry/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/getsentry/skills) | Sentry 团队日常开发所用的官方 Agent Skills 合集。 |
 | [**google-labs-code/stitch-skills**](https://github.com/google-labs-code/stitch-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/google-labs-code/stitch-skills) | Google Labs 官方出品，配合 Stitch MCP server 使用的 Agent Skills 库，遵循 Agent Skills 开放标准，兼容 Antigravity / Gemini CLI / Claude Code / Cursor 等编码智能体。 |
 | [**vanshyadav1408/Omentir**](https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach) | ![GitHub Repo stars](https://badgen.net/github/stars/vanshyadav1408/Omentir) | Omentir 官方出品的 `linkedin-outreach` Skill：通过 Omentir MCP 服务器做 LinkedIn 获客与外联，查找并评估潜在客户、起草消息、查看外联活动。默认只做调研和草稿，用户要求时才发送，智能体全程不登录 LinkedIn。 |
+| [**SergiuPogor/curlshot-mcp**](https://github.com/SergiuPogor/curlshot-mcp/tree/main/skills/curlshot) | ![GitHub Repo stars](https://badgen.net/github/stars/SergiuPogor/curlshot-mcp) | CurlShot 官方出品的 `curlshot` Skill（MIT）：让智能体通过 CurlShot API 或托管 MCP 服务器给网页截图，支持整页截图、手机/平板视图，输出 PNG、JPEG、WebP、PDF 或滚动视频；也可把智能体自己生成的 HTML / Markdown 渲染成图片或 PDF。免费套餐每月 100 张截图，无需信用卡。 |
 
 ---
 
