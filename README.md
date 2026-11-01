@@ -612,6 +612,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**getsentry/skills**](https://github.com/getsentry/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/getsentry/skills) | Sentry 团队日常开发所用的官方 Agent Skills 合集。 |
 | [**google-labs-code/stitch-skills**](https://github.com/google-labs-code/stitch-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/google-labs-code/stitch-skills) | Google Labs 官方出品，配合 Stitch MCP server 使用的 Agent Skills 库，遵循 Agent Skills 开放标准，兼容 Antigravity / Gemini CLI / Claude Code / Cursor 等编码智能体。 |
 | [**vanshyadav1408/Omentir**](https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach) | ![GitHub Repo stars](https://badgen.net/github/stars/vanshyadav1408/Omentir) | Omentir 官方出品的 `linkedin-outreach` Skill：通过 Omentir MCP 服务器做 LinkedIn 获客与外联，查找并评估潜在客户、起草消息、查看外联活动。默认只做调研和草稿，用户要求时才发送，智能体全程不登录 LinkedIn。 |
+| [**Omega-JS-Stack/omega**](https://github.com/Omega-JS-Stack/omega/tree/main/agent-plugins/claude) | ![GitHub Repo stars](https://badgen.net/github/stars/Omega-JS-Stack/omega) | Omega 框架（一个项目、一个配置文件同时交付网站、后端、桌面应用和浏览器扩展）的 Claude Code 插件：14 个 `omega:*` Skills，覆盖 web、backend、desktop、extension、seo、analytics、accessibility 等，与框架代码同仓发布、随版本对齐。 |
 
 ---
 
