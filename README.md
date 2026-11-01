@@ -685,6 +685,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**Eyadkelleh/awesome-claude-skills-security**](https://github.com/Eyadkelleh/awesome-claude-skills-security) | ![GitHub Repo stars](https://badgen.net/github/stars/Eyadkelleh/awesome-claude-skills-security) | 面向授权渗透测试、CTF 与漏洞赏金的安全工具包：精选 SecLists 字典、注入 payload 与专家级 agent。 |
 | [**DeerYang/server-security-init-skill**](https://github.com/DeerYang/server-security-init-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/DeerYang/server-security-init-skill) | 安全初始化与加固全新 Ubuntu/Debian SSH 服务器的 Agent Skill，面向防御性运维（仅用于你有权管理的服务器）。 |
 | [**morluto/rea**](https://github.com/morluto/rea) | ![GitHub Repo stars](https://badgen.net/github/stars/morluto/rea) | 内含 `reverse-engineer-anything` Skill，指导 Claude Code / Codex 通过本地 CLI 与 MCP 分析原生程序、JavaScript/Electron 和 .NET，保留证据来源与未知项；原生深度分析需自备 Hopper、Ghidra 或 IDA。 |
+| [**salemalem/npmscan-mcp-plugin**](https://github.com/salemalem/npmscan-mcp-plugin) | ![GitHub Repo stars](https://badgen.net/github/stars/salemalem/npmscan-mcp-plugin) | npm 供应链安全 Skills 与远程 MCP：5 个 Skill 指导 Claude Code / Codex / Gemini CLI 在安装或升级 npm 包前检查恶意包、已知漏洞、仿冒包名、维护者变更和安装脚本，并对依赖变更给出 PASS/WARN/FAIL 结论；连接 npmscan.com 免费的只读服务（服务端不开源）。 |
 
 ---
 
