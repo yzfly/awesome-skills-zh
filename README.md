@@ -599,6 +599,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**vaibhavarora14/job-application-agent**](https://github.com/vaibhavarora14/job-application-agent) | ![GitHub Repo stars](https://badgen.net/github/stars/vaibhavarora14/job-application-agent) | 隐私优先的求职 Agent Skill：只用可核实的简历事实、本机 OS 密钥环存个人资料、提交前需确认并记台账；兼容 Claude Code / Cursor / Codex / OpenClaw。 |
 | [**kasovy/neverapply-mcp**](https://github.com/kasovy/neverapply-mcp) | ![GitHub Repo stars](https://badgen.net/github/stars/kasovy/neverapply-mcp) | NeverApply 求职插件：3 个 Agent Skills（find-jobs / apply-to-jobs / track-applications）+ 托管 MCP server（OAuth 登录），在 Claude Code / Cursor / Gemini CLI 中搜索匹配职位、定制简历、回答筛选问题，并在你确认后投递；插件代码为 MIT 许可，托管服务另需账号并受服务条款约束。 |
 | [**vostride/agent-qa**](https://github.com/vostride/agent-qa) | ![GitHub Repo stars](https://badgen.net/github/stars/vostride/agent-qa) | 用自然语言编写并运行 Web / Android / iOS 回归测试的 QA harness，随包提供编写、失败归因与修复三个 Skill，并带 CLI 与 MCP server；源码可用许可证 FSL-1.1-ALv2 |
+| [**Jeffallan/writing-with-agents**](https://github.com/Jeffallan/writing-with-agents) | ![GitHub Repo stars](https://badgen.net/github/stars/Jeffallan/writing-with-agents) | 按 Betty Flowers「疯子、建筑师、木匠、法官」写作法拆分写作流程的 Claude Code 插件：**10** 个 Skills，主线按发散素材、选结构、定大纲、写初稿、审校五步走，每一步写明由 AI 还是作者主导，另含 SEO 写作、质量评分与多篇选题规划。 |
 
 #### 🛠️ 生态集成
 | 项目 | ⭐ Stars | 简介 |
