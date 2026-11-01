@@ -701,6 +701,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**alchaincyf/darwin-skill**](https://github.com/alchaincyf/darwin-skill) (达尔文.skill) | ![GitHub Repo stars](https://badgen.net/github/stars/alchaincyf/darwin-skill) | 🔧 让 Skill 无限进化：评估 → 改进 → 测试 → 保留或回滚的自我迭代机制。 |
 | [**tmstack/awesome-persona-skills**](https://github.com/tmstack/awesome-persona-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/tmstack/awesome-persona-skills) | 📚 同事.skill、老板.skill、前任.skill、永生.skill…… 人物 Skill 大合集。 |
 | [**Panmax/awesome-nuwa**](https://github.com/Panmax/awesome-nuwa) | ![GitHub Repo stars](https://badgen.net/github/stars/Panmax/awesome-nuwa) | 📚 用女娲蒸馏的人物思维框架合集。 |
+| [**YannisKiefer/harvey-specter**](https://github.com/YannisKiefer/harvey-specter) | ![GitHub Repo stars](https://badgen.net/github/stars/YannisKiefer/harvey-specter) | 独立的 Harvey Specter 风格对话 Skill：按情境选择谈判、道歉、澄清或支持，附原创示例，并区分角色风格与实际建议。 |
 
 > 此外，作者还用女娲生成了乔布斯、马斯克、芒格、特朗普、Karpathy、纳瓦尔、费曼等多位人物的 `.skill`（均在 1k star 以下），完整清单见上方 awesome 列表与 [作者主页](https://github.com/alchaincyf?tab=repositories)。
 
