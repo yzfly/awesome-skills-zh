@@ -292,6 +292,7 @@
 | **提前处理比例** | 这些 Skill 都对比例敏感：deconstructed-duotone 提前裁成 3:4 或 4:3；travel-photo-abstraction、gathered-scenes 更适合竖图；pixel-style 生成后通常还要再裁成 3:4；ink-wash 会锁 16:9 / 9:16。 |
 | **认真挑原图** | 两个标准：**主体清楚 + 关系清楚**。有明确主体、景别、空间层次和明暗关系的照片，抽象类与重绘类都更稳。 |
 | **稳定性** | 越接近原图越可控：photo-relic、photo-abstract 基本指哪打哪；越依赖重绘随机性越强：photo-revival、gathered-scenes 偶尔给出意料之外的结果——抽卡也是出神图的来源。 |
+| [CrakSEO/skills](https://github.com/CrakSEO/skills) | Connect Claude/Cursor/Codex to CrakSEO remote MCP servers for keyword research, SERP, backlinks, rank tracking, site audit, local SEO, AI visibility, Search Console and URL indexing | Claude Code, Cursor, Codex | MIT |
 
 #### 📐 原图保留度对照（同一张旅行照的五种可能）
 
