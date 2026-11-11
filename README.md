@@ -758,6 +758,10 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**zhuyep/shiji-tongjian-decisions**](https://github.com/zhuyep/shiji-tongjian-decisions) | ![GitHub Repo stars](https://badgen.net/github/stars/zhuyep/shiji-tongjian-decisions) | 史鉴人生抉择：对照《史记》《资治通鉴》原文，比较现实选择、隐性代价与类比边界；附虚构示例和引文核验工具，不作命运预测或专业决策建议。 |
 | [**danfeistar/house-skills-kit**](https://github.com/danfeistar/house-skills-kit) | ![GitHub Repo stars](https://badgen.net/github/stars/danfeistar/house-skills-kit) | 中文房产 Skills 库：按身份拆分可独立安装的技能（房开企业 / 一手案场销售 / 策划 / 二手经纪 / 渠道分销 / 购房者 / 房产自媒体），每个技能含 SKILL.md + playbook + README 三件；配套 `calc-toolkit` 35 城规则库计算工具，提供规则来源与版本记录，使用时需核对适用地区和有效期；另附品牌顾问技能模板生成器（4 类角色原型 × 31 业务模块）。不使用外部 API，纯提示词 + 本地 Python 工具。 |
 | [**TTNAN/quark-skill**](https://github.com/TTNAN/quark-skill) (夸克搜索转存) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/quark-skill) | 一句话把网盘资源存进夸克网盘：PanSou 聚合搜索夸克分享链接 → 用户挑选 → 调夸克官方 Skill 的 `saveas` 转存 → 回查确认；不抓 cookie、不部署服务，脚本只用 Python 标准库，附单元测试与 CI。请只转存有权保存的内容。 |
+| [**TTNAN/earnings-card**](https://github.com/TTNAN/earnings-card) (财报卡) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/earnings-card) | 输入美股代码，从 SEC EDGAR 官方 XBRL 财报生成最多 7 张可直接分享的财报卡：一句话结论、营收构成、利润拆解、利润率趋势、现金流、管理层指引与横版封面，免 API Key；只用财报数字，不做荐股。 |
+| [**TTNAN/wps-agent-skills**](https://github.com/TTNAN/wps-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/wps-agent-skills) | 专为 WPS Office 打造的 Agent 技能包：文字、表格、演示三件套外加 PowerShell 规范，纯 PowerShell + COM 驱动，零依赖，真机验证（Windows）。 |
+| [**TTNAN/fangge-junshi**](https://github.com/TTNAN/fangge-junshi) (防割军师) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/fangge-junshi) | 前券商投顾打造的反忽悠 Skill：把理财经理、保险代理、荐股群的话术贴进来，按 24 条附监管官方出处的红旗清单逐条拆解（不构成投资建议）。 |
+| [**TTNAN/agent-craft-cn**](https://github.com/TTNAN/agent-craft-cn) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/agent-craft-cn) | 中文原生的 Agent 软件开发方法论技能包：需求澄清、计划先行、TDD、五维评审、系统化调试、小步重构、中文技术写作、复盘，外加总控 skill 按任务大小拼流程，共 9 个 skill。 |
 
 ---
 
