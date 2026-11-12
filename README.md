@@ -757,6 +757,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**nathanskill/niubiskill**](https://github.com/nathanskill/niubiskill) | ![GitHub Repo stars](https://badgen.net/github/stars/nathanskill/niubiskill) | 商业化决策 Skill：打断无收入验证的瞎忙——找到离真实收钱最近的一步，二选一（引流 / 成交），停掉一件分散精力的事，并给出 7 天证据测试。 |
 | [**zhuyep/shiji-tongjian-decisions**](https://github.com/zhuyep/shiji-tongjian-decisions) | ![GitHub Repo stars](https://badgen.net/github/stars/zhuyep/shiji-tongjian-decisions) | 史鉴人生抉择：对照《史记》《资治通鉴》原文，比较现实选择、隐性代价与类比边界；附虚构示例和引文核验工具，不作命运预测或专业决策建议。 |
 | [**danfeistar/house-skills-kit**](https://github.com/danfeistar/house-skills-kit) | ![GitHub Repo stars](https://badgen.net/github/stars/danfeistar/house-skills-kit) | 中文房产 Skills 库：按身份拆分可独立安装的技能（房开企业 / 一手案场销售 / 策划 / 二手经纪 / 渠道分销 / 购房者 / 房产自媒体），每个技能含 SKILL.md + playbook + README 三件；配套 `calc-toolkit` 35 城规则库计算工具，提供规则来源与版本记录，使用时需核对适用地区和有效期；另附品牌顾问技能模板生成器（4 类角色原型 × 31 业务模块）。不使用外部 API，纯提示词 + 本地 Python 工具。 |
+| [**Samuel-Shek/prompt-optimizer-skill**](https://github.com/Samuel-Shek/prompt-optimizer-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/Samuel-Shek/prompt-optimizer-skill) | 把含糊或信息不全的需求，整理成可直接使用的提示词；适用于所有能读取 Skill 的 AI agent，提供中英双文，不限于某一个工具。 |
 
 ---
 
