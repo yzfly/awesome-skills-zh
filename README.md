@@ -767,6 +767,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**TTNAN/wps-agent-skills**](https://github.com/TTNAN/wps-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/wps-agent-skills) | 专为 WPS Office 打造的 Agent 技能包：文字、表格、演示三件套外加 PowerShell 规范，纯 PowerShell + COM 驱动，零依赖，真机验证（Windows）。 |
 | [**TTNAN/fangge-junshi**](https://github.com/TTNAN/fangge-junshi) (防割军师) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/fangge-junshi) | 前券商投顾打造的反忽悠 Skill：把理财经理、保险代理、荐股群的话术贴进来，按 24 条附监管官方出处的红旗清单逐条拆解（不构成投资建议）。 |
 | [**TTNAN/agent-craft-cn**](https://github.com/TTNAN/agent-craft-cn) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/agent-craft-cn) | 中文原生的 Agent 软件开发方法论技能包：需求澄清、计划先行、TDD、五维评审、系统化调试、小步重构、中文技术写作、复盘，外加总控 skill 按任务大小拼流程，共 9 个 skill。 |
+| [**Samuel-Shek/prompt-optimizer-skill**](https://github.com/Samuel-Shek/prompt-optimizer-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/Samuel-Shek/prompt-optimizer-skill) | 把含糊或信息不全的需求，整理成可直接使用的提示词；适用于所有能读取 Skill 的 AI agent，提供中英双文，不限于某一个工具。 |
 
 ---
 
