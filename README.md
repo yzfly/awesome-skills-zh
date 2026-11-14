@@ -64,55 +64,55 @@
   <img src="docs/images/design/hallmark.jpg" width="420" alt="Hallmark 拒绝 AI 味的网页设计 示例">
 </p>
 
-<sub>**01 · Hallmark 拒绝 AI 味的网页设计** · 🧩 品牌·图标·网页<br>[**Nutlope/hallmark**](https://github.com/Nutlope/hallmark) ![GitHub Repo stars](https://badgen.net/github/stars/Nutlope/hallmark)<br>Together AI 出品，面向 Claude Code / Cursor / Codex 的「反 AI Slop」设计 Skill。AI 生成的网页太雷同——千篇一律的配色、套路化的排版；Hallmark 先分析简报类型与品牌调性，为它挑一种宏观结构，再从 21 套主题中选最匹配的一套（无匹配时切到 Custom 从零设计），然后跑 57 项反套路检查 + 出稿前自我批评，从色彩搭配、字体层次、留白节奏到微交互逐一把关。四个动词：默认生成、`audit` 给现有页面打分、`redesign` 保留文案与 IA 重做、`study` 从截图 / URL 提取设计 DNA。<br>**适合**：落地页、产品站、作品集等任何不想一眼被认出「AI 做的」的页面。<br>**调用 / 安装**：`npx skills add nutlope/hallmark`</sub>
+<sub>**1 · Hallmark 拒绝 AI 味的网页设计** · 🧩 品牌·图标·网页<br>[**Nutlope/hallmark**](https://github.com/Nutlope/hallmark) ![GitHub Repo stars](https://badgen.net/github/stars/Nutlope/hallmark)<br>Together AI 出品，面向 Claude Code / Cursor / Codex 的「反 AI Slop」设计 Skill。AI 生成的网页太雷同——千篇一律的配色、套路化的排版；Hallmark 先分析简报类型与品牌调性，为它挑一种宏观结构，再从 21 套主题中选最匹配的一套（无匹配时切到 Custom 从零设计），然后跑 57 项反套路检查 + 出稿前自我批评，从色彩搭配、字体层次、留白节奏到微交互逐一把关。四个动词：默认生成、`audit` 给现有页面打分、`redesign` 保留文案与 IA 重做、`study` 从截图 / URL 提取设计 DNA。<br>**适合**：落地页、产品站、作品集等任何不想一眼被认出「AI 做的」的页面。<br>**调用 / 安装**：`npx skills add nutlope/hallmark`</sub>
 
 <p align="center">
   <img src="docs/images/design/gc-minimal-zine-poster.jpg" width="420" alt="极简 zine 海报 示例">
 </p>
 
-<sub>**02 · 极简 zine 海报** · 📰 纸刊·编辑海报<br>[**LiamGvchi/gc-minimal-zine-poster**](https://github.com/LiamGvchi/gc-minimal-zine-poster) ![GitHub Repo stars](https://badgen.net/github/stars/LiamGvchi/gc-minimal-zine-poster)<br>大留白纸刊，把一句话做成情绪海报。给它任意主题、句子、物件、情绪、文章构想或照片，产出一张安静的竖版 zine 海报：3:5 仿旧纸张画布、70%–90% 留白、一个小型可清楚表现的主体、衬线 / 打字机 / 等宽字体、一处高饱和色彩锚点，加复印、孔版、网点、凸版或扫描纸张的瑕疵质感。刻意避开广告式布局、光亮样机、电影感布光、3D、霓虹与大段整齐文字。自带 prompt-compiler 与 quality-gate 质检流程，支持生成、参考分析、仅出 prompt、照片输入四种模式。<br>**适合**：公众号封面、App 故事头图、读书日记一页、情绪短句与小景。<br>**调用 / 安装**：`$gc-minimal-zine-poster-v0-3`，clone 到 `~/.codex/skills/gc-minimal-zine-poster-v0-3`；国内可用转存镜像 [yub369302-cyber/gc-minimal-zine-poster](https://github.com/yub369302-cyber/gc-minimal-zine-poster)</sub>
+<sub>**2 · 极简 zine 海报** · 📰 纸刊·编辑海报<br>[**LiamGvchi/gc-minimal-zine-poster**](https://github.com/LiamGvchi/gc-minimal-zine-poster) ![GitHub Repo stars](https://badgen.net/github/stars/LiamGvchi/gc-minimal-zine-poster)<br>大留白纸刊，把一句话做成情绪海报。给它任意主题、句子、物件、情绪、文章构想或照片，产出一张安静的竖版 zine 海报：3:5 仿旧纸张画布、70%–90% 留白、一个小型可清楚表现的主体、衬线 / 打字机 / 等宽字体、一处高饱和色彩锚点，加复印、孔版、网点、凸版或扫描纸张的瑕疵质感。刻意避开广告式布局、光亮样机、电影感布光、3D、霓虹与大段整齐文字。自带 prompt-compiler 与 quality-gate 质检流程，支持生成、参考分析、仅出 prompt、照片输入四种模式。<br>**适合**：公众号封面、App 故事头图、读书日记一页、情绪短句与小景。<br>**调用 / 安装**：`$gc-minimal-zine-poster-v0-3`，clone 到 `~/.codex/skills/gc-minimal-zine-poster-v0-3`；国内可用转存镜像 [yub369302-cyber/gc-minimal-zine-poster](https://github.com/yub369302-cyber/gc-minimal-zine-poster)</sub>
 
 <p align="center">
   <img src="docs/images/design/photo-abstract-editorial.jpg" width="420" alt="摄影抽象编辑 Photo Abstract Editorial 示例">
 </p>
 
-<sub>**03 · 摄影抽象编辑 Photo Abstract Editorial** · 📰 纸刊·编辑海报<br>[**ZzzLc0405/photo-abstract-editorial**](https://github.com/ZzzLc0405/photo-abstract-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/ZzzLc0405/photo-abstract-editorial)<br>「原始摄影区域 + 抽象记忆面板 + 诗意英文标题」的竖向编辑杂志风，高级感拉满。原图保留在成品上方或主要区域，下方是由原图空间关系、构图节奏和色彩关系推导出的象牙白极简抽象面板（无纸纹、颗粒或渐变），每个色块、弧线、短条都能追溯到照片本身；成品只保留一个原创英文标题（可选副标题）。8 月初开源几天冲到数千 star。附中英双语完整 prompt，可脱离 Skill 直接当提示词用。<br>**适合**：小红书高级感封面、日常随手拍 → 艺术海报；建筑、风景、人群、旅行照。<br>**调用 / 安装**：复制 `photo-abstract-editorial` 到 `~/.codex/skills/`<br>**注意**：CC BY-NC-SA 4.0，非商用。</sub>
+<sub>**3 · 摄影抽象编辑 Photo Abstract Editorial** · 📰 纸刊·编辑海报<br>[**ZzzLc0405/photo-abstract-editorial**](https://github.com/ZzzLc0405/photo-abstract-editorial) ![GitHub Repo stars](https://badgen.net/github/stars/ZzzLc0405/photo-abstract-editorial)<br>「原始摄影区域 + 抽象记忆面板 + 诗意英文标题」的竖向编辑杂志风，高级感拉满。原图保留在成品上方或主要区域，下方是由原图空间关系、构图节奏和色彩关系推导出的象牙白极简抽象面板（无纸纹、颗粒或渐变），每个色块、弧线、短条都能追溯到照片本身；成品只保留一个原创英文标题（可选副标题）。8 月初开源几天冲到数千 star。附中英双语完整 prompt，可脱离 Skill 直接当提示词用。<br>**适合**：小红书高级感封面、日常随手拍 → 艺术海报；建筑、风景、人群、旅行照。<br>**调用 / 安装**：复制 `photo-abstract-editorial` 到 `~/.codex/skills/`<br>**注意**：CC BY-NC-SA 4.0，非商用。</sub>
 
 <p align="center">
   <img src="docs/images/design/ip-as-logo.jpg" width="420" alt="IP as Logo 极简圆润 IP 形象生成器 示例">
 </p>
 
-<sub>**04 · IP as Logo 极简圆润 IP 形象生成器** · 🧩 品牌·图标·网页<br>[**s1dashu/ip-as-logo-skill**](https://github.com/s1dashu/ip-as-logo-skill) ![GitHub Repo stars](https://badgen.net/github/stars/s1dashu/ip-as-logo-skill)<br>装进 Agent 的品牌形象设计技能。一句「给我的产品设计一个简单的鬼魂 IP 角色，深海军蓝实色背景」丢给 Codex / 豆包 / WorkBuddy，它先给出三个设计方向，确认后一次产出六个独立候选（三个左下、三个右下出场），每个都是 4–7 个基础形状拼成的圆润轮廓、三色（两色 IP + 一色实底）、可直接商用的方形成品。配套免费素材站 [ipaslogo.com](https://ipaslogo.com)。<br>**适合**：产品 / App / 公众号吉祥物、品牌 IP 起稿。<br>**调用 / 安装**：`npx skills@latest add s1dashu/ip-as-logo-skill`</sub>
+<sub>**4 · IP as Logo 极简圆润 IP 形象生成器** · 🧩 品牌·图标·网页<br>[**s1dashu/ip-as-logo-skill**](https://github.com/s1dashu/ip-as-logo-skill) ![GitHub Repo stars](https://badgen.net/github/stars/s1dashu/ip-as-logo-skill)<br>装进 Agent 的品牌形象设计技能。一句「给我的产品设计一个简单的鬼魂 IP 角色，深海军蓝实色背景」丢给 Codex / 豆包 / WorkBuddy，它先给出三个设计方向，确认后一次产出六个独立候选（三个左下、三个右下出场），每个都是 4–7 个基础形状拼成的圆润轮廓、三色（两色 IP + 一色实底）、可直接商用的方形成品。配套免费素材站 [ipaslogo.com](https://ipaslogo.com)。<br>**适合**：产品 / App / 公众号吉祥物、品牌 IP 起稿。<br>**调用 / 安装**：`npx skills@latest add s1dashu/ip-as-logo-skill`</sub>
 
 <p align="center">
   <img src="docs/images/design/gathered-scenes-zine.jpg" width="420" alt="拾景纸刊 Gathered Scenes Zine 示例">
 </p>
 
-<sub>**05 · 拾景纸刊 Gathered Scenes Zine** · 📰 纸刊·编辑海报<br>[**Zeejay0/gathered-scenes-zine-skill**](https://github.com/Zeejay0/gathered-scenes-zine-skill) ![GitHub Repo stars](https://badgen.net/github/stars/Zeejay0/gathered-scenes-zine-skill)<br>一个仓库两个子 Skill：**01 实景拼贴** `$scenes-gathered-zine-v1-3` 保留照片中不可替代的现场关系，以真实摄影为锚点，让源自原图的抽象形状、单一高纯度色彩与手撕纤维纸边向纸面延伸（「保留人物与海岸线的关系，文字用中文」）；**02 影像蒸馏** `$scene-distillation-zine-v1-3` 不在成品中保留原照片，从中提取语义核心、情绪张力和视觉隐喻，用纸张、插画、色彩与自由文字重做一件新作品（「不要保留照片本身，让作品表达 XX 主题」）。同仓库还藏着第三个 Skill **莫兰迪电影海报** `$morandi-cinematic-poster-zeejay`：完全保留原照片，靠电影标题排版、五级字号层级、低饱和莫兰迪色调与文字对人物的 1–3 处有意遮挡，把普通照片变成电影海报，最适合人像与旅行照。能把复杂细节压缩成几块大形状，案例按「原始照片 → 观察记录 → 最终作品」归档。实景拼贴进阶玩法见下方选型指南。<br>**适合**：旅行照 → 品牌纸刊、用户投稿再创作；主体关系越清楚效果越好，建议竖图。<br>**调用 / 安装**：三个调用名见上；clone 到 `~/.codex/skills/`<br>**注意**：非商用许可。</sub>
+<sub>**5 · 拾景纸刊 Gathered Scenes Zine** · 📰 纸刊·编辑海报<br>[**Zeejay0/gathered-scenes-zine-skill**](https://github.com/Zeejay0/gathered-scenes-zine-skill) ![GitHub Repo stars](https://badgen.net/github/stars/Zeejay0/gathered-scenes-zine-skill)<br>一个仓库两个子 Skill：**01 实景拼贴** `$scenes-gathered-zine-v1-3` 保留照片中不可替代的现场关系，以真实摄影为锚点，让源自原图的抽象形状、单一高纯度色彩与手撕纤维纸边向纸面延伸（「保留人物与海岸线的关系，文字用中文」）；**02 影像蒸馏** `$scene-distillation-zine-v1-3` 不在成品中保留原照片，从中提取语义核心、情绪张力和视觉隐喻，用纸张、插画、色彩与自由文字重做一件新作品（「不要保留照片本身，让作品表达 XX 主题」）。同仓库还藏着第三个 Skill **莫兰迪电影海报** `$morandi-cinematic-poster-zeejay`：完全保留原照片，靠电影标题排版、五级字号层级、低饱和莫兰迪色调与文字对人物的 1–3 处有意遮挡，把普通照片变成电影海报，最适合人像与旅行照。能把复杂细节压缩成几块大形状，案例按「原始照片 → 观察记录 → 最终作品」归档。实景拼贴进阶玩法见下方选型指南。<br>**适合**：旅行照 → 品牌纸刊、用户投稿再创作；主体关系越清楚效果越好，建议竖图。<br>**调用 / 安装**：三个调用名见上；clone 到 `~/.codex/skills/`<br>**注意**：非商用许可。</sub>
 
 <p align="center">
   <img src="docs/images/design/mono-color.jpg" width="420" alt="单色编辑印刷 Mono-color Editorial Print 示例">
 </p>
 
-<sub>**06 · 单色编辑印刷 Mono-color Editorial Print** · 📰 纸刊·编辑海报<br>[**yanliudesign/mono-color-skill**](https://github.com/yanliudesign/mono-color-skill) ![GitHub Repo stars](https://badgen.net/github/stars/yanliudesign/mono-color-skill)<br>不是把图片变单色，而是把一整套「Mono-color + Editorial + Retro Print」视觉规则封装进 Skill：默认一种油墨色，必要时用克制的双色套印（主色版 70%–85%、辅色版 15%–30%，辅色必须有明确任务），25%–55% 可见留白的非对称编辑网格，强 Typography（衬线 / grotesk / 窄体 / 旋转 / 文字即物件），照片转成 Halftone 网点、Riso 颗粒、蓝晒或复印破碎，加轻微套印偏移。8 种单色油墨 + 9 组双色配方写成 `design-system/*.json` 机器可读目录，附 evals 与 GitHub Actions 校验；输出图 + 可复现的生产 prompt + 一份配方。风格高度统一，不会每次随机换一种画面。<br>**适合**：活动海报、公众号配图、小红书封面、X 配图、播客 / 音乐封面、杂志头图、包装贴纸、个人照片再创作。<br>**调用 / 安装**：`git clone https://github.com/yanliudesign/mono-color-skill.git ~/.claude/skills/mono-color`，然后「用 mono-color 帮我做一张关于城市骑行的海报」或上传照片让它重排成单色印刷风<br>**注意**：代码 MIT，示例图 © Yan Liu 另行授权。</sub>
+<sub>**6 · 单色编辑印刷 Mono-color Editorial Print** · 📰 纸刊·编辑海报<br>[**yanliudesign/mono-color-skill**](https://github.com/yanliudesign/mono-color-skill) ![GitHub Repo stars](https://badgen.net/github/stars/yanliudesign/mono-color-skill)<br>不是把图片变单色，而是把一整套「Mono-color + Editorial + Retro Print」视觉规则封装进 Skill：默认一种油墨色，必要时用克制的双色套印（主色版 70%–85%、辅色版 15%–30%，辅色必须有明确任务），25%–55% 可见留白的非对称编辑网格，强 Typography（衬线 / grotesk / 窄体 / 旋转 / 文字即物件），照片转成 Halftone 网点、Riso 颗粒、蓝晒或复印破碎，加轻微套印偏移。8 种单色油墨 + 9 组双色配方写成 `design-system/*.json` 机器可读目录，附 evals 与 GitHub Actions 校验；输出图 + 可复现的生产 prompt + 一份配方。风格高度统一，不会每次随机换一种画面。<br>**适合**：活动海报、公众号配图、小红书封面、X 配图、播客 / 音乐封面、杂志头图、包装贴纸、个人照片再创作。<br>**调用 / 安装**：`git clone https://github.com/yanliudesign/mono-color-skill.git ~/.claude/skills/mono-color`，然后「用 mono-color 帮我做一张关于城市骑行的海报」或上传照片让它重排成单色印刷风<br>**注意**：代码 MIT，示例图 © Yan Liu 另行授权。</sub>
 
 <p align="center">
   <img src="docs/images/design/story-to-handdrawn-video.jpg" width="420" alt="故事 → 手绘日记漫画视频 Story to Handdrawn Video 示例">
 </p>
 
-<sub>**07 · 故事 → 手绘日记漫画视频 Story to Handdrawn Video** · 🖨️ 风格转译<br>[**gnipbao/story-to-handdrawn-video**](https://github.com/gnipbao/story-to-handdrawn-video) ![GitHub Repo stars](https://badgen.net/github/stars/gnipbao/story-to-handdrawn-video)<br>开源渲染器（Remotion）+ Agent Skill：输入中文故事文案（Agent 负责分句、分镜、素材生成）或一组已画好的图片（按顺序保留），输出一支 3:4 竖屏手绘故事动画。每个分镜按 layer 配置揭示：文字先擦显，随后黑白画稿、局部细节、彩色插画从左到右分段出现。默认彩铅日记漫画，内置 20 种手绘风格家族；正式渲染 1080×1440，预览 720×960，输出 H.264 静音画面轨，配音与 BGM 自己后期。依赖 Node.js 20+、Python 3.10+、FFmpeg、Chrome。<br>**适合**：中文叙事短视频的「画面底片生产线」，日记漫画、绘本讲解。<br>**调用 / 安装**：clone 仓库跑起渲染器，再把 `skill-package/` 装进 Codex / Claude Code</sub>
+<sub>**7 · 故事 → 手绘日记漫画视频 Story to Handdrawn Video** · 🖨️ 风格转译<br>[**gnipbao/story-to-handdrawn-video**](https://github.com/gnipbao/story-to-handdrawn-video) ![GitHub Repo stars](https://badgen.net/github/stars/gnipbao/story-to-handdrawn-video)<br>开源渲染器（Remotion）+ Agent Skill：输入中文故事文案（Agent 负责分句、分镜、素材生成）或一组已画好的图片（按顺序保留），输出一支 3:4 竖屏手绘故事动画。每个分镜按 layer 配置揭示：文字先擦显，随后黑白画稿、局部细节、彩色插画从左到右分段出现。默认彩铅日记漫画，内置 20 种手绘风格家族；正式渲染 1080×1440，预览 720×960，输出 H.264 静音画面轨，配音与 BGM 自己后期。依赖 Node.js 20+、Python 3.10+、FFmpeg、Chrome。<br>**适合**：中文叙事短视频的「画面底片生产线」，日记漫画、绘本讲解。<br>**调用 / 安装**：clone 仓库跑起渲染器，再把 `skill-package/` 装进 Codex / Claude Code</sub>
 
 <p align="center">
   <img src="docs/images/design/travel-photo-abstraction.jpg" width="420" alt="旅行照片抽象 Travel Photo Abstraction 示例">
 </p>
 
-<sub>**08 · 旅行照片抽象 Travel Photo Abstraction** · 📰 纸刊·编辑海报<br>[**Evianis/travel-photo-abstraction**](https://github.com/Evianis/travel-photo-abstraction) ![GitHub Repo stars](https://badgen.net/github/stars/Evianis/travel-photo-abstraction)<br>把旅行 / 日常照片当作一个视觉系统来分析：先盘点可观察的视觉证据（形状、数量、位置、比例、色彩、方向、深度、空间节奏），再把每条保留下来的事实映射为一个极简抽象记号，保留不对称、遮挡、数量组与负空间。生成干净抽象面板后，用 fail-closed 的合成器把未经改动的原照片像素级校验拼回成品。内置 19 张结构参考，按题材自动挑 2–4 张。<br>**适合**：元素丰富、关系清楚的城市、街道、风景照；做一套风格统一的旅拍手账作品集。<br>**调用 / 安装**：clone 后复制 `travel-photo-abstraction` 到 Codex skills 目录，需 Pillow<br>**注意**：Source-available 许可：仅允许原样使用。</sub>
+<sub>**8 · 旅行照片抽象 Travel Photo Abstraction** · 📰 纸刊·编辑海报<br>[**Evianis/travel-photo-abstraction**](https://github.com/Evianis/travel-photo-abstraction) ![GitHub Repo stars](https://badgen.net/github/stars/Evianis/travel-photo-abstraction)<br>把旅行 / 日常照片当作一个视觉系统来分析：先盘点可观察的视觉证据（形状、数量、位置、比例、色彩、方向、深度、空间节奏），再把每条保留下来的事实映射为一个极简抽象记号，保留不对称、遮挡、数量组与负空间。生成干净抽象面板后，用 fail-closed 的合成器把未经改动的原照片像素级校验拼回成品。内置 19 张结构参考，按题材自动挑 2–4 张。<br>**适合**：元素丰富、关系清楚的城市、街道、风景照；做一套风格统一的旅拍手账作品集。<br>**调用 / 安装**：clone 后复制 `travel-photo-abstraction` 到 Codex skills 目录，需 Pillow<br>**注意**：Source-available 许可：仅允许原样使用。</sub>
 
 <p align="center">
   <img src="docs/images/design/photo-revival.jpg" width="420" alt="废片焕新 Photo Revival 示例">
 </p>
 
-<sub>**09 · 废片焕新 Photo Revival** · 📰 纸刊·编辑海报<br>[**dacnay816y62-hub/photo-revival**](https://github.com/dacnay816y62-hub/photo-revival) ![GitHub Repo stars](https://badgen.net/github/stars/dacnay816y62-hub/photo-revival)<br>普通照片重画成白纸上的手绘诗：3:4 竖构图、80%–88% 留白，主体插画只占整页 10%–16%，铅笔线稿、水彩晕染、干刷边缘、轻微印刷颗粒加一句很小的中文批注。先识别照片里 1–3 个记忆点再重绘，不是滤镜。「把照片重新画成一页诗，而不是把照片修成插画。」<br>**适合**：日常碎片 → 温柔小画，猫 / 食物 / 旧店随手拍都能用，建议 3:4 或 3:5 竖图。<br>**调用 / 安装**：`$photo-revival`</sub>
+<sub>**9 · 废片焕新 Photo Revival** · 📰 纸刊·编辑海报<br>[**dacnay816y62-hub/photo-revival**](https://github.com/dacnay816y62-hub/photo-revival) ![GitHub Repo stars](https://badgen.net/github/stars/dacnay816y62-hub/photo-revival)<br>普通照片重画成白纸上的手绘诗：3:4 竖构图、80%–88% 留白，主体插画只占整页 10%–16%，铅笔线稿、水彩晕染、干刷边缘、轻微印刷颗粒加一句很小的中文批注。先识别照片里 1–3 个记忆点再重绘，不是滤镜。「把照片重新画成一页诗，而不是把照片修成插画。」<br>**适合**：日常碎片 → 温柔小画，猫 / 食物 / 旧店随手拍都能用，建议 3:4 或 3:5 竖图。<br>**调用 / 安装**：`$photo-revival`</sub>
 
 <p align="center">
   <img src="docs/images/design/concept-sticker-card.jpg" width="420" alt="旅行手帐贴纸卡 Travel Memory Sticker Card 示例">
@@ -190,7 +190,7 @@
   <img src="docs/images/design/threefold-memory.jpg" width="420" alt="旅行记忆三联画 Threefold Memory 示例">
 </p>
 
-<sub>**22 · 旅行记忆三联画 Threefold Memory** · 📰 纸刊·编辑海报<br>[**Starryear/S-002-Starryear-Threefold-Memory**](https://github.com/Starryear/S-002-Starryear-Threefold-Memory) ![GitHub Repo stars](https://badgen.net/github/stars/Starryear/S-002-Starryear-Threefold-Memory)<br>一张照片，三种记忆状态：上面是 AI 对画面色彩、形状和光线的抽象重构（What I saw），中间保留原始照片（What happened），下面把路线、方向和情绪变成一张「记忆地图」（What stayed）。v2 提供 Skill + Master prompt，v1 作为归档保留。<br>**适合**：旅行照做成有叙事结构的收藏页。<br>**调用 / 安装**：下载 v2.2.1 ZIP 或 clone，根目录 `SKILL.md` 指向最新版</sub>
+<sub>**22 · 旅行记忆三联画 Threefold Memory** · 📰 纸刊·编辑海报<br>[**Starryear/S-002-Starryear-Threefold-Memory**](https://github.com/Starryear/S.002-Starryear-Threefold-Memory) ![GitHub Repo stars](https://badgen.net/github/stars/Starryear/S.002-Starryear-Threefold-Memory)<br>一张照片，三种记忆状态：上面是 AI 对画面色彩、形状和光线的抽象重构（What I saw），中间保留原始照片（What happened），下面把路线、方向和情绪变成一张「记忆地图」（What stayed）。v2 提供 Skill + Master prompt，v1 作为归档保留。<br>**适合**：旅行照做成有叙事结构的收藏页。<br>**调用 / 安装**：下载 v2.2.1 ZIP 或 clone，根目录 `SKILL.md` 指向最新版</sub>
 
 <p align="center">
   <img src="docs/images/design/image-words.jpg" width="420" alt="一图三海报 Image-Words 示例">
@@ -211,76 +211,70 @@
 <sub>**25 · 水晶插画 Crystalize** · 🖨️ 风格转译<br>[**NalaZhang27/crystalize-skill**](https://github.com/NalaZhang27/crystalize-skill) ![GitHub Repo stars](https://badgen.net/github/stars/NalaZhang27/crystalize-skill)<br>把照片重构为极简水晶插画：从照片中提取关键元素，用通透晶面、清晰的不规则切边、留白纸张与简短题名重新绘制画面。<br>**适合**：建筑、湖景、静物等有清楚体块的照片。<br>**调用 / 安装**：`$crystalize Transform this photograph.`</sub>
 
 <p align="center">
-  <img src="docs/images/design/dnr-flat-pic.jpg" width="420" alt="扁平矢量插画 DnR FlatPic 示例">
-</p>
-
-<sub>**26 · 扁平矢量插画 DnR FlatPic** · 🖨️ 风格转译<br>[**CreateLafont/dnr-flat-pic**](https://github.com/CreateLafont/dnr-flat-pic) ![GitHub Repo stars](https://badgen.net/github/stars/CreateLafont/dnr-flat-pic)<br>把照片转换成无渐变、稀疏、高辨识度、高饱和的扁平矢量风插画：语义压缩而非描摹，一个主语义系统 + 受控的辅助层级，固定 HSB 色板按角色赋色而非匹配原图色相，纯色填充、硬边离散明暗。专门处理比例变更、修订、原图清理与重试控制。<br>**适合**：照片 → 图标化 / 扁平插画，适合做 App 配图、封面。<br>**调用 / 安装**：`npx skills add CreateLafont/dnr-flat-pic`，调用 `$dnr-flat-pic`</sub>
-
-<p align="center">
   <img src="docs/images/design/photo-window-poster.jpg" width="420" alt="几何情绪窗口海报 Photo Window Poster 示例">
 </p>
 
-<sub>**27 · 几何情绪窗口海报 Photo Window Poster** · 📰 纸刊·编辑海报<br>[**yzfly/skills · photo-window-poster**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者把小小东（XXD）的另一段爆款提示词封装成 Skill：3:4 竖版、上下严格 1:1。上半原图只做轻微高级调色；下半提取主体、轮廓、姿态与叙事关系，放进一个窄长、低饱和的几何「情绪窗口」——色块方向随主体走势横 / 竖 / 斜，主体局部越界破框，大面积留白，配色从照片提取并柔化为雾蓝、浅青、米白、淡粉、暖灰，再从画面情绪提炼一个简短标题与几行细字。Skill 加了读图 → 定窗口 → 定配色文案 → 生成 → 8 项质检的工序，中英文两版提示词。<br>**适合**：人物、动物、植物、建筑、器物、食物、风景做高端地产 / 奢侈品 / 美学杂志感海报。<br>**调用 / 安装**：`npx skills add yzfly/skills@photo-window-poster -g -y`<br>**注意**：配图为概念示意，非模型实际输出。</sub>
+<sub>**26 · 几何情绪窗口海报 Photo Window Poster** · 📰 纸刊·编辑海报<br>[**yzfly/skills · photo-window-poster**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者把小小东（XXD）的另一段爆款提示词封装成 Skill：3:4 竖版、上下严格 1:1。上半原图只做轻微高级调色；下半提取主体、轮廓、姿态与叙事关系，放进一个窄长、低饱和的几何「情绪窗口」——色块方向随主体走势横 / 竖 / 斜，主体局部越界破框，大面积留白，配色从照片提取并柔化为雾蓝、浅青、米白、淡粉、暖灰，再从画面情绪提炼一个简短标题与几行细字。Skill 加了读图 → 定窗口 → 定配色文案 → 生成 → 8 项质检的工序，中英文两版提示词。<br>**适合**：人物、动物、植物、建筑、器物、食物、风景做高端地产 / 奢侈品 / 美学杂志感海报。<br>**调用 / 安装**：`npx skills add yzfly/skills@photo-window-poster -g -y`<br>**注意**：配图为概念示意，非模型实际输出。</sub>
 
 <p align="center">
   <img src="docs/images/design/pixel-sprite.jpg" width="420" alt="像素精灵 Pixel Sprite 示例">
 </p>
 
-<sub>**28 · 像素精灵 Pixel Sprite** · 🧩 品牌·图标·网页<br>[**yzfly/skills · pixel-sprite**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者出品。把参考图里的主体**一比一**转成 32×32 复古游戏像素图标：先写「主体特征卡」锁住造型、比例、姿态、配色与识别元素，再套上严格 1 像素网格、硬边、6–8 色有限色板、纯白背景的完整约束，生成后按 8 项清单质检。中英双语 prompt 模板可直接复用。<br>**适合**：App 图标 / favicon、品牌吉祥物、商品小图、社群头像、游戏素材。<br>**调用 / 安装**：`npx skills add yzfly/skills@pixel-sprite -g -y`</sub>
+<sub>**27 · 像素精灵 Pixel Sprite** · 🧩 品牌·图标·网页<br>[**yzfly/skills · pixel-sprite**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者出品。把参考图里的主体**一比一**转成 32×32 复古游戏像素图标：先写「主体特征卡」锁住造型、比例、姿态、配色与识别元素，再套上严格 1 像素网格、硬边、6–8 色有限色板、纯白背景的完整约束，生成后按 8 项清单质检。中英双语 prompt 模板可直接复用。<br>**适合**：App 图标 / favicon、品牌吉祥物、商品小图、社群头像、游戏素材。<br>**调用 / 安装**：`npx skills add yzfly/skills@pixel-sprite -g -y`</sub>
 
 <p align="center">
   <img src="docs/images/design/breathing-brand.jpg" width="420" alt="呼吸感品牌全案 Breathing Brand 示例">
 </p>
 
-<sub>**29 · 呼吸感品牌全案 Breathing Brand** · 🧩 品牌·图标·网页<br>[**yzfly/skills · breathing-brand**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者出品。拒绝廉价感：很多品牌出海看起来廉价，是因为视觉太满太乱。这个 Skill 用固定的设计逻辑一场对话产出出海品牌视觉全案——🔵 高纯度色块 + 留白（全案只有三个色，主色块 ≤ 40%、留白 ≥ 45% 写成硬指标）、🔗 线条即链接（一根流动单线作为唯一图形语言）、🙂 线条 Emoji（8 个同线宽表情）、💼 实战落地（独立站首屏、社媒头像封面、名片、帆布袋、PIN、贴纸页六件物料各一段生图提示词），出稿前过 12 项反廉价感审查，并给一份可直接发社媒的全案展示文案。<br>**适合**：出海 / 国际化品牌、社区、独立开发者产品的 VI 起稿与周边。<br>**调用 / 安装**：`npx skills add yzfly/skills@breathing-brand -g -y`<br>**注意**：CC BY-NC 4.0。</sub>
+<sub>**28 · 呼吸感品牌全案 Breathing Brand** · 🧩 品牌·图标·网页<br>[**yzfly/skills · breathing-brand**](https://github.com/yzfly/skills) ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/skills)<br>本仓库维护者出品。拒绝廉价感：很多品牌出海看起来廉价，是因为视觉太满太乱。这个 Skill 用固定的设计逻辑一场对话产出出海品牌视觉全案——🔵 高纯度色块 + 留白（全案只有三个色，主色块 ≤ 40%、留白 ≥ 45% 写成硬指标）、🔗 线条即链接（一根流动单线作为唯一图形语言）、🙂 线条 Emoji（8 个同线宽表情）、💼 实战落地（独立站首屏、社媒头像封面、名片、帆布袋、PIN、贴纸页六件物料各一段生图提示词），出稿前过 12 项反廉价感审查，并给一份可直接发社媒的全案展示文案。<br>**适合**：出海 / 国际化品牌、社区、独立开发者产品的 VI 起稿与周边。<br>**调用 / 安装**：`npx skills add yzfly/skills@breathing-brand -g -y`<br>**注意**：CC BY-NC 4.0。</sub>
 
 <p align="center">
   <img src="docs/images/design/arch-kele-structure-photo.jpg" width="420" alt="建筑解构水彩 Arch Kele Structure Photo 示例">
 </p>
 
-<sub>**30 · 建筑解构水彩 Arch Kele Structure Photo** · 🖨️ 风格转译<br>[**Architect-kele/arch-kele-structure-photo**](https://github.com/Architect-kele/arch-kele-structure-photo) ![GitHub Repo stars](https://badgen.net/github/stars/Architect-kele/arch-kele-structure-photo)<br>把照片转换成克制、清晰的水彩分层结构研究图：建筑、物件拆成真实可重组的结构层级（爆炸结构 + 分析线稿 + 水彩质感），室内 / 街景转成前中后景深度层，人物动植物只做整体轮廓不做解剖式拆分。一次交付两张：纯净版，以及右上角嵌入未重绘原照片的原图版（由前者确定性合成）。默认 3:4。<br>**适合**：建筑摄影、地标、产品结构讲解图。<br>**调用 / 安装**：clone 到 `~/.codex/skills/arch-kele-structure-photo/`</sub>
+<sub>**29 · 建筑解构水彩 Arch Kele Structure Photo** · 🖨️ 风格转译<br>[**Architect-kele/arch-kele-structure-photo**](https://github.com/Architect-kele/arch-kele-structure-photo) ![GitHub Repo stars](https://badgen.net/github/stars/Architect-kele/arch-kele-structure-photo)<br>把照片转换成克制、清晰的水彩分层结构研究图：建筑、物件拆成真实可重组的结构层级（爆炸结构 + 分析线稿 + 水彩质感），室内 / 街景转成前中后景深度层，人物动植物只做整体轮廓不做解剖式拆分。一次交付两张：纯净版，以及右上角嵌入未重绘原照片的原图版（由前者确定性合成）。默认 3:4。<br>**适合**：建筑摄影、地标、产品结构讲解图。<br>**调用 / 安装**：clone 到 `~/.codex/skills/arch-kele-structure-photo/`</sub>
 
 <p align="center">
   <img src="docs/images/design/concept-pantone.jpg" width="420" alt="潘通相框海报 Pantone Photo Posters 示例">
 </p>
 
-<sub>**31 · 潘通相框海报 Pantone Photo Posters** · 📰 纸刊·编辑海报<br>[**laurent-7bk/Aigc-Skills**](https://github.com/laurent-7bk/Aigc-Skills) ![GitHub Repo stars](https://badgen.net/github/stars/laurent-7bk/Aigc-Skills)<br>`create-pantone-photo-posters`：把照片做成高级潘通风格相框摄影海报——白色相框、克制的主体自然穿出框外、低饱和背景，从照片提取主色并标注潘通近似色号标签，支持对同一系列海报继续修改。<br>**适合**：产品图、人像、静物做成色卡感封面。<br>**调用 / 安装**：复制 `create-pantone-photo-posters` 目录到 skills 目录</sub>
+<sub>**30 · 潘通相框海报 Pantone Photo Posters** · 📰 纸刊·编辑海报<br>[**laurent-7bk/Aigc-Skills**](https://github.com/laurent-7bk/Aigc-Skills) ![GitHub Repo stars](https://badgen.net/github/stars/laurent-7bk/Aigc-Skills)<br>`create-pantone-photo-posters`：把照片做成高级潘通风格相框摄影海报——白色相框、克制的主体自然穿出框外、低饱和背景，从照片提取主色并标注潘通近似色号标签，支持对同一系列海报继续修改。<br>**适合**：产品图、人像、静物做成色卡感封面。<br>**调用 / 安装**：复制 `create-pantone-photo-posters` 目录到 skills 目录</sub>
 
 <p align="center">
   <img src="docs/images/design/concept-travel-sketch.jpg" width="420" alt="旅行速写 Photo to Travel Sketch 示例">
 </p>
 
-<sub>**32 · 旅行速写 Photo to Travel Sketch** · 🖨️ 风格转译<br>[**liigoQi/photo-to-travel-sketch**](https://github.com/liigoQi/photo-to-travel-sketch) ![GitHub Repo stars](https://badgen.net/github/stars/liigoQi/photo-to-travel-sketch)<br>把照片转化为一张 10–15 分钟观察式旅行速写：暖米白纸大量留白、游走的炭笔勾线（不是建筑制图）、可见的干头马克笔笔触、从原图提取的灰调压缩色板；靠剪影、视角、前后遮挡与至多五处关键细节保留辨识度。<br>**适合**：街景、建筑、风景、旅行记忆的速写本风格。<br>**调用 / 安装**：`$photo-to-travel-sketch`</sub>
+<sub>**31 · 旅行速写 Photo to Travel Sketch** · 🖨️ 风格转译<br>[**liigoQi/photo-to-travel-sketch**](https://github.com/liigoQi/photo-to-travel-sketch) ![GitHub Repo stars](https://badgen.net/github/stars/liigoQi/photo-to-travel-sketch)<br>把照片转化为一张 10–15 分钟观察式旅行速写：暖米白纸大量留白、游走的炭笔勾线（不是建筑制图）、可见的干头马克笔笔触、从原图提取的灰调压缩色板；靠剪影、视角、前后遮挡与至多五处关键细节保留辨识度。<br>**适合**：街景、建筑、风景、旅行记忆的速写本风格。<br>**调用 / 安装**：`$photo-to-travel-sketch`</sub>
 
 <p align="center">
   <img src="docs/images/design/concept-ink-wash.jpg" width="420" alt="写意水墨 Ink Wash Photo 示例">
 </p>
 
-<sub>**33 · 写意水墨 Ink Wash Photo** · 🖨️ 风格转译<br>[**BigFish-zZz/bigfish-ink-wash-photo**](https://github.com/BigFish-zZz/bigfish-ink-wash-photo) ![GitHub Repo stars](https://badgen.net/github/stars/BigFish-zZz/bigfish-ink-wash-photo)<br>把照片重构为当代中国写意水墨：寥寥数笔、大面积留白，只保留关键识别锚点。强制毛笔在生宣上的中锋、侧锋、飞白、破墨、积墨等真实笔法，色彩只作为墨中淡彩，明确排斥西式水彩和透明叠色滤镜；横图锁 16:9、竖图锁 9:16，人物的身份与姿态几何严格保留。<br>**适合**：山水、水面、船、古建、人物剪影；东方意境封面。<br>**调用 / 安装**：`$bigfish-ink-wash-photo`，图生图模式必须附原照片</sub>
+<sub>**32 · 写意水墨 Ink Wash Photo** · 🖨️ 风格转译<br>[**BigFish-zZz/bigfish-ink-wash-photo**](https://github.com/BigFish-zZz/bigfish-ink-wash-photo) ![GitHub Repo stars](https://badgen.net/github/stars/BigFish-zZz/bigfish-ink-wash-photo)<br>把照片重构为当代中国写意水墨：寥寥数笔、大面积留白，只保留关键识别锚点。强制毛笔在生宣上的中锋、侧锋、飞白、破墨、积墨等真实笔法，色彩只作为墨中淡彩，明确排斥西式水彩和透明叠色滤镜；横图锁 16:9、竖图锁 9:16，人物的身份与姿态几何严格保留。<br>**适合**：山水、水面、船、古建、人物剪影；东方意境封面。<br>**调用 / 安装**：`$bigfish-ink-wash-photo`，图生图模式必须附原照片</sub>
 
 <p align="center">
   <img src="docs/images/design/handdrawn-photo-poster.jpg" width="420" alt="书页邮票海报 Handdrawn Photo Poster 示例">
 </p>
 
-<sub>**34 · 书页邮票海报 Handdrawn Photo Poster** · 📰 纸刊·编辑海报<br>[**luji12/handdrawn-photo-poster**](https://github.com/luji12/handdrawn-photo-poster) ![GitHub Repo stars](https://badgen.net/github/stars/luji12/handdrawn-photo-poster)<br>把日常照片改造成带有轻微书本载体、居中手绘邮票和克制 ZINE 文案的 3:4 编辑海报：默认「打开的书跨页」，左页保留原照片，右页暖象牙白纸上居中一枚邮票——从照片中提取 3–5 个可辨认的小物件，用统一的高饱和、硬边、角切二维绘画重新组织，标题在上、微文在下。<br>**适合**：想保留照片真实感、又要一点手作物件趣味的日常记录。<br>**调用 / 安装**：`$handdrawn-photo-poster`</sub>
+<sub>**33 · 书页邮票海报 Handdrawn Photo Poster** · 📰 纸刊·编辑海报<br>[**luji12/handdrawn-photo-poster**](https://github.com/luji12/handdrawn-photo-poster) ![GitHub Repo stars](https://badgen.net/github/stars/luji12/handdrawn-photo-poster)<br>把日常照片改造成带有轻微书本载体、居中手绘邮票和克制 ZINE 文案的 3:4 编辑海报：默认「打开的书跨页」，左页保留原照片，右页暖象牙白纸上居中一枚邮票——从照片中提取 3–5 个可辨认的小物件，用统一的高饱和、硬边、角切二维绘画重新组织，标题在上、微文在下。<br>**适合**：想保留照片真实感、又要一点手作物件趣味的日常记录。<br>**调用 / 安装**：`$handdrawn-photo-poster`</sub>
 
 <p align="center">
   <img src="docs/images/design/vintage-travel-ticket.jpg" width="420" alt="老式记忆门票 Vintage Travel Ticket 示例">
 </p>
 
-<sub>**35 · 老式记忆门票 Vintage Travel Ticket** · 🖨️ 风格转译<br>[**hongfamonvAI/vintage-travel-ticket**](https://github.com/hongfamonvAI/vintage-travel-ticket) ![GitHub Repo stars](https://badgen.net/github/stars/hongfamonvAI/vintage-travel-ticket)<br>把旅行、城市街巷、风景、个人记忆或美食照片，重绘成一张 20 世纪中后期气质的中文老式门票。不是旧纸滤镜：每次先从 16 类结构原型抽取完整票券 DNA，再联动比例、版式、纸张（18 套配色）、套色、插画语言（14 种）、字体角色（16 套）与印刷做旧；首次只问地点 / 景区 / 美食名称，可带姓名与纪念日期，每次只交付一张独立门票。<br>**适合**：旅行纪念、城市地标、美食打卡做成可收藏的票根。<br>**调用 / 安装**：clone 到 `~/.codex/skills/vintage-travel-ticket`，上传照片说「做成老式门票」</sub>
+<sub>**34 · 老式记忆门票 Vintage Travel Ticket** · 🖨️ 风格转译<br>[**hongfamonvAI/vintage-travel-ticket**](https://github.com/hongfamonvAI/vintage-travel-ticket) ![GitHub Repo stars](https://badgen.net/github/stars/hongfamonvAI/vintage-travel-ticket)<br>把旅行、城市街巷、风景、个人记忆或美食照片，重绘成一张 20 世纪中后期气质的中文老式门票。不是旧纸滤镜：每次先从 16 类结构原型抽取完整票券 DNA，再联动比例、版式、纸张（18 套配色）、套色、插画语言（14 种）、字体角色（16 套）与印刷做旧；首次只问地点 / 景区 / 美食名称，可带姓名与纪念日期，每次只交付一张独立门票。<br>**适合**：旅行纪念、城市地标、美食打卡做成可收藏的票根。<br>**调用 / 安装**：clone 到 `~/.codex/skills/vintage-travel-ticket`，上传照片说「做成老式门票」</sub>
 
 <p align="center">
   <img src="docs/images/design/xxd-panel-070.jpg" width="420" alt="厚涂治愈岛 XXD Panel 070 示例">
 </p>
 
-<sub>**36 · 厚涂治愈岛 XXD Panel 070** · 📰 纸刊·编辑海报<br>[**nevertoday/xxd-panel-070**](https://github.com/nevertoday/xxd-panel-070) ![GitHub Repo stars](https://badgen.net/github/stars/nevertoday/xxd-panel-070)<br>「小东 × 手绘 × 厚涂」：每张照片单独输出一张 3:4 高级设计海报，上下两区严格 1:1。上半保留原照片（身份、结构、姿态、真实质感、原有色彩氛围，只做轻微高级调色，可自然扩展环境但不拉伸主体）；下半提取最具识别性的主体、轮廓、姿态与叙事关系，用手绘描边 + 明亮厚涂 / 半透明色块（水粉、水彩、粉彩、少量油画笔触）重构成微缩主体 + 大面积暖白留白 + 打字机式小字的出版感画面。支持上下 / 左右 / 纯设计 / 多比例 / 四端壁纸与批量目录处理，五语原始提示词。同作者 **XXD Panel 系列** 40+ 个编号 Skill，各有一种风格：[100 民艺叙事插画](https://github.com/nevertoday/xxd-panel-100)、[028 等距纸雕微缩](https://github.com/nevertoday/xxd-panel-028)、[060 禅意黑形留白](https://github.com/nevertoday/xxd-panel-060)、[061 剪纸水粉蜡笔](https://github.com/nevertoday/xxd-panel-061)、[092 钢笔排线](https://github.com/nevertoday/xxd-panel-092)、[073 剖面等距建筑](https://github.com/nevertoday/xxd-panel-073)……见 [作者主页](https://github.com/nevertoday?tab=repositories&q=xxd-panel)。<br>**适合**：人像、建筑、动物、植物、器物照片做成明亮治愈的封面 / 海报 / 壁纸。<br>**调用 / 安装**：「用 XXD Panel 070 帮我处理这张图，先推荐最合适的构图和尺寸」<br>**注意**：非标准许可，见仓库 LICENSE。</sub>
+<sub>**35 · 厚涂治愈岛 XXD Panel 070** · 📰 纸刊·编辑海报<br>[**nevertoday/xxd-panel-070**](https://github.com/nevertoday/xxd-panel-070) ![GitHub Repo stars](https://badgen.net/github/stars/nevertoday/xxd-panel-070)<br>「小东 × 手绘 × 厚涂」：每张照片单独输出一张 3:4 高级设计海报，上下两区严格 1:1。上半保留原照片（身份、结构、姿态、真实质感、原有色彩氛围，只做轻微高级调色，可自然扩展环境但不拉伸主体）；下半提取最具识别性的主体、轮廓、姿态与叙事关系，用手绘描边 + 明亮厚涂 / 半透明色块（水粉、水彩、粉彩、少量油画笔触）重构成微缩主体 + 大面积暖白留白 + 打字机式小字的出版感画面。支持上下 / 左右 / 纯设计 / 多比例 / 四端壁纸与批量目录处理，五语原始提示词。同作者 **XXD Panel 系列** 40+ 个编号 Skill，各有一种风格：[100 民艺叙事插画](https://github.com/nevertoday/xxd-panel-100)、[028 等距纸雕微缩](https://github.com/nevertoday/xxd-panel-028)、[060 禅意黑形留白](https://github.com/nevertoday/xxd-panel-060)、[061 剪纸水粉蜡笔](https://github.com/nevertoday/xxd-panel-061)、[092 钢笔排线](https://github.com/nevertoday/xxd-panel-092)、[073 剖面等距建筑](https://github.com/nevertoday/xxd-panel-073)……见 [作者主页](https://github.com/nevertoday?tab=repositories&q=xxd-panel)。<br>**适合**：人像、建筑、动物、植物、器物照片做成明亮治愈的封面 / 海报 / 壁纸。<br>**调用 / 安装**：「用 XXD Panel 070 帮我处理这张图，先推荐最合适的构图和尺寸」<br>**注意**：非标准许可，见仓库 LICENSE。</sub>
 
 <p align="center">
   <img src="docs/images/design/concept-bauhaus.jpg" width="420" alt="包豪斯抽象构成 Bauhaus Abstract Composer 示例">
 </p>
 
-<sub>**37 · 包豪斯抽象构成 Bauhaus Abstract Composer** · 🖨️ 风格转译<br>[**zhangshuaige12138-create/bauhaus-abstract-composer**](https://github.com/zhangshuaige12138-create/bauhaus-abstract-composer) ![GitHub Repo stars](https://badgen.net/github/stars/zhangshuaige12138-create/bauhaus-abstract-composer)<br>设计师的「焚决」：把建筑、街道、山川、人物全部拆成最基础的点、线、面。保留原本的构图、大轮廓关系、空间层次与明暗节奏，去掉纹理和细节，只用红、黄、蓝、黑、白（少量米白 / 浅灰辅助）重新组织画面，大面积留白，做成一张现代主义展览海报。点有五级尺寸规则，不允许写实与装饰堆砌。照片不一定只能记录现实，也可以成为设计本身。<br>**适合**：建筑、城市、风景、人物剪影做现代主义海报。<br>**调用 / 安装**：复制到 Codex skills 目录后按 `bauhaus-abstract-composer` 调用</sub>
+<sub>**36 · 包豪斯抽象构成 Bauhaus Abstract Composer** · 🖨️ 风格转译<br>[**zhangshuaige12138-create/bauhaus-abstract-composer**](https://github.com/zhangshuaige12138-create/bauhaus-abstract-composer) ![GitHub Repo stars](https://badgen.net/github/stars/zhangshuaige12138-create/bauhaus-abstract-composer)<br>设计师的「焚决」：把建筑、街道、山川、人物全部拆成最基础的点、线、面。保留原本的构图、大轮廓关系、空间层次与明暗节奏，去掉纹理和细节，只用红、黄、蓝、黑、白（少量米白 / 浅灰辅助）重新组织画面，大面积留白，做成一张现代主义展览海报。点有五级尺寸规则，不允许写实与装饰堆砌。照片不一定只能记录现实，也可以成为设计本身。<br>**适合**：建筑、城市、风景、人物剪影做现代主义海报。<br>**调用 / 安装**：复制到 Codex skills 目录后按 `bauhaus-abstract-composer` 调用</sub>
 
 
 #### 🧭 选型指南：先想清楚要不要原图出现
@@ -574,9 +568,9 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**microsoft/skill-recorder**](https://github.com/microsoft/skill-recorder) | ![GitHub Repo stars](https://badgen.net/github/stars/microsoft/skill-recorder) | 微软开源桌面应用：录一遍屏幕操作，用 Copilot CLI 自动生成可复用的 Skill。 |
 | [**yzfly/awesome-dsh-skills**](https://github.com/yzfly/awesome-dsh-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/awesome-dsh-skills) | DeepSeek Harness（dsh）技能 / 插件中文精选，自动收录并验证。 |
 | [**K-Dense-AI/scientific-agent-skills**](https://github.com/K-Dense-AI/scientific-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/K-Dense-AI/scientific-agent-skills) | **125+** 个科学研究类 Skills，专为科研设计，涵盖文献分析、数据处理等领域。 |
-| [**calesthio/OpenMontage**](https://github.com/calesthio/OpenMontage) | ![GitHub Repo stars](https://badgen.net/github/stars/calesthio/OpenMontage) | 开源的 agentic 视频生产系统，内置 **500+** Agent Skills，覆盖剪辑、转场、字幕、调色等全流程视频创作。 |
+| [**calesthio/OpenMontage**](https://github.com/OpenMontageInc/OpenMontage) | ![GitHub Repo stars](https://badgen.net/github/stars/OpenMontageInc/OpenMontage) | 开源的 agentic 视频生产系统，内置 **500+** Agent Skills，覆盖剪辑、转场、字幕、调色等全流程视频创作。 |
 | [**Orkas-AI/Orkas-VideoStudio**](https://github.com/Orkas-AI/Orkas-VideoStudio) | ![GitHub Repo stars](https://badgen.net/github/stars/Orkas-AI/Orkas-VideoStudio) | 本地优先的视频制作 Skills 与 CLI/MCP 工具包，支持策划、合成、剪辑、生成、字幕、渲染和质检。 |
-| [**nowork-studio/NotFair**](https://github.com/nowork-studio/NotFair) | ![GitHub Repo stars](https://badgen.net/github/stars/nowork-studio/NotFair) | 开源营销增长 Skills，覆盖 SEO、GEO、Google Ads、Meta Ads 等投放场景。 |
+| [**nowork-studio/NotFair**](https://github.com/nowork-studio/notfair-plugin) | ![GitHub Repo stars](https://badgen.net/github/stars/nowork-studio/notfair-plugin) | 开源营销增长 Skills，覆盖 SEO、GEO、Google Ads、Meta Ads 等投放场景。 |
 | [**dominikmartn/nothing-design-skill**](https://github.com/dominikmartn/nothing-design-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/dominikmartn/nothing-design-skill) | 以 Nothing 设计语言（单色、点阵风）生成 UI 的 Skill。 |
 | [**samber/cc-skills-golang**](https://github.com/samber/cc-skills-golang) | ![GitHub Repo stars](https://badgen.net/github/stars/samber/cc-skills-golang) | 一套实际可用的 Golang agentic skills 合集，面向 Go 工程实践。 |
 | [**aaron-he-zhu/seo-geo-claude-skills**](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/aaron-he-zhu/seo-geo-claude-skills) | 20 个 SEO 与 GEO（生成式引擎优化）Skills，兼容 35+ AI 智能体。 |
@@ -586,7 +580,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**Sushegaad/Claude-Skills-Governance-Risk-and-Compliance**](https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance) | ![GitHub Repo stars](https://badgen.net/github/stars/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance) | 治理、风险与合规（GRC）专家级 Skills，覆盖 ISO 27001、SOC 2、GDPR、HIPAA、NIST、EU AI Act 等数十种标准。 |
 | [**jherrodthomas/robotics-skills-suite**](https://github.com/jherrodthomas/robotics-skills-suite) | ![GitHub Repo stars](https://badgen.net/github/stars/jherrodthomas/robotics-skills-suite) | **76** 个可审计的机器人领域 Skills，覆盖工业机器人、协作机器人、AMR、ROS2 与 IEC 62443 全生命周期。 |
 | [**posit-dev/skills**](https://github.com/posit-dev/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/posit-dev/skills) | Posit（原 RStudio）官方出品的 Claude Skills 合集，面向 R 与数据科学。 |
-| [**palkan/skills**](https://github.com/palkan/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/palkan/skills) | 基于《Layered Rails》一书提炼的 Rails 开发 Skills，作者为 Evil Martians 的 palkan。 |
+| [**palkan/skills**](https://github.com/palkan/layered-rails-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/palkan/layered-rails-skills) | 基于《Layered Rails》一书提炼的 Rails 开发 Skills，作者为 Evil Martians 的 palkan。 |
 | [**jamditis/claude-skills-journalism**](https://github.com/jamditis/claude-skills-journalism) | ![GitHub Repo stars](https://badgen.net/github/stars/jamditis/claude-skills-journalism) | 面向新闻、媒体与学术的 Skills：事实核查、FOIA 信息公开、数据新闻、学术写作等。 |
 | [**klingai-tech/claude-plugin-cn**](https://github.com/klingai-tech/claude-plugin-cn) | ![GitHub Repo stars](https://badgen.net/github/stars/klingai-tech/claude-plugin-cn) | 可灵中国区官方 Claude 插件，含图像、视频与任务管理三个 Skills，通过 OAuth 连接远程 MCP；生成消耗可灵积分。 |
 | [**Pluviobyte/video-production-skills**](https://github.com/Pluviobyte/video-production-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/Pluviobyte/video-production-skills) | 可复用的 AI 视频制作技能库，覆盖创作、复刻、运动设计、片头与 QA 全流程。 |
@@ -596,7 +590,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**ahmedasmar/devops-claude-skills**](https://github.com/ahmedasmar/devops-claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/ahmedasmar/devops-claude-skills) | 面向 DevOps 工作流的 Claude Code Skills 市场。 |
 | [**gamedev-skills/awesome-gamedev-agent-skills**](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/gamedev-skills/awesome-gamedev-agent-skills) | **66** 个游戏开发 Agent Skills + 主路由（自动按引擎/任务加载对应技能），版本锁定、可移植的 SKILL.md 格式，跨 Claude Code/Cursor/Codex/Copilot/Gemini CLI，覆盖 Godot、Unity、Unreal 与 Web。 |
 | [**NVIDIA-BioNeMo/bionemo-agent-toolkit**](https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit) | ![GitHub Repo stars](https://badgen.net/github/stars/NVIDIA-BioNeMo/bionemo-agent-toolkit) | NVIDIA 官方出品，用 BioNeMo skills 把任意智能体变成生命科学专家。 |
-| [**shreyashankar/error-discovery-skill**](https://github.com/shreyashankar/error-discovery-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/shreyashankar/error-discovery-skill) | 面向 AI 智能体的交互式错误分析 Skill：研究 LLM trace 数据集、构建审查 UI、监控标注、归类失败模式并提出新样本。 |
+| [**shreyashankar/error-discovery-skill**](https://github.com/ai-evals-course/evals-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/ai-evals-course/evals-skills) | 面向 AI 智能体的交互式错误分析 Skill：研究 LLM trace 数据集、构建审查 UI、监控标注、归类失败模式并提出新样本。 |
 | [**yzfly/awesome-design-html**](https://github.com/yzfly/awesome-design-html) | ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/awesome-design-html) | **115** 个品牌主题 HTML 设计（93 网页 + 22 iOS，含 20 个中国品牌）打包成的 Claude Code skill，一行安装后直接对话「做一个飞书风的页面」（本仓库维护者 [@yzfly](https://github.com/yzfly) 出品）。 |
 | [**saidsurucu/trdizin-skill**](https://github.com/saidsurucu/trdizin-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/saidsurucu/trdizin-skill) | 检索土耳其学术库 TR Dizin（trdizin.gov.tr）的 Agent Skill：通过开放 JSON API 查论文/期刊/作者/机构，支持高级字段检索、引文与 PDF 转文本，无需浏览器、登录或 API key。 |
 | [**Vladimir-Human/ru-marketplace-mcp**](https://github.com/Vladimir-Human/ru-marketplace-mcp) | ![GitHub Repo stars](https://badgen.net/github/stars/Vladimir-Human/ru-marketplace-mcp) | 覆盖俄罗斯与中国 **12** 大电商及分类信息平台（Wildberries、Ozon、Yandex Market、Detsky Mir、Avito、速卖通 AliExpress、淘宝 Taobao、Megamarket、Lamoda、DNS、Citilink、Cian 房产）的 **15** 个 Agent Skills 与只读 MCP 工具：商品搜索、详情卡片、卖家信息、评论与一键跨平台比价，无需 API key。 |
@@ -610,7 +604,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | 项目 | ⭐ Stars | 简介 |
 | :--- | ---: | :--- |
 | [**googleworkspace/cli**](https://github.com/googleworkspace/cli) | ![GitHub Repo stars](https://badgen.net/github/stars/googleworkspace/cli) | Google Workspace 官方 CLI（`gws`），统一访问 Drive/Gmail/Calendar/Sheets/Docs/Chat 等 API；内置 **100+ Agent Skills（`SKILL.md`）**，覆盖每个 API 及常用工作流与 50 个精选配方，让 LLM 无需自定义工具即可操作 Workspace。 |
-| [**kepano/obsidian-skills**](https://github.com/kepano/obsidian-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/kepano/obsidian-skills) | Obsidian 作者 [@kepano](https://github.com/kepano) 出品，让智能体通过 Obsidian CLI 与开放文件格式操作笔记库的 Skills 合集。 |
+| [**kepano/obsidian-skills**](https://github.com/obsidianmd/obsidian-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/obsidianmd/obsidian-skills) | Obsidian 作者 [@kepano](https://github.com/kepano) 出品，让智能体通过 Obsidian CLI 与开放文件格式操作笔记库的 Skills 合集。 |
 | [**SynaLinks/synalinks-skills**](https://github.com/SynaLinks/synalinks-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/SynaLinks/synalinks-skills) | 专为 **Synalinks** 生态系统设计的 Claude Skills 集合，展示特定框架下的应用。 |
 | [**google/skills**](https://github.com/google/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/google/skills) | Google 官方出品的 Agent Skills 库，覆盖 Google 产品与技术栈（遵循 SKILL.md 开放标准，兼容 Claude Code / Codex / Gemini CLI / Cursor）。 |
 | [**huggingface/skills**](https://github.com/huggingface/skills) | ![GitHub Repo stars](https://badgen.net/github/stars/huggingface/skills) | Hugging Face 官方 Skills，把 HF 生态（模型、数据集、Spaces、推理）能力直接赋予智能体。 |
@@ -621,7 +615,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**google-labs-code/stitch-skills**](https://github.com/google-labs-code/stitch-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/google-labs-code/stitch-skills) | Google Labs 官方出品，配合 Stitch MCP server 使用的 Agent Skills 库，遵循 Agent Skills 开放标准，兼容 Antigravity / Gemini CLI / Claude Code / Cursor 等编码智能体。 |
 | [**vanshyadav1408/Omentir**](https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach) | ![GitHub Repo stars](https://badgen.net/github/stars/vanshyadav1408/Omentir) | Omentir 官方出品的 `linkedin-outreach` Skill：通过 Omentir MCP 服务器做 LinkedIn 获客与外联，查找并评估潜在客户、起草消息、查看外联活动。默认只做调研和草稿，用户要求时才发送，智能体全程不登录 LinkedIn。 |
 | [**voygr-tech/placecall**](https://github.com/voygr-tech/placecall) | ![GitHub Repo stars](https://badgen.net/github/stars/voygr-tech/placecall) | PlaceCall 官方出品的 Agent Skill 与远程 MCP 服务器：让智能体给美国商家拨打真实电话（订位、预约、询价），自动应对 IVR 语音菜单、等待与转接，返回结构化结果与通话文字记录；另含 Claude Code / Codex / Cursor 插件，付费 API，提供试用额度，具体限制见服务说明。 |
-| [**Omega-JS-Stack/omega**](https://github.com/Omega-JS-Stack/omega/tree/main/agent-plugins/claude) | ![GitHub Repo stars](https://badgen.net/github/stars/Omega-JS-Stack/omega) | Omega 框架（一个项目、一个配置文件同时交付网站、后端、桌面应用和浏览器扩展）的 Claude Code 插件：14 个 `omega:*` Skills，覆盖 web、backend、desktop、extension、seo、analytics、accessibility 等，与框架代码同仓发布、随版本对齐。 |
+| [**Omega-JS-Stack/omega**](https://github.com/omegajs-dev/omega/tree/main/agent-plugins/claude) | ![GitHub Repo stars](https://badgen.net/github/stars/omegajs-dev/omega) | Omega 框架（一个项目、一个配置文件同时交付网站、后端、桌面应用和浏览器扩展）的 Claude Code 插件：14 个 `omega:*` Skills，覆盖 web、backend、desktop、extension、seo、analytics、accessibility 等，与框架代码同仓发布、随版本对齐。 |
 | [**wavegrain/wavegrain-mcp**](https://github.com/wavegrain/wavegrain-mcp) | ![GitHub Repo stars](https://badgen.net/github/stars/wavegrain/wavegrain-mcp) | Wavegrain 官方出品的 Agent Skill 与托管 MCP 服务器（OAuth，注册名 `com.wavegrain/mcp`）：为品牌自动生成精选的 TikTok 图文轮播和 Instagram 轮播图，按品牌语气撰写文案，并替你排期和发布。 |
 
 ---
@@ -690,7 +684,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**elementalsouls/Claude-OSINT**](https://github.com/elementalsouls/Claude-OSINT) | ![GitHub Repo stars](https://badgen.net/github/stars/elementalsouls/Claude-OSINT) | 两个配套的 OSINT 情报搜集 Skill，含 90+ 侦察模块、48 个密钥正则与 80+ 数据源。 |
 | [**BrownFineSecurity/iothackbot**](https://github.com/BrownFineSecurity/iothackbot) | ![GitHub Repo stars](https://badgen.net/github/stars/BrownFineSecurity/iothackbot) | 面向 IoT 渗透测试的 Claude Skills 与定制工具集合。 |
 | [**cloudflare/security-audit-skill**](https://github.com/cloudflare/security-audit-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/cloudflare/security-audit-skill) | Cloudflare 官方出品：用于多阶段安全审计的编码 agent skill，产出可独立验证的机读发现。 |
-| [**Eyadkelleh/awesome-claude-skills-security**](https://github.com/Eyadkelleh/awesome-claude-skills-security) | ![GitHub Repo stars](https://badgen.net/github/stars/Eyadkelleh/awesome-claude-skills-security) | 面向授权渗透测试、CTF 与漏洞赏金的安全工具包：精选 SecLists 字典、注入 payload 与专家级 agent。 |
+| [**Eyadkelleh/awesome-claude-skills-security**](https://github.com/Eyadkelleh/awesome-skills-security) | ![GitHub Repo stars](https://badgen.net/github/stars/Eyadkelleh/awesome-skills-security) | 面向授权渗透测试、CTF 与漏洞赏金的安全工具包：精选 SecLists 字典、注入 payload 与专家级 agent。 |
 | [**DeerYang/server-security-init-skill**](https://github.com/DeerYang/server-security-init-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/DeerYang/server-security-init-skill) | 安全初始化与加固全新 Ubuntu/Debian SSH 服务器的 Agent Skill，面向防御性运维（仅用于你有权管理的服务器）。 |
 | [**morluto/rea**](https://github.com/morluto/rea) | ![GitHub Repo stars](https://badgen.net/github/stars/morluto/rea) | 内含 `reverse-engineer-anything` Skill，指导 Claude Code / Codex 通过本地 CLI 与 MCP 分析原生程序、JavaScript/Electron 和 .NET，保留证据来源与未知项；原生深度分析需自备 Hopper、Ghidra 或 IDA。 |
 | [**salemalem/npmscan-mcp-plugin**](https://github.com/salemalem/npmscan-mcp-plugin) | ![GitHub Repo stars](https://badgen.net/github/stars/salemalem/npmscan-mcp-plugin) | npm 供应链安全 Skills 与远程 MCP：5 个 Skill 指导 Claude Code / Codex / Gemini CLI 在安装或升级 npm 包前检查恶意包、已知漏洞、仿冒包名、维护者变更和安装脚本，并对依赖变更给出 PASS/WARN/FAIL 结论；连接 npmscan.com 免费的只读服务（服务端不开源）。 |
@@ -707,7 +701,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**alchaincyf/zhangxuefeng-skill**](https://github.com/alchaincyf/zhangxuefeng-skill) (张雪峰.skill) | ![GitHub Repo stars](https://badgen.net/github/stars/alchaincyf/zhangxuefeng-skill) | 高考志愿 / 考研 / 职业规划的实战思维框架。 |
 | [**alchaincyf/darwin-skill**](https://github.com/alchaincyf/darwin-skill) (达尔文.skill) | ![GitHub Repo stars](https://badgen.net/github/stars/alchaincyf/darwin-skill) | 🔧 让 Skill 无限进化：评估 → 改进 → 测试 → 保留或回滚的自我迭代机制。 |
 | [**tmstack/awesome-persona-skills**](https://github.com/tmstack/awesome-persona-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/tmstack/awesome-persona-skills) | 📚 同事.skill、老板.skill、前任.skill、永生.skill…… 人物 Skill 大合集。 |
-| [**Panmax/awesome-nuwa**](https://github.com/Panmax/awesome-nuwa) | ![GitHub Repo stars](https://badgen.net/github/stars/Panmax/awesome-nuwa) | 📚 用女娲蒸馏的人物思维框架合集。 |
+| [**Panmax/awesome-nuwa**](https://github.com/nuwa-skills/awesome-nuwa) | ![GitHub Repo stars](https://badgen.net/github/stars/nuwa-skills/awesome-nuwa) | 📚 用女娲蒸馏的人物思维框架合集。 |
 | [**YannisKiefer/harvey-specter**](https://github.com/YannisKiefer/harvey-specter) | ![GitHub Repo stars](https://badgen.net/github/stars/YannisKiefer/harvey-specter) | 独立的 Harvey Specter 风格对话 Skill：按情境选择谈判、道歉、澄清或支持，附原创示例，并区分角色风格与实际建议。 |
 
 > 此外，作者还用女娲生成了乔布斯、马斯克、芒格、特朗普、Karpathy、纳瓦尔、费曼等多位人物的 `.skill`（均在 1k star 以下），完整清单见上方 awesome 列表与 [作者主页](https://github.com/alchaincyf?tab=repositories)。
@@ -726,8 +720,8 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**alchaincyf/huashu-design**](https://github.com/alchaincyf/huashu-design) (花叔设计) | ![GitHub Repo stars](https://badgen.net/github/stars/alchaincyf/huashu-design) | 花叔出品的 HTML-native 设计 Skill，让 Claude 直接产出高质量网页设计。 |
 | [**op7418/Humanizer-zh**](https://github.com/op7418/Humanizer-zh) | ![GitHub Repo stars](https://badgen.net/github/stars/op7418/Humanizer-zh) | [blader/humanizer](https://github.com/blader/humanizer) 的汉化版，专门消除中文文本中的 AI 生成痕迹。 |
 | [**joeseesun/qiaomu-anything-to-notebooklm**](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) | ![GitHub Repo stars](https://badgen.net/github/stars/joeseesun/qiaomu-anything-to-notebooklm) | 面向 NotebookLM 的多源内容处理 Skill，支持微信公众号文章等来源的采集与整理。 |
-| [**JimLiu/baoyu-design**](https://github.com/JimLiu/baoyu-design) | ![GitHub Repo stars](https://badgen.net/github/stars/JimLiu/baoyu-design) | 本地运行的 Claude Design Agent Skill，无需 claude.ai/design 即产出精致 UI 原型 / 线框 / 演示稿（自包含 HTML），Opus 4.8 体验最佳。 |
-| [**Ceeon/videocut-skills**](https://github.com/Ceeon/videocut-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/Ceeon/videocut-skills) | 用 Claude Code Skills 打造的视频剪辑 Agent。 |
+| [**JimLiu/baoyu-design**](https://github.com/JimLiu/open-artifacts) | ![GitHub Repo stars](https://badgen.net/github/stars/JimLiu/open-artifacts) | 本地运行的 Claude Design Agent Skill，无需 claude.ai/design 即产出精致 UI 原型 / 线框 / 演示稿（自包含 HTML），Opus 4.8 体验最佳。 |
+| [**Ceeon/videocut-skills**](https://github.com/Agentchengfeng/chengfeng-videocut-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/Agentchengfeng/chengfeng-videocut-skills) | 用 Claude Code Skills 打造的视频剪辑 Agent。 |
 | [**huangserva/skill-prompt-generator**](https://github.com/huangserva/skill-prompt-generator) | ![GitHub Repo stars](https://badgen.net/github/stars/huangserva/skill-prompt-generator) | 基于 Claude Skill 的 AI 人像 Prompt 生成系统，可从特征库智能组合并自动学习扩展。 |
 | [**P4nda0s/reverse-skills**](https://github.com/P4nda0s/reverse-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/P4nda0s/reverse-skills) | 逆向工程 Claude Code Skills 插件，中文文档友好。 |
 | [**yzfly/douyin-mcp-server**](https://github.com/yzfly/douyin-mcp-server) | ![GitHub Repo stars](https://badgen.net/github/stars/yzfly/douyin-mcp-server) | 提取抖音无水印视频链接与文案，同时支持 MCP 与 Claude Skill（本仓库维护者 [@yzfly](https://github.com/yzfly) 出品）。 |
@@ -789,7 +783,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**majiayu000/claude-skill-registry**](https://github.com/majiayu000/claude-skill-registry) | Skill 目录 | ![GitHub Repo stars](https://badgen.net/github/stars/majiayu000/claude-skill-registry) | 号称最全的 Claude Code Skills 注册表，配套网页检索站点。 |
 | [**instavm/open-skills**](https://github.com/instavm/open-skills) | 跨平台运行器 | ![GitHub Repo stars](https://badgen.net/github/stars/instavm/open-skills) | 让 Claude Skills 在本地运行于**任何 LLM** 之上，打破模型限制。 |
 | [**smallnest/goskills**](https://github.com/smallnest/goskills) | 跨 LLM 运行器 | ![GitHub Repo stars](https://badgen.net/github/stars/smallnest/goskills) | 知名 Go 开发者 smallnest 出品，让 OpenAI 等任意 LLM 也能使用 Claude Skills，并可作为子智能体。 |
-| [**wanghuan9/skill-manager**](https://github.com/wanghuan9/skill-manager) (SkillDock) | Skill 管理 | ![GitHub Repo stars](https://badgen.net/github/stars/wanghuan9/skill-manager) | 安装、查看、更新与同步 AI skills 与 MCP servers 的管理器，支持 Git-aware 更新以跟踪上游变更与本地修改。 |
+| [**wanghuan9/skill-manager**](https://github.com/wanghuan9/skilldock) (SkillDock) | Skill 管理 | ![GitHub Repo stars](https://badgen.net/github/stars/wanghuan9/skilldock) | 安装、查看、更新与同步 AI skills 与 MCP servers 的管理器，支持 Git-aware 更新以跟踪上游变更与本地修改。 |
 | [**alvinunreal/lazyskills**](https://github.com/alvinunreal/lazyskills) | Skill 管理 | ![GitHub Repo stars](https://badgen.net/github/stars/alvinunreal/lazyskills) | 面向 agent skills 的极速「任务控制台」，在终端中快速浏览、查看与管理本地 Skills。 |
 | [**alexknowshtml/claude-memory-health**](https://github.com/alexknowshtml/claude-memory-health) | 记忆审计 | ![GitHub Repo stars](https://badgen.net/github/stars/alexknowshtml/claude-memory-health) | 审计 MEMORY.md 索引的 Claude Code skill：检查体积、孤儿项、断链与陈旧度，帮你保持记忆索引健康。 |
 | [**moatazhamada/ai-omni-skills**](https://github.com/moatazhamada/ai-omni-skills) | 跨工具同步 | ![GitHub Repo stars](https://badgen.net/github/stars/moatazhamada/ai-omni-skills) | 以单一 `SKILL.md` 为事实源 + 跨工具同步工具包（MCP server、共享指令、一键打通 Claude Code/Codex/Gemini/Kimi/Cursor/Kilocode/OpenCode），解决在多工具间技能碎片化的问题。 |
@@ -814,7 +808,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | 项目 | ⭐ Stars | 简介 |
 | :--- | ---: | :--- |
 | [**ComposioHQ/awesome-claude-skills**](https://github.com/ComposioHQ/awesome-claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/ComposioHQ/awesome-claude-skills) | 目前 Star 最高的 Claude Skills Awesome 列表，由 Composio 团队维护，收录海量 Skills、资源与工具。 |
-| [**sickn33/antigravity-awesome-skills**](https://github.com/sickn33/antigravity-awesome-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/sickn33/antigravity-awesome-skills) | 面向 Antigravity 场景的 Skills 精选列表，补充了大量社区贡献的资源与用法。 |
+| [**sickn33/antigravity-awesome-skills**](https://github.com/sickn33/agentic-awesome-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/sickn33/agentic-awesome-skills) | 面向 Antigravity 场景的 Skills 精选列表，补充了大量社区贡献的资源与用法。 |
 | [**VoltAgent/awesome-agent-skills**](https://github.com/VoltAgent/awesome-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/VoltAgent/awesome-agent-skills) | 另一视角下的 Agent / Claude Skills 资源精选合集，含不同的工具与案例。 |
 | [**travisvn/awesome-claude-skills**](https://github.com/travisvn/awesome-claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/travisvn/awesome-claude-skills) | 精选的 Claude Skills、资源和工具列表，特别关注 **Claude Code** 的工作流集成。 |
 | [**BehiSecc/awesome-claude-skills**](https://github.com/BehiSecc/awesome-claude-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/BehiSecc/awesome-claude-skills) | 另一份高 Star 的 Claude Skills 精选列表。 |
