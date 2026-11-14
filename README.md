@@ -668,6 +668,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**threerocks/hand-drawn-styles**](https://github.com/threerocks/hand-drawn-styles) | ![GitHub Repo stars](https://badgen.net/github/stars/threerocks/hand-drawn-styles) | Claude Code 手绘画风 Skill：把内容套进内置手绘配方，产出可直接复制的生图提示词，内置儿童涂色 / 极简线条 / 蜡笔童涂 / 吉卜力 / 小豆人涂鸦等 5 种已验证画风（附示例图）。 |
 | [**diskd-ai/codespaces**](https://github.com/diskd-ai/codespaces) | ![GitHub Repo stars](https://badgen.net/github/stars/diskd-ai/codespaces) | 用 tree-sitter 为代码库构建可查询「信念图」（模块、边界、依赖、实体）的 agent skill，支持架构发现、影响半径分析、分层违规检查与跨 Python/TypeScript 的调用/数据流追踪。 |
 | [**sidan93/claude-eng-loop**](https://github.com/sidan93/claude-eng-loop) | ![GitHub Repo stars](https://badgen.net/github/stars/sidan93/claude-eng-loop) | 「工程循环」CLAUDE.md 工作流模板，把 AI 编码智能体变成结构化工程师：从任务接入到目标验证的 9 阶段流程，含执行模式、逃生舱与项目上下文脚手架，适配任意工具链（Claude Code、MCP、Superpowers）。 |
+| [**johnisanerd/claude-skill-find-hiring-manager**](https://github.com/johnisanerd/claude-skill-find-hiring-manager) | ![GitHub Repo stars](https://badgen.net/github/stars/johnisanerd/claude-skill-find-hiring-manager) | 求职用 agent skill：输入一个职位链接，找出招聘经理、招聘专员和可请求内推的人，每人附在职证据，并起草联系消息。基于 Apify Actor，需 Apify 账号。 |
 
 ---
 
