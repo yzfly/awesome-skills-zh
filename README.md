@@ -761,6 +761,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**zhuyep/shiji-tongjian-decisions**](https://github.com/zhuyep/shiji-tongjian-decisions) | ![GitHub Repo stars](https://badgen.net/github/stars/zhuyep/shiji-tongjian-decisions) | 史鉴人生抉择：对照《史记》《资治通鉴》原文，比较现实选择、隐性代价与类比边界；附虚构示例和引文核验工具，不作命运预测或专业决策建议。 |
 | [**danfeistar/house-skills-kit**](https://github.com/danfeistar/house-skills-kit) | ![GitHub Repo stars](https://badgen.net/github/stars/danfeistar/house-skills-kit) | 中文房产 Skills 库：按身份拆分可独立安装的技能（房开企业 / 一手案场销售 / 策划 / 二手经纪 / 渠道分销 / 购房者 / 房产自媒体），每个技能含 SKILL.md + playbook + README 三件；配套 `calc-toolkit` 35 城规则库计算工具，提供规则来源与版本记录，使用时需核对适用地区和有效期；另附品牌顾问技能模板生成器（4 类角色原型 × 31 业务模块）。不使用外部 API，纯提示词 + 本地 Python 工具。 |
 | [**Koloyaaa/foreign-academic-translator**](https://github.com/Koloyaaa/foreign-academic-translator-skill/tree/main/skills/foreign-academic-translator) | ![GitHub Repo stars](https://badgen.net/github/stars/Koloyaaa/foreign-academic-translator-skill) | 把英、法等外文学案整理成中文学习材料：保留章节、术语、公式、表格与练习结构，可查七大学科词库，并导出 HTML、DOCX 或 Markdown。 |
+| [**korey2028-prog/resume-claim-guard**](https://github.com/korey2028-prog/resume-claim-guard) | ![GitHub Repo stars](https://badgen.net/github/stars/korey2028-prog/resume-claim-guard) | 中文求职 Skill：从岗位 JD 出发，先反问并锁定真实经历，再写定向简历；逐条把表述拉回可证明的事实，阻止 AI 编造数字或把"参与"拔高成"主导"，并预演面试追问。支持 Claude Code / Codex / WorkBuddy，MIT 开源。 |
 
 ---
 
