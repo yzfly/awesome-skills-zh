@@ -14,14 +14,14 @@
   <a href="#-设计类-skills-专题-design-skills-showcase">🎨 设计专题</a> •
   <a href="#-教育与学习-skills-专题-education--learning">🎓 教育专题</a> •
   <a href="#-背景与核心概念-background--concepts">背景概念</a> •
-  <a href="#-agent-skill-开放标准-open-standard">开放标准</a> •
+  <a href="#agent-skill-开放标准-open-standard">开放标准</a> •
   <a href="#-官方文档-official-documentation">官方文档</a> •
   <a href="#-开源-skills-库-open-source-skills">开源库</a> •
   <a href="#-明星单项-skills-featured-standalone-skills">明星 Skills</a> •
   <a href="#-安全与逆向-security--reverse-engineering">安全逆向</a> •
   <a href="#-女娲--人物思维-skill-生态-nuwa--persona-skills">女娲生态</a> •
   <a href="#-中文社区-skills-chinese-community">中文社区</a> •
-  <a href="#-工具与基础设施-tools--infrastructure">工具设施</a> •
+  <a href="#️-工具与基础设施-tools--infrastructure">工具设施</a> •
   <a href="#-深度文章-articles">深度文章</a>
 </p>
 
@@ -37,14 +37,14 @@
   - [什么是 Agent Skills？](#什么是-agent-skills)
   - [核心价值：上下文效率](#核心价值上下文效率-context-efficiency)
   - [架构演进：代码优先](#架构演进代码优先-code-first)
-- [Agent Skill 开放标准 (Open Standard)](#-agent-skill-开放标准-open-standard)
+- [Agent Skill 开放标准 (Open Standard)](#agent-skill-开放标准-open-standard)
 - [官方文档 (Official Documentation)](#-官方文档-official-documentation)
 - [开源 Skills 库 (Open Source Skills)](#-开源-skills-库-open-source-skills)
 - [明星单项 Skills (Featured Standalone Skills)](#-明星单项-skills-featured-standalone-skills)
 - [安全与逆向 (Security & Reverse Engineering)](#-安全与逆向-security--reverse-engineering)
 - [女娲 · 人物思维 Skill 生态 (Nuwa / Persona Skills)](#-女娲--人物思维-skill-生态-nuwa--persona-skills)
 - [中文社区 Skills (Chinese Community)](#-中文社区-skills-chinese-community)
-- [工具与基础设施 (Tools & Infrastructure)](#-工具与基础设施-tools--infrastructure)
+- [工具与基础设施 (Tools & Infrastructure)](#️-工具与基础设施-tools--infrastructure)
 - [精选资源集合 (Awesome Collections)](#-精选资源集合-awesome-collections)
 - [深度文章 (Articles)](#-深度文章-articles)
 - [关于作者 (About)](#-关于作者-about)
@@ -764,7 +764,6 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**danfeistar/house-skills-kit**](https://github.com/danfeistar/house-skills-kit) | ![GitHub Repo stars](https://badgen.net/github/stars/danfeistar/house-skills-kit) | 中文房产 Skills 库：按身份拆分可独立安装的技能（房开企业 / 一手案场销售 / 策划 / 二手经纪 / 渠道分销 / 购房者 / 房产自媒体），每个技能含 SKILL.md + playbook + README 三件；配套 `calc-toolkit` 35 城规则库计算工具，提供规则来源与版本记录，使用时需核对适用地区和有效期；另附品牌顾问技能模板生成器（4 类角色原型 × 31 业务模块）。不使用外部 API，纯提示词 + 本地 Python 工具。 |
 | [**Koloyaaa/foreign-academic-translator**](https://github.com/Koloyaaa/foreign-academic-translator-skill/tree/main/skills/foreign-academic-translator) | ![GitHub Repo stars](https://badgen.net/github/stars/Koloyaaa/foreign-academic-translator-skill) | 把英、法等外文学案整理成中文学习材料：保留章节、术语、公式、表格与练习结构，可查七大学科词库，并导出 HTML、DOCX 或 Markdown。 |
 | [**korey2028-prog/resume-claim-guard**](https://github.com/korey2028-prog/resume-claim-guard) | ![GitHub Repo stars](https://badgen.net/github/stars/korey2028-prog/resume-claim-guard) | 中文求职 Skill：从岗位 JD 出发，先反问并锁定真实经历，再写定向简历；逐条把表述拉回可证明的事实，阻止 AI 编造数字或把"参与"拔高成"主导"，并预演面试追问。支持 Claude Code / Codex / WorkBuddy，MIT 开源。 |
-| [**TTNAN/quark-skill**](https://github.com/TTNAN/quark-skill) (夸克搜索转存) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/quark-skill) | 一句话把网盘资源存进夸克网盘：PanSou 聚合搜索夸克分享链接 → 用户挑选 → 调夸克官方 Skill 的 `saveas` 转存 → 回查确认；不抓 cookie、不部署服务，脚本只用 Python 标准库，附单元测试与 CI。请只转存有权保存的内容。 |
 | [**TTNAN/earnings-card**](https://github.com/TTNAN/earnings-card) (财报卡) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/earnings-card) | 输入美股代码，从 SEC EDGAR 官方 XBRL 财报生成最多 7 张可直接分享的财报卡：一句话结论、营收构成、利润拆解、利润率趋势、现金流、管理层指引与横版封面，免 API Key；只用财报数字，不做荐股。 |
 | [**TTNAN/wps-agent-skills**](https://github.com/TTNAN/wps-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/wps-agent-skills) | 专为 WPS Office 打造的 Agent 技能包：文字、表格、演示三件套外加 PowerShell 规范，纯 PowerShell + COM 驱动，零依赖，真机验证（Windows）。 |
 | [**TTNAN/fangge-junshi**](https://github.com/TTNAN/fangge-junshi) (防割军师) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/fangge-junshi) | 前券商投顾打造的反忽悠 Skill：把理财经理、保险代理、荐股群的话术贴进来，按 24 条附监管官方出处的红旗清单逐条拆解（不构成投资建议）。 |
