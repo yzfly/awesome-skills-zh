@@ -666,6 +666,13 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**diskd-ai/codespaces**](https://github.com/diskd-ai/codespaces) | ![GitHub Repo stars](https://badgen.net/github/stars/diskd-ai/codespaces) | 用 tree-sitter 为代码库构建可查询「信念图」（模块、边界、依赖、实体）的 agent skill，支持架构发现、影响半径分析、分层违规检查与跨 Python/TypeScript 的调用/数据流追踪。 |
 | [**sidan93/claude-eng-loop**](https://github.com/sidan93/claude-eng-loop) | ![GitHub Repo stars](https://badgen.net/github/stars/sidan93/claude-eng-loop) | 「工程循环」CLAUDE.md 工作流模板，把 AI 编码智能体变成结构化工程师：从任务接入到目标验证的 9 阶段流程，含执行模式、逃生舱与项目上下文脚手架，适配任意工具链（Claude Code、MCP、Superpowers）。 |
 | [**johnisanerd/claude-skill-find-hiring-manager**](https://github.com/johnisanerd/claude-skill-find-hiring-manager) | ![GitHub Repo stars](https://badgen.net/github/stars/johnisanerd/claude-skill-find-hiring-manager) | 求职用 agent skill：输入一个职位链接，找出招聘经理、招聘专员和可请求内推的人，每人附在职证据，并起草联系消息。基于 Apify Actor，需 Apify 账号。 |
+| [**google/elephant-goldfish-model**](https://github.com/google/elephant-goldfish-model) | ![GitHub Repo stars](https://badgen.net/github/stars/google/elephant-goldfish-model) | Google 开源的设计与评审插件（Elephant–Goldfish Model）：「大象」掌握项目上下文起草规格文档，「金鱼」评审者不带前文对话、只看草稿与引用资料，专门揪出未写明的假设；支持 Claude Code、Codex、Antigravity。 |
+| [**heydamir/unslop**](https://github.com/heydamir/unslop) | ![GitHub Repo stars](https://badgen.net/github/stars/heydamir/unslop) | 把 vibe coding 出来、一看就是 AI 生成的界面（紫色渐变、玻璃拟态等）改造成有个性的设计：先找出「AI 味」再逐项重做；支持 Claude Code、Codex、Antigravity。 |
+| [**t3dotgg/tstack**](https://github.com/t3dotgg/tstack) | ![GitHub Repo stars](https://badgen.net/github/stars/t3dotgg/tstack) | Theo（t3.gg）日常使用的 Agent Skills 合集：full-send 自动验证并合并 PR、council 让三家不同厂商的模型互评直到一致、file-pr、takeover 等，适用于 Claude Code 与 Codex。 |
+| [**JuneYaooo/rea-video**](https://github.com/JuneYaooo/rea-video) | ![GitHub Repo stars](https://badgen.net/github/stars/JuneYaooo/rea-video) | 逐镜头逆向任意视频：判断每个镜头是实拍、AI 生成还是代码制作，并给出复刻方法；结果写成开放的 VIDEO.md 格式，同时输出 HTML / PDF 报告。需 ffmpeg 与 Python 3.10+。 |
+| [**kaankiziltug/logo-design-skill**](https://github.com/kaankiziltug/logo-design-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/kaankiziltug/logo-design-skill) | 让 Agent 按专业流程做 Logo：从需求访谈、构形与视觉校正到 SVG 交付与品牌规范，附 1,400+ 个按类型标注的真实 SVG Logo 参考库和无依赖的 Python 检测工具（16px 测试、单色、反白等）。 |
+| [**elvarofficial/teardown**](https://github.com/elvarofficial/teardown) | ![GitHub Repo stars](https://badgen.net/github/stars/elvarofficial/teardown) | 问「某台机器是怎么工作的」，Claude 把它做成一个可离线打开的 3D 交互模拟页面：机器在中间运转，周围面板显示真实参数，可逐个拆开部件查看。 |
+| [**patch-gg/pixelfx**](https://github.com/patch-gg/pixelfx) | ![GitHub Repo stars](https://badgen.net/github/stars/patch-gg/pixelfx) | 244 个用代码写成的像素特效与动画（火焰、爆炸、魔法、天气、UI 等），可在线预览、换色、导出精灵表，并附一个按像素画师流程「起稿–渲染–观察–精修」制作新特效的 Claude Code Skill。 |
 
 ---
 
@@ -763,6 +770,8 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**TTNAN/fangge-junshi**](https://github.com/TTNAN/fangge-junshi) (防割军师) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/fangge-junshi) | 前券商投顾打造的反忽悠 Skill：把理财经理、保险代理、荐股群的话术贴进来，按 24 条附监管官方出处的红旗清单逐条拆解（不构成投资建议）。 |
 | [**TTNAN/agent-craft-cn**](https://github.com/TTNAN/agent-craft-cn) | ![GitHub Repo stars](https://badgen.net/github/stars/TTNAN/agent-craft-cn) | 中文原生的 Agent 软件开发方法论技能包：需求澄清、计划先行、TDD、五维评审、系统化调试、小步重构、中文技术写作、复盘，外加总控 skill 按任务大小拼流程，共 9 个 skill。 |
 | [**Samuel-Shek/prompt-optimizer-skill**](https://github.com/Samuel-Shek/prompt-optimizer-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/Samuel-Shek/prompt-optimizer-skill) | 把含糊或信息不全的需求，整理成可直接使用的提示词；适用于所有能读取 Skill 的 AI agent，提供中英双文，不限于某一个工具。 |
+| [**alchaincyf/huashu-art-motion**](https://github.com/alchaincyf/huashu-art-motion) | ![GitHub Repo stars](https://badgen.net/github/stars/alchaincyf/huashu-art-motion) | 花叔的艺术动画 Skill：36 种艺术风格、9 种解说语法、8 种参数化片段，让编码 Agent 用代码把画面做成动画与口播整片，附完整样片。 |
+| [**hujjun/mcd-saver-strategist**](https://github.com/hujjun/mcd-saver-strategist) | ![GitHub Repo stars](https://badgen.net/github/stars/hujjun/mcd-saver-strategist) | 基于麦当劳中国官方 MCP 的省钱点餐 Skill：拉取门店菜单与全部可用优惠券，用确定性算法穷举出总价最低的合规组合（示例：巨无霸套餐 ¥47 → ¥21.9）。非麦当劳官方产品。 |
 
 ---
 
