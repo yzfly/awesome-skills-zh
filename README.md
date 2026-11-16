@@ -599,6 +599,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**xiaoyu607/automated-intermediary**](https://github.com/xiaoyu607/automated-intermediary) | ![GitHub Repo stars](https://badgen.net/github/stars/xiaoyu607/automated-intermediary) | 面向中国大陆申请人的 Codex 签证准备 Skill：核验官方规则、交叉检查材料并设置关键动作确认；按签证路径验证的测试版，附虚构案例，尚无真实申请闭环（MIT）。 |
 | [**vostride/agent-qa**](https://github.com/vostride/agent-qa) | ![GitHub Repo stars](https://badgen.net/github/stars/vostride/agent-qa) | 用自然语言编写并运行 Web / Android / iOS 回归测试的 QA harness，随包提供编写、失败归因与修复三个 Skill，并带 CLI 与 MCP server；源码可用许可证 FSL-1.1-ALv2 |
 | [**Jeffallan/writing-with-agents**](https://github.com/Jeffallan/writing-with-agents) | ![GitHub Repo stars](https://badgen.net/github/stars/Jeffallan/writing-with-agents) | 按 Betty Flowers「疯子、建筑师、木匠、法官」写作法拆分写作流程的 Claude Code 插件：**10** 个 Skills，主线按发散素材、选结构、定大纲、写初稿、审校五步走，每一步写明由 AI 还是作者主导，另含 SEO 写作、质量评分与多篇选题规划。 |
+| [**leadsets/leadsets-skills**](https://github.com/leadsets/leadsets-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/leadsets/leadsets-skills) | 50 个开源 GTM Skills：帮 AI Agent 做潜客名单、联系人富集与验证、客户研究与 CRM 清洗。Unlimited B2B Contact Data，适用于 Claude、ChatGPT 与 Cursor。 |
 
 #### 🛠️ 生态集成
 | 项目 | ⭐ Stars | 简介 |
