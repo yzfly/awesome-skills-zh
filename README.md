@@ -827,6 +827,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**hesreallyhim/awesome-claude-code**](https://github.com/hesreallyhim/awesome-claude-code) | ![GitHub Repo stars](https://badgen.net/github/stars/hesreallyhim/awesome-claude-code) | 覆盖 Claude Code 全生态的头部 Awesome 列表：Skills、Hooks、Slash Commands、Agent 编排、插件与应用，附详尽资源索引，社区认可度极高。 |
 | [**heilcheng/awesome-agent-skills**](https://github.com/heilcheng/awesome-agent-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/heilcheng/awesome-agent-skills) | 聚合 Agent Skills 教程、指南与目录（Directories）的精选集，适合系统性了解各家 skills 资源入口。 |
 | [**github/awesome-copilot**](https://github.com/github/awesome-copilot) | ![GitHub Repo stars](https://badgen.net/github/stars/github/awesome-copilot) | GitHub 官方维护，汇集社区贡献的 instructions、agents、skills 与配置，帮助用好 GitHub Copilot（含大量遵循开放标准的 Agent Skills）。 |
+| [**skills.pub**](https://skills.pub/en) | — | 7,600+ Claude Skills 的可搜索目录站：按仓库与主题浏览，每个技能页给出安装命令与来源链接；浏览、搜索与复制安装命令均无需注册。 |
 
 ---
 
