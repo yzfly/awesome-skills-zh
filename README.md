@@ -599,6 +599,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**xiaoyu607/automated-intermediary**](https://github.com/xiaoyu607/automated-intermediary) | ![GitHub Repo stars](https://badgen.net/github/stars/xiaoyu607/automated-intermediary) | 面向中国大陆申请人的 Codex 签证准备 Skill：核验官方规则、交叉检查材料并设置关键动作确认；按签证路径验证的测试版，附虚构案例，尚无真实申请闭环（MIT）。 |
 | [**vostride/agent-qa**](https://github.com/vostride/agent-qa) | ![GitHub Repo stars](https://badgen.net/github/stars/vostride/agent-qa) | 用自然语言编写并运行 Web / Android / iOS 回归测试的 QA harness，随包提供编写、失败归因与修复三个 Skill，并带 CLI 与 MCP server；源码可用许可证 FSL-1.1-ALv2 |
 | [**Jeffallan/writing-with-agents**](https://github.com/Jeffallan/writing-with-agents) | ![GitHub Repo stars](https://badgen.net/github/stars/Jeffallan/writing-with-agents) | 按 Betty Flowers「疯子、建筑师、木匠、法官」写作法拆分写作流程的 Claude Code 插件：**10** 个 Skills，主线按发散素材、选结构、定大纲、写初稿、审校五步走，每一步写明由 AI 还是作者主导，另含 SEO 写作、质量评分与多篇选题规划。 |
+| [**questionpunk/research-skills**](https://github.com/questionpunk/research-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/questionpunk/research-skills) | 面向问卷调研的 **22** 个 Agent Skills：发问卷前检查题目偏差、估算样本量，收回数据后做价格敏感度测试（Van Westendorp）、MaxDiff、NPS 与交叉表分析；计算交给带测试的 Python 脚本，无需注册账号（MIT）。 |
 
 #### 🛠️ 生态集成
 | 项目 | ⭐ Stars | 简介 |
