@@ -695,6 +695,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**DeerYang/server-security-init-skill**](https://github.com/DeerYang/server-security-init-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/DeerYang/server-security-init-skill) | 安全初始化与加固全新 Ubuntu/Debian SSH 服务器的 Agent Skill，面向防御性运维（仅用于你有权管理的服务器）。 |
 | [**morluto/rea**](https://github.com/morluto/rea) | ![GitHub Repo stars](https://badgen.net/github/stars/morluto/rea) | 内含 `reverse-engineer-anything` Skill，指导 Claude Code / Codex 通过本地 CLI 与 MCP 分析原生程序、JavaScript/Electron 和 .NET，保留证据来源与未知项；原生深度分析需自备 Hopper、Ghidra 或 IDA。 |
 | [**salemalem/npmscan-mcp-plugin**](https://github.com/salemalem/npmscan-mcp-plugin) | ![GitHub Repo stars](https://badgen.net/github/stars/salemalem/npmscan-mcp-plugin) | npm 供应链安全 Skills 与远程 MCP：5 个 Skill 指导 Claude Code / Codex / Gemini CLI 在安装或升级 npm 包前检查恶意包、已知漏洞、仿冒包名、维护者变更和安装脚本，并对依赖变更给出 PASS/WARN/FAIL 结论；连接 npmscan.com 免费的只读服务（服务端不开源）。 |
+| [**zColdWater/omniforge-skills**](https://github.com/zColdWater/omniforge-skills) | ![GitHub Repo stars](https://badgen.net/github/stars/zColdWater/omniforge-skills) | 上线前 Web/AI 安全与 DNS 体检 Skills 合集（MIT，50 个零依赖 `SKILL.md` + `.claude-plugin`/`.codex-plugin`）：指导 Claude Code / Codex / Cursor / Gemini CLI 只读审计 Supabase RLS（`CVE-2025-48757`）、Next.js（`CVE-2025-29927`）、前端密钥泄漏、CSP/HSTS 安全头、SPF/DKIM/DMARC 邮件 DNS、78 TLD 域名与 `/llms.txt`；调用免费只读接口与本地 MIT CLI（含可选付费修复包）。 |
 
 ---
 
