@@ -617,6 +617,7 @@ Anthropic 官方发布的关于 Agent Skills 的核心指南，是理解技术�
 | [**voygr-tech/placecall**](https://github.com/voygr-tech/placecall) | ![GitHub Repo stars](https://badgen.net/github/stars/voygr-tech/placecall) | PlaceCall 官方出品的 Agent Skill 与远程 MCP 服务器：让智能体给美国商家拨打真实电话（订位、预约、询价），自动应对 IVR 语音菜单、等待与转接，返回结构化结果与通话文字记录；另含 Claude Code / Codex / Cursor 插件，付费 API，提供试用额度，具体限制见服务说明。 |
 | [**Omega-JS-Stack/omega**](https://github.com/omegajs-dev/omega/tree/main/agent-plugins/claude) | ![GitHub Repo stars](https://badgen.net/github/stars/omegajs-dev/omega) | Omega 框架（一个项目、一个配置文件同时交付网站、后端、桌面应用和浏览器扩展）的 Claude Code 插件：14 个 `omega:*` Skills，覆盖 web、backend、desktop、extension、seo、analytics、accessibility 等，与框架代码同仓发布、随版本对齐。 |
 | [**wavegrain/wavegrain-mcp**](https://github.com/wavegrain/wavegrain-mcp) | ![GitHub Repo stars](https://badgen.net/github/stars/wavegrain/wavegrain-mcp) | Wavegrain 官方出品的 Agent Skill 与托管 MCP 服务器（OAuth，注册名 `com.wavegrain/mcp`）：为品牌自动生成精选的 TikTok 图文轮播和 Instagram 轮播图，按品牌语气撰写文案，并替你排期和发布。 |
+| [**heygen-com/hyperframes**](https://github.com/heygen-com/hyperframes) | ![GitHub Repo stars](https://badgen.net/github/stars/heygen-com/hyperframes) | HeyGen 官方开源 AI 视频编辑器（Apache 2.0）：用 Claude Code / Codex / Cursor / Gemini CLI 制作发布视频、讲解视频、动态图形，给自己的素材加字幕、复刻任意视频；已渲染 5000 万+ 视频，已收录于 OpenAI 插件目录和 Claude 连接器目录；9 个官方 Skills、约 450 个现成组件、可迁移 Remotion 项目，HTML + GSAP 经无头 Chrome + FFmpeg 确定性渲染为 MP4；另有支持 Mac / Windows / Linux 的 HyperFrames Studio 桌面应用（有免费套餐）。 |
 
 ---
 
