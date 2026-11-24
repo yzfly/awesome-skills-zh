@@ -418,6 +418,7 @@
 | <img src="docs/images/edu/academicforge.jpg" width="220" alt="HughYau/AcademicForge"> | [**HughYau/AcademicForge**](https://github.com/HughYau/AcademicForge) ![GitHub Repo stars](https://badgen.net/github/stars/HughYau/AcademicForge)<br>一站式学术写作与研究 Skills 平台，点开即用、按需配置。 |
 | <img src="docs/images/edu/exam-prep.jpg" width="220" alt="Candlest/exam-prep-skill"> | [**Candlest/exam-prep-skill**](https://github.com/Candlest/exam-prep-skill) ![GitHub Repo stars](https://badgen.net/github/stars/Candlest/exam-prep-skill)<br>把大学课程材料整理成可复习结构，提取老师口头强调的重点，一题一题过考点。 |
 | <img src="docs/images/edu/canvas.jpg" width="220" alt="vishalsachdev/canvas-mcp"> | [**vishalsachdev/canvas-mcp**](https://github.com/vishalsachdev/canvas-mcp) ![GitHub Repo stars](https://badgen.net/github/stars/vishalsachdev/canvas-mcp)<br>Canvas LMS 的 MCP 服务器：80+ 工具与 5 个面向学生和教师的 Agent Skill，适配 Claude、Cursor、Codex 等 40+ Agent。 |
+| [publicrecords-skills](https://github.com/GeminiGeorge22/publicrecords-skills) | 适用于 Claude Code、Codex、Copilot、Cursor、Gemini CLI 的 Agent Skills + MCP 插件，覆盖 18 个公共数据 Apify Actor：美国联邦合同与资助、欧盟/英国招标、市议会会议、招聘职位、公司社交账号、Google 广告、Etsy、体育赔率、Spotify |
 
 <sub>learn-claude-code、paper-craft、AcademicForge、canvas-mcp 的配图取自各仓库官方素材；其余仓库未提供配图，卡片为本仓库制作的概念示意（已标注 NOT A SCREENSHOT），版权归各原作者。</sub>
 
