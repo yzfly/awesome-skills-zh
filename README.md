@@ -772,6 +772,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**Samuel-Shek/prompt-optimizer-skill**](https://github.com/Samuel-Shek/prompt-optimizer-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/Samuel-Shek/prompt-optimizer-skill) | 把含糊或信息不全的需求，整理成可直接使用的提示词；适用于所有能读取 Skill 的 AI agent，提供中英双文，不限于某一个工具。 |
 | [**alchaincyf/huashu-art-motion**](https://github.com/alchaincyf/huashu-art-motion) | ![GitHub Repo stars](https://badgen.net/github/stars/alchaincyf/huashu-art-motion) | 花叔的艺术动画 Skill：36 种艺术风格、9 种解说语法、8 种参数化片段，让编码 Agent 用代码把画面做成动画与口播整片，附完整样片。 |
 | [**hujjun/mcd-saver-strategist**](https://github.com/hujjun/mcd-saver-strategist) | ![GitHub Repo stars](https://badgen.net/github/stars/hujjun/mcd-saver-strategist) | 基于麦当劳中国官方 MCP 的省钱点餐 Skill：拉取门店菜单与全部可用优惠券，用确定性算法穷举出总价最低的合规组合（示例：巨无霸套餐 ¥47 → ¥21.9）。非麦当劳官方产品。 |
+| [**ZhuLinsen/alphasift**](https://github.com/ZhuLinsen/alphasift) (AlphaSift) | ![GitHub Repo stars](https://badgen.net/github/stars/ZhuLinsen/alphasift) | 多市场定量选股、14 工具 + 4 资源只读 STDIO MCP 与无前瞻 Walk-Forward K 线形态回放引擎；覆盖 A 股/美/港/日/韩/台/印 7 市场，零实盘交易权限（Apache-2.0，仅供研究参考）。 |
 
 ---
 
