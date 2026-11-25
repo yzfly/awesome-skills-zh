@@ -673,6 +673,7 @@ GitHub 上 Star 数最高、最具话题度的单一用途 Skill。它们大多�
 | [**kaankiziltug/logo-design-skill**](https://github.com/kaankiziltug/logo-design-skill) | ![GitHub Repo stars](https://badgen.net/github/stars/kaankiziltug/logo-design-skill) | 让 Agent 按专业流程做 Logo：从需求访谈、构形与视觉校正到 SVG 交付与品牌规范，附 1,400+ 个按类型标注的真实 SVG Logo 参考库和无依赖的 Python 检测工具（16px 测试、单色、反白等）。 |
 | [**elvarofficial/teardown**](https://github.com/elvarofficial/teardown) | ![GitHub Repo stars](https://badgen.net/github/stars/elvarofficial/teardown) | 问「某台机器是怎么工作的」，Claude 把它做成一个可离线打开的 3D 交互模拟页面：机器在中间运转，周围面板显示真实参数，可逐个拆开部件查看。 |
 | [**patch-gg/pixelfx**](https://github.com/patch-gg/pixelfx) | ![GitHub Repo stars](https://badgen.net/github/stars/patch-gg/pixelfx) | 244 个用代码写成的像素特效与动画（火焰、爆炸、魔法、天气、UI 等），可在线预览、换色、导出精灵表，并附一个按像素画师流程「起稿–渲染–观察–精修」制作新特效的 Claude Code Skill。 |
+| [**AnnenkovLabs/dopamine-talk**](https://github.com/AnnenkovLabs/dopamine-talk) | ![GitHub Repo stars](https://badgen.net/github/stars/AnnenkovLabs/dopamine-talk) | 开源 MIT 的 Agent Skills 套件（`dopamine-talk` / `dopamine-changelog` / `dopamine-readme`），去除编程智能体回复中的路径复述、免责套话、模板注水与多余审查关卡；原生英俄双语、零依赖，支持 Claude Code、Codex、Cursor、Antigravity、Gemini CLI 等 20+ 平台。 |
 
 ---
 
